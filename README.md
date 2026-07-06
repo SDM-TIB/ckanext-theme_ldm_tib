@@ -18,3 +18,11 @@ pip install -e ./ckanext-theme_ldm_tib
 ```
 
 After installing the plugin, add `TIBtheme` to the plugins in your `ckan.ini`.
+
+## Changelog
+
+If you are interested in what has changed, check out the [changelog](CHANGELOG.md).
+
+## License
+
+`ckanext-theme_ldm_tib` is licensed under AGPL-3.0, see the [license file](LICENSE).
