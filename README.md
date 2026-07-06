@@ -2,7 +2,7 @@
 
 # ckanext-theme_ldm_tib
 
-This CKAN extension provides the theme of the main instance of the Leibniz Data Manager (LDM) as hosted by the Technische Informationsbibliothek (TIB).
+This CKAN extension provides the theme of the main instance of the [Leibniz Data Manager](https://service.tib.eu/ldmservice/) (LDM) as hosted by the [Technische Informationsbibliothek](https://www.tib.eu/) (TIB).
 
 ## Requirements
 
