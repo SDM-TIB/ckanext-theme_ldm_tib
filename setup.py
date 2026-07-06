@@ -21,11 +21,11 @@ setup(
     long_description=long_description,
 
     # The project's main homepage.
-    url='https://github.com/guillermobet/ckanext-TIBtheme',
+    url='https://github.com/SDM-TIB/ckanext-theme-ldm-tib',
 
     # Author details
-    author='''Guillermo Betancourt''',
-    author_email='''guillermojbetancourt@gmail.com''',
+    author='''Mauricio Brunet, Ahmad Sakor, Philipp D. Rohde''',
+    author_email='''Mauricio.Brunet@tib.eu''',
 
     # Choose your license
     license='AGPL',
@@ -36,14 +36,14 @@ setup(
         # 3 - Alpha
         # 4 - Beta
         # 5 - Production/Stable
-        'Development Status :: 4 - Beta',
+        'Development Status :: 5 - Production/Stable',
 
         # Pick your license as you wish (should match "license" above)
         'License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)',
 
         # Specify the Python versions you support here. In particular, ensure
         # that you indicate whether you support Python 2, Python 3 or both.
-        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3 :: Only',
     ],
 
 
