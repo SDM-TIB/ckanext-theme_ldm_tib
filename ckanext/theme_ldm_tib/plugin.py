@@ -160,7 +160,7 @@ class TibThemePlugin(plugins.SingletonPlugin):
     def update_config(self, config_):
         toolkit.add_template_directory(config_, 'templates')
         toolkit.add_public_directory(config_, 'public')
-        toolkit.add_resource('public/assets', 'ckanext-theme-ldm-tib')
+        toolkit.add_resource('public/assets', 'ckanext-theme_ldm_tib')
 
     def update_config_schema(self, schema):
         ignore_missing = toolkit.get_validator('ignore_missing')

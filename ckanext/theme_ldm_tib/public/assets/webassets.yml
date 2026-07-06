@@ -1,11 +1,11 @@
 ldm-css:
-  output: ckanext-theme-ldm-tib/%(version)s_ldm.css
+  output: ckanext-theme_ldm_tib/%(version)s_ldm.css
   contents:
     - TIBtheme.css
 
 
 new_user-js:
-  output: ckanext-theme-ldm-tib/%(version)s_new_user.js
+  output: ckanext-theme_ldm_tib/%(version)s_new_user.js
   extra:
     preload:
       - base/main
@@ -18,7 +18,7 @@ new_user-js:
 
 
 cookies_alert-js:
-  output: ckanext-theme-ldm-tib/%(version)s_cookies_alert.js
+  output: ckanext-theme_ldm_tib/%(version)s_cookies_alert.js
   extra:
     preload:
       - base/main
@@ -31,7 +31,7 @@ cookies_alert-js:
 
 
 matomo_dummy_opt-out-js:
-  output: ckanext-theme-ldm-tib/%(version)s_matomo_dummy_opt-out.js
+  output: ckanext-theme_ldm_tib/%(version)s_matomo_dummy_opt-out.js
   extra:
     preload:
       - base/main

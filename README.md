@@ -1,4 +1,4 @@
-# ckanext-theme-ldm-tib
+# ckanext-theme_ldm_tib
 
 This CKAN extension provides the theme of the main instance of the Leibniz Data Manager (LDM) as hosted by the Technische Informationsbibliothek (TIB).
 
@@ -8,7 +8,7 @@ This extension has been tested with CKAN 2.9.
 
 ## Installation
 
-To install `ckanext-theme-ldm-tib`:
+To install `ckanext-theme_ldm_tib`:
 
 1. Activate your CKAN virtual environment:
 
@@ -16,11 +16,11 @@ To install `ckanext-theme-ldm-tib`:
    . /usr/lib/ckan/default/bin/activate
    ```
 
-2. Install the `ckanext-theme-ldm-tib` Python package into your virtual environment:
+2. Install the `ckanext-theme_ldm_tib` Python package into your virtual environment:
 
    ```bash
-   git clone https://github.com/SDM-TIB/ckanext-theme-ldm-tib.git
-   cd ckanext-theme-ldm-tib
+   git clone https://github.com/SDM-TIB/ckanext-theme_ldm_tib.git
+   cd ckanext-theme_ldm_tib
    pip install -e .
    ```
 
