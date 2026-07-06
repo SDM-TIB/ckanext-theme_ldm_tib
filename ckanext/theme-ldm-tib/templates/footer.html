@@ -3,7 +3,7 @@
 
 {% block footer_cookies_alert %}
   {% if h.tibtheme_legal_notices_enabled() and h.tibtheme_show_cookies_alert(): %}
-    {% asset 'ckanext-TIBtheme/cookies_alert-js' %}
+    {% asset 'ckanext-theme-ldm-tib/cookies_alert-js' %}
     {% snippet "home/snippets/cookies_alert.html", current_lang=current_lang %}
   {% endif %}
 {% endblock %}

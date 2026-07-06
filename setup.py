@@ -10,7 +10,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='''ckanext-TIBtheme''',
+    name='''ckanext-theme-ldm-tib''',
 
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
@@ -80,7 +80,7 @@ setup(
     # pip to create the appropriate form of executable for the target platform.
     entry_points='''
         [ckan.plugins]
-        TIBtheme=ckanext.TIBtheme.plugin:TibthemePlugin
+        TIBtheme=ckanext.theme-ldm-tib.plugin:TibThemePlugin
 
         [babel.extractors]
         ckan = ckan.lib.extract:extract_ckan

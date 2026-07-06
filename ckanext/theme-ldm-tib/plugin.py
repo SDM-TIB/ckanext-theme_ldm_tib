@@ -150,10 +150,7 @@ def data_privacy():
 # **********************************
 
 
-
-
-
-class TibthemePlugin(plugins.SingletonPlugin):
+class TibThemePlugin(plugins.SingletonPlugin):
     plugins.implements(plugins.IConfigurer)
     plugins.implements(plugins.ITemplateHelpers)
     plugins.implements(plugins.IBlueprint)
@@ -163,8 +160,7 @@ class TibthemePlugin(plugins.SingletonPlugin):
     def update_config(self, config_):
         toolkit.add_template_directory(config_, 'templates')
         toolkit.add_public_directory(config_, 'public')
-        toolkit.add_resource('fanstatic', 'TIBtheme')
-        toolkit.add_resource('public/assets', 'ckanext-TIBtheme')
+        toolkit.add_resource('public/assets', 'ckanext-theme-ldm-tib')
 
     def update_config_schema(self, schema):
         ignore_missing = toolkit.get_validator('ignore_missing')
@@ -181,7 +177,7 @@ class TibthemePlugin(plugins.SingletonPlugin):
             'tibtheme.imprint_enabled': [ignore_missing, boolean_validator],
             'tibtheme.accessibility_statement_enabled':[ignore_missing, boolean_validator],
             'tibimport.updatedatasets_enabled': [ignore_missing, boolean_validator],
-})
+        })
 
         return schema
 
