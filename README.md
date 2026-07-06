@@ -1,3 +1,5 @@
+[![CKAN](https://img.shields.io/badge/ckan-2.9-orange.svg?style=flat-square)](https://github.com/ckan/ckan/tree/2.9)
+
 # ckanext-theme_ldm_tib
 
 This CKAN extension provides the theme of the main instance of the Leibniz Data Manager (LDM) as hosted by the Technische Informationsbibliothek (TIB).
