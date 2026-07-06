@@ -1,17 +1,15 @@
-
 $(document).ready(function(){
-
   cookiesPolicyBar();
 });
 
 function cookiesPolicyBar(){
-    // Check cookie
-    if (getCookie('ldm_cookies_accepted') != "active") $('#cookieAcceptBar').show();
-    //Assign cookie on click
-    $('#cookieAcceptBarConfirm').on('click',function(){
-        setCookie('ldm_cookies_accepted', 'active', 7); // cookie will expire in seven days
-        $('#cookieAcceptBar').fadeOut();
-    });
+  // Check cookie
+  if (getCookie('ldm_cookies_accepted') != "active") $('#cookieAcceptBar').show();
+  //Assign cookie on click
+  $('#cookieAcceptBarConfirm').on('click',function(){
+    setCookie('ldm_cookies_accepted', 'active', 7); // cookie will expire in seven days
+    $('#cookieAcceptBar').fadeOut();
+  });
 }
 
 function setCookie(cname, cvalue, exdays) {

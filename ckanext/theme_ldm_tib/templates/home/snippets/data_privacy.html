@@ -1,16 +1,11 @@
-
-{% if h.tibtheme_is_matomo_enabled(): %}
+{% if h.tibtheme_is_matomo_enabled() %}
     {% asset 'ckanext-tib_matomo/matomo_optout-js' %}
-{% else: %}
+{% else %}
     {% asset 'ckanext-theme_ldm_tib/matomo_dummy_opt-out-js' %}
 {% endif %}
 
-    {% if current_lang=='de':%}
-
-        {% snippet "home/snippets/data_privacy_de.html" %}
-
-    {% else: %}
-
-        {% snippet "home/snippets/data_privacy_en.html" %}
-
-    {% endif %}
+{% if current_lang == 'de' %}
+    {% snippet "home/snippets/data_privacy_de.html" %}
+{% else %}
+    {% snippet "home/snippets/data_privacy_en.html" %}
+{% endif %}

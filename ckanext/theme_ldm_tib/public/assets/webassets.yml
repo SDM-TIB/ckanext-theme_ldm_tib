@@ -3,7 +3,6 @@ ldm-css:
   contents:
     - TIBtheme.css
 
-
 new_user-js:
   output: ckanext-theme_ldm_tib/%(version)s_new_user.js
   extra:
@@ -16,7 +15,6 @@ new_user-js:
   contents:
     - new_user_registration.js
 
-
 cookies_alert-js:
   output: ckanext-theme_ldm_tib/%(version)s_cookies_alert.js
   extra:
@@ -28,7 +26,6 @@ cookies_alert-js:
       - vendor/jquery.ui.core
   contents:
     - cookies_alert.js
-
 
 matomo_dummy_opt-out-js:
   output: ckanext-theme_ldm_tib/%(version)s_matomo_dummy_opt-out.js

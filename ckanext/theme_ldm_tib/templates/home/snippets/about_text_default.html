@@ -1,9 +1,7 @@
-
 {% set current_lang = request.environ.CKAN_LANG %}
 {% set instance_name = h.tibtheme_default_instance_name() %}
 
 {% if current_lang == 'de' %}
-
     <h1 class="page-heading">{{ "Über den Leibniz-Datenmanager" }}</h1>
     <p>Der <strong>Leibniz Data Manager (LDM)</strong> ist eine quelloffene und kostenlose webbasierte Anwendung für das Forschungsdatenmanagement (FDM).
         Der LDM bietet verschiedene Distributionen an, um den spezifischen Anforderungen verschiedener Kunden gerecht zu werden, z.B.
@@ -35,7 +33,6 @@
         <p>Bitte kontaktieren Sie uns unter <a href="mailto:service.ldm@tib.eu">service.ldm@tib.eu</a>,
             wenn Sie Kommentare oder Fragen haben.</p>
     <p>&nbsp;</p>
-
 {% else %}
     <h1 class="page-heading">{{ "About the Leibniz Data Manager" }}</h1>
     <p>The&nbsp;<strong>Leibniz Data Manager (LDM)</strong>&nbsp;is an open source and free web-based application
