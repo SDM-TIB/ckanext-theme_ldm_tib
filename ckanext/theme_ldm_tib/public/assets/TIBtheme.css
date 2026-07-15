@@ -1,3 +1,6 @@
+select.form-control:not([multiple]) {
+  appearance: menulist-button !important;
+}
 /* =====================================================
  The "account masthead" bar across the top of the site
  ===================================================== */
