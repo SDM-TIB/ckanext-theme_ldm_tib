@@ -160,15 +160,17 @@
     <p>The information generated with Matomo about the use of this website is processed and stored exclusively
         with the TIB.
     </p>
-    <div id="optout-form">
+    <div class="matomo-optout" id="optout-form" data-module="matomo-opt-out">
         <p>You may choose not to have a unique web analytics cookie identification number assigned to your computer to avoid the aggregation and analysis of data collected on this website.</p>
         <p>To make that choice, please click below to receive an opt-out cookie.</p>
 
         <p>
-            <input type="checkbox" id="optout"
-                   opted_out_msg="{{_('You are currently opted out. Click here to opt in.')}}"
-                   opted_in_msg="{{_('You are currently opted in. Click here to opt out.')}}" />
-            <label for="optout"><strong></strong></label>
+            <input type="checkbox" id="matomo-optout"
+                   data-opted-out-msg="{{ _('You are currently opted out. Check this box to opt back in.') }}"
+                   data-opted-in-msg="{{ _('You are currently opted in. Uncheck this box to opt out.') }}" />
+            <label for="matomo-optout">
+              <strong class="matomo-optout-status"></strong>
+            </label>
         </p>
     </div>
     <p><span style="letter-spacing: 0.0px;color: rgb(51,51,51);">In this case, an opt-out cookie is placed in the

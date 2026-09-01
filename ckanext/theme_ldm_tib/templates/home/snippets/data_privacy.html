@@ -1,5 +1,6 @@
 {% if h.tibtheme_is_matomo_enabled() %}
-    {% asset 'ckanext-tib_matomo/matomo_optout-js' %}
+    {% asset 'ckanext-matomo_js/opt_out' %}
+    {% asset 'ckanext-matomo_css/opt_out_css' %}
 {% else %}
     {% asset 'ckanext-theme_ldm_tib/matomo_dummy_opt-out-js' %}
 {% endif %}
