@@ -1,7 +1,6 @@
 # Translations template for ckanext-theme_ldm_tib.
 # Copyright (C) 2026 ORGANIZATION
-# This file is distributed under the same license as the ckanext-theme_ldm_tib
-# project.
+# This file is distributed under the same license as the ckanext-theme_ldm_tib project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
 #, fuzzy
@@ -9,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme_ldm_tib 1.1.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-03 10:24+0200\n"
+"POT-Creation-Date: 2026-09-03 10:27+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,35 +17,27 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.10.3\n"
 
-#: ckanext/theme_ldm_tib/templates/footer.html:26
-#: ckanext/theme_ldm_tib/templates/footer.html:47
+#: ckanext/theme_ldm_tib/templates/footer.html:26 ckanext/theme_ldm_tib/templates/footer.html:47
 msgid "About {0}"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/footer.html:30
-#: ckanext/theme_ldm_tib/templates/footer.html:53
+#: ckanext/theme_ldm_tib/templates/footer.html:30 ckanext/theme_ldm_tib/templates/footer.html:53
 msgid "CKAN API"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/footer.html:31
-#: ckanext/theme_ldm_tib/templates/footer.html:54
+#: ckanext/theme_ldm_tib/templates/footer.html:31 ckanext/theme_ldm_tib/templates/footer.html:54
 msgid "CKAN Association"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/footer.html:36
-#: ckanext/theme_ldm_tib/templates/footer.html:67
-msgid ""
-"<strong>Powered by</strong> <a class=\"hide-text ckan-footer-logo\" "
-"href=\"http://ckan.org\">CKAN</a>"
+#: ckanext/theme_ldm_tib/templates/footer.html:36 ckanext/theme_ldm_tib/templates/footer.html:67
+msgid "<strong>Powered by</strong> <a class=\"hide-text ckan-footer-logo\" href=\"http://ckan.org\">CKAN</a>"
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/header.html:4
 msgid "Log in"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/header.html:6
-#: ckanext/theme_ldm_tib/templates/header.html:9
-#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:5
+#: ckanext/theme_ldm_tib/templates/header.html:6 ckanext/theme_ldm_tib/templates/header.html:9 ckanext/theme_ldm_tib/templates/home/ldm_register.html:5
 #: ckanext/theme_ldm_tib/templates/home/ldm_register.html:8
 msgid "Register"
 msgstr ""
@@ -55,13 +46,11 @@ msgstr ""
 msgid "Search Datasets"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/header.html:43
-#: ckanext/theme_ldm_tib/templates/home/snippets/search.html:10
+#: ckanext/theme_ldm_tib/templates/header.html:43 ckanext/theme_ldm_tib/templates/home/snippets/search.html:10
 msgid "Search"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/header.html:58
-#: ckanext/theme_ldm_tib/templates/user/read_base.html:4
+#: ckanext/theme_ldm_tib/templates/header.html:58 ckanext/theme_ldm_tib/templates/user/read_base.html:4
 msgid "Datasets"
 msgstr ""
 
@@ -73,8 +62,7 @@ msgstr ""
 msgid "Local"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/header.html:63
-#: ckanext/theme_ldm_tib/templates/snippets/package_item.html:35
+#: ckanext/theme_ldm_tib/templates/header.html:63 ckanext/theme_ldm_tib/templates/snippets/package_item.html:35
 msgid "Imported"
 msgstr ""
 
@@ -90,22 +78,16 @@ msgstr ""
 msgid "Groups"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/header.html:73
-#: ckanext/theme_ldm_tib/templates/home/about.html:4
-#: ckanext/theme_ldm_tib/templates/home/about.html:7
+#: ckanext/theme_ldm_tib/templates/header.html:73 ckanext/theme_ldm_tib/templates/home/about.html:4 ckanext/theme_ldm_tib/templates/home/about.html:7
 #: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:11
 msgid "About"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/header.html:74
-#: ckanext/theme_ldm_tib/templates/home/demo.html:5
-#: ckanext/theme_ldm_tib/templates/home/demo.html:8
+#: ckanext/theme_ldm_tib/templates/header.html:74 ckanext/theme_ldm_tib/templates/home/demo.html:5 ckanext/theme_ldm_tib/templates/home/demo.html:8
 msgid "Demo"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/header.html:75
-#: ckanext/theme_ldm_tib/templates/home/api.html:5
-#: ckanext/theme_ldm_tib/templates/home/api.html:8
+#: ckanext/theme_ldm_tib/templates/header.html:75 ckanext/theme_ldm_tib/templates/home/api.html:5 ckanext/theme_ldm_tib/templates/home/api.html:8
 msgid "API"
 msgstr ""
 
@@ -166,59 +148,43 @@ msgid "CKAN config options"
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/admin/config.html:53
-msgid ""
-"<p><strong>Site Title:</strong> This is the title of this CKAN instance. It "
-"appears in various places throughout CKAN.</p>"
+msgid "<p><strong>Site Title:</strong> This is the title of this CKAN instance. It appears in various places throughout CKAN.</p>"
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/admin/config.html:54
-msgid ""
-"<p><strong>Site Tag Logo:</strong> This is the logo that appears in the "
-"header of all the CKAN instance templates.</p>"
+msgid "<p><strong>Site Tag Logo:</strong> This is the logo that appears in the header of all the CKAN instance templates.</p>"
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/admin/config.html:55
-msgid ""
-"<p><strong>Legal Notices Panel:</strong> This is the list of links placed in "
-"the footer of the page.</p>"
+msgid "<p><strong>Legal Notices Panel:</strong> This is the list of links placed in the footer of the page.</p>"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:5
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:8
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:14
-#: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:39
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:5 ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:8
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:14 ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:39
 #: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:40
 msgid "Accessibility Statement"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:5
-#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:8
-#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:14
-#: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:24
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:5 ckanext/theme_ldm_tib/templates/home/data_privacy.html:8
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:14 ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:24
 #: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:25
 msgid "Data Privacy Statement"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/imprint.html:5
-#: ckanext/theme_ldm_tib/templates/home/imprint.html:8
-#: ckanext/theme_ldm_tib/templates/home/imprint.html:14
-#: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:31
-#: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:32
+#: ckanext/theme_ldm_tib/templates/home/imprint.html:5 ckanext/theme_ldm_tib/templates/home/imprint.html:8 ckanext/theme_ldm_tib/templates/home/imprint.html:14
+#: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:31 ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:32
 msgid "Imprint"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:5
-#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:8
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:5 ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:8
 msgid "Special Conditions LDM"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/snippets/data_privacy_de.html:185
-#: ckanext/theme_ldm_tib/templates/home/snippets/data_privacy_en.html:169
+#: ckanext/theme_ldm_tib/templates/home/snippets/data_privacy_de.html:185 ckanext/theme_ldm_tib/templates/home/snippets/data_privacy_en.html:169
 msgid "You are currently opted out. Uncheck this box to opt back in."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/snippets/data_privacy_de.html:186
-#: ckanext/theme_ldm_tib/templates/home/snippets/data_privacy_en.html:170
+#: ckanext/theme_ldm_tib/templates/home/snippets/data_privacy_de.html:186 ckanext/theme_ldm_tib/templates/home/snippets/data_privacy_en.html:170
 msgid "You are currently opted in. Check this box to opt out."
 msgstr ""
 
@@ -260,9 +226,7 @@ msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/package/snippets/resources_list.html:30
 #, python-format
-msgid ""
-"<p class=\"empty\">This dataset has no data, <a href=\"%(url)s\">why not add "
-"some?</a></p>"
+msgid "<p class=\"empty\">This dataset has no data, <a href=\"%(url)s\">why not add some?</a></p>"
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/package/snippets/resources_list.html:34
@@ -401,8 +365,7 @@ msgstr ""
 msgid "Legal Notices"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:8
-#: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:9
+#: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:8 ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:9
 msgid "Terms of Use of the TIB"
 msgstr ""
 
@@ -410,8 +373,7 @@ msgstr ""
 msgid "Change details"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:8
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:25
+#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:8 ckanext/theme_ldm_tib/templates/user/new_user_form.html:25
 msgid "Username"
 msgstr ""
 
@@ -423,8 +385,7 @@ msgstr ""
 msgid "eg. Joe Bloggs"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:10
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:27
+#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:10 ckanext/theme_ldm_tib/templates/user/new_user_form.html:27
 msgid "Email"
 msgstr ""
 
@@ -440,13 +401,11 @@ msgstr ""
 msgid "Subscribe to notification emails"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:24
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:34
+#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:24 ckanext/theme_ldm_tib/templates/user/new_user_form.html:34
 msgid "Profile picture"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:24
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:34
+#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:24 ckanext/theme_ldm_tib/templates/user/new_user_form.html:34
 msgid "Profile picture URL"
 msgstr ""
 
@@ -462,8 +421,7 @@ msgstr ""
 msgid "Old Password"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:38
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:28
+#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:38 ckanext/theme_ldm_tib/templates/user/new_user_form.html:28
 msgid "Password"
 msgstr ""
 
@@ -495,24 +453,20 @@ msgstr ""
 msgid "Data processing by TIB must be approved.."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:7
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:20
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:7 ckanext/theme_ldm_tib/templates/user/new_user_form.html:20
 msgid "Data Protection"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:7
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:20
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:7 ckanext/theme_ldm_tib/templates/user/new_user_form.html:20
 msgid "Data processing by TIB must be approved."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:10
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:11
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:10 ckanext/theme_ldm_tib/templates/user/new_user_form.html:11
 #: ckanext/theme_ldm_tib/templates/user/new_user_form.html:19
 msgid "The Special Conditions have to be accepted."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:11
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:19
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:11 ckanext/theme_ldm_tib/templates/user/new_user_form.html:19
 msgid "Special Conditions"
 msgstr ""
 
