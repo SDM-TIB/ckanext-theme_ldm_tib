@@ -26,10 +26,9 @@ Example:
         {% else %}
             {% if pkg['type'] == 'vdataset' %}
                 <p class="empty">This is an imported dataset. For details on files and resources visit the source: <a href="https://doi.org/{{ pkg['doi'] }}" target="_blank">https://doi.org/{{pkg['doi']}}</a></p>
-
             {% elif h.check_access('resource_create', {'package_id': pkg['id']}) and not is_activity_archive %}
                 {% trans url=h.url_for(pkg.type ~ '_resource.new', id=pkg.name) %}
-
+                    <p class="empty">This dataset has no data, <a href="{{ url }}">why not add some?</a></p>
                 {% endtrans %}
             {% else %}
                 <p class="empty">{{ _('This dataset has no data') }}</p>
