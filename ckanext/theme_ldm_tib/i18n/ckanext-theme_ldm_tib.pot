@@ -1,7 +1,7 @@
 # Translations template for ckanext-theme_ldm_tib.
-# Copyright (C) 2026 ORGANIZATION
+# Copyright (C) 2026 Technische Informationsbibliothek
 # This file is distributed under the same license as the ckanext-theme_ldm_tib project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+# Philipp D. Rohde, 2026.
 #
 #, fuzzy
 msgid ""
@@ -10,8 +10,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2026-09-03 10:27+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Philipp D. Rohde\n"
+"Language-Team: EN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
