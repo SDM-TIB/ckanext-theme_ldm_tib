@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme_ldm_tib 1.1.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-04 10:19+0200\n"
+"POT-Creation-Date: 2026-09-04 10:27+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -148,16 +148,19 @@ msgstr ""
 msgid "CKAN config options"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/admin/config.html:53
-msgid "<p><strong>Site Title:</strong> This is the title of this CKAN instance. It appears in various places throughout CKAN.</p>"
-msgstr ""
-
-#: ckanext/theme_ldm_tib/templates/admin/config.html:54
-msgid "<p><strong>Site Tag Logo:</strong> This is the logo that appears in the header of all the CKAN instance templates.</p>"
-msgstr ""
-
 #: ckanext/theme_ldm_tib/templates/admin/config.html:55
-msgid "<p><strong>Legal Notices Panel:</strong> This is the list of links placed in the footer of the page.</p>"
+#, python-format
+msgid "%(ss)sSite Title:%(se)s This is the title of this CKAN instance. It appears in various places throughout CKAN."
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/admin/config.html:56
+#, python-format
+msgid "%(ss)sSite Tag Logo:%(se)s This is the logo that appears in the header of all the CKAN instance templates."
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/admin/config.html:57
+#, python-format
+msgid "%(ss)sLegal Notices Panel:%(se)s This is the list of links placed in the footer of the page."
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:5 ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:8
@@ -225,12 +228,12 @@ msgstr ""
 msgid "Data and Resources"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/package/snippets/resources_list.html:30
+#: ckanext/theme_ldm_tib/templates/package/snippets/resources_list.html:34
 #, python-format
-msgid "<p class=\"empty\">This dataset has no data, <a href=\"%(url)s\">why not add some?</a></p>"
+msgid "This dataset has no data, %(link_start)swhy not add some?%(link_end)s"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/package/snippets/resources_list.html:34
+#: ckanext/theme_ldm_tib/templates/package/snippets/resources_list.html:39
 msgid "This dataset has no data"
 msgstr ""
 
