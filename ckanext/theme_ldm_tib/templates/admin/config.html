@@ -50,9 +50,11 @@
                 {% set about_url = h.url_for(controller='home', action='about') %}
                 {% set home_url = h.url_for(controller='home', action='index') %}
                 {% set docs_url = "http://docs.ckan.org/en/{0}/theming".format(g.ckan_doc_version) %}
-                {{ _("<p><strong>Site Title:</strong> This is the title of this CKAN instance. It appears in various places throughout CKAN.</p>") }}
-                {{ _("<p><strong>Site Tag Logo:</strong> This is the logo that appears in the header of all the CKAN instance templates.</p>") }}
-                {{ _("<p><strong>Legal Notices Panel:</strong> This is the list of links placed in the footer of the page.</p>") }}
+                {%- set strong_start = '<strong>' -%}
+                {%- set strong_end = '</strong>' -%}
+                <p>{% trans ss=strong_start|safe, se=strong_end|safe %}{{ ss }}Site Title:{{ se }} This is the title of this CKAN instance. It appears in various places throughout CKAN.{% endtrans %}</p>
+                <p>{% trans ss=strong_start|safe, se=strong_end|safe %}{{ ss }}Site Tag Logo:{{ se }} This is the logo that appears in the header of all the CKAN instance templates.{% endtrans %}</p>
+                <p>{% trans ss=strong_start|safe, se=strong_end|safe %}{{ ss }}Legal Notices Panel:{{ se }} This is the list of links placed in the footer of the page.{% endtrans %}</p>
             {% endblock %}
         </div>
     </div>
