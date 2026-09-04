@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme_ldm_tib 1.1.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-04 10:08+0200\n"
+"POT-Creation-Date: 2026-09-04 10:19+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -382,16 +382,12 @@ msgstr ""
 msgid "Full name"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:9
-msgid "eg. Joe Bloggs"
+#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:9 ckanext/theme_ldm_tib/templates/user/edit_user_form.html:10
+msgid "eg."
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:10 ckanext/theme_ldm_tib/templates/user/new_user_form.html:27
 msgid "Email"
-msgstr ""
-
-#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:10
-msgid "eg. joe@example.com"
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:11
@@ -481,14 +477,6 @@ msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/user/new_user_form.html:26
 msgid "Full Name"
-msgstr ""
-
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:26
-msgid "Joe Bloggs"
-msgstr ""
-
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:27
-msgid "joe@example.com"
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/user/new_user_form.html:29
