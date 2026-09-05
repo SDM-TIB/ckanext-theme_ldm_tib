@@ -22,169 +22,170 @@ msgstr ""
 #: ckanext/theme_ldm_tib/templates/footer.html:24
 #: ckanext/theme_ldm_tib/templates/footer.html:50
 msgid "About {0}"
-msgstr ""
+msgstr "Über {0}"
 
 #: ckanext/theme_ldm_tib/templates/footer.html:28
 #: ckanext/theme_ldm_tib/templates/footer.html:56
 msgid "CKAN API"
-msgstr ""
+msgstr "CKAN API"
 
 #: ckanext/theme_ldm_tib/templates/footer.html:29
 #: ckanext/theme_ldm_tib/templates/footer.html:57
 msgid "CKAN Association"
-msgstr ""
+msgstr "CKAN Association"
 
 #: ckanext/theme_ldm_tib/templates/footer.html:38
 #: ckanext/theme_ldm_tib/templates/footer.html:74
 #, python-format
 msgid "Powered by %(ckan_link)s"
-msgstr ""
+msgstr "Eingesetzte Software ist %(ckan_link)s"
 
 #: ckanext/theme_ldm_tib/templates/header.html:4
 msgid "Log in"
-msgstr ""
+msgstr "Einloggen"
 
 #: ckanext/theme_ldm_tib/templates/header.html:6
 #: ckanext/theme_ldm_tib/templates/header.html:9
 #: ckanext/theme_ldm_tib/templates/home/ldm_register.html:5
 #: ckanext/theme_ldm_tib/templates/home/ldm_register.html:8
 msgid "Register"
-msgstr ""
+msgstr "Registrieren"
 
 #: ckanext/theme_ldm_tib/templates/header.html:42
 msgid "Search Datasets"
-msgstr ""
+msgstr "Datensatz-Suche"
 
 #: ckanext/theme_ldm_tib/templates/header.html:43
 #: ckanext/theme_ldm_tib/templates/home/snippets/search.html:10
 msgid "Search"
-msgstr ""
+msgstr "Suche"
 
 #: ckanext/theme_ldm_tib/templates/header.html:58
 #: ckanext/theme_ldm_tib/templates/user/read_base.html:4
 msgid "Datasets"
-msgstr ""
+msgstr "Datensätze"
 
 #: ckanext/theme_ldm_tib/templates/header.html:61
 msgid "All"
-msgstr ""
+msgstr "Alle"
 
 #: ckanext/theme_ldm_tib/templates/header.html:62
 msgid "Local"
-msgstr ""
+msgstr "Lokal"
 
 #: ckanext/theme_ldm_tib/templates/header.html:63
 #: ckanext/theme_ldm_tib/templates/snippets/package_item.html:35
 msgid "Imported"
-msgstr ""
+msgstr "Importiert"
 
 #: ckanext/theme_ldm_tib/templates/header.html:64
 msgid "Services"
-msgstr ""
+msgstr "Services"
 
 #: ckanext/theme_ldm_tib/templates/header.html:71
 msgid "Organizations"
-msgstr ""
+msgstr "Organisationen"
 
 #: ckanext/theme_ldm_tib/templates/header.html:72
 msgid "Groups"
-msgstr ""
+msgstr "Gruppen"
 
 #: ckanext/theme_ldm_tib/templates/header.html:73
 #: ckanext/theme_ldm_tib/templates/home/about.html:4
 #: ckanext/theme_ldm_tib/templates/home/about.html:7
 #: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:11
 msgid "About"
-msgstr ""
+msgstr "Über"
 
 #: ckanext/theme_ldm_tib/templates/header.html:74
 #: ckanext/theme_ldm_tib/templates/home/demo.html:5
 #: ckanext/theme_ldm_tib/templates/home/demo.html:8
 msgid "Demo"
-msgstr ""
+msgstr "Demo"
 
 #: ckanext/theme_ldm_tib/templates/header.html:75
 #: ckanext/theme_ldm_tib/templates/home/api.html:5
 #: ckanext/theme_ldm_tib/templates/home/api.html:8
 msgid "API"
-msgstr ""
+msgstr "API"
 
 #: ckanext/theme_ldm_tib/templates/admin/config.html:4
 msgid "Site Title"
-msgstr ""
+msgstr "Seitentitel"
 
 #: ckanext/theme_ldm_tib/templates/admin/config.html:12
 msgid "Site logo"
-msgstr ""
+msgstr "Webseiten-Logo"
 
 #: ckanext/theme_ldm_tib/templates/admin/config.html:19
 msgid "Legal Notices Panel"
-msgstr ""
+msgstr "Rechtliche Hinweise"
 
 #: ckanext/theme_ldm_tib/templates/admin/config.html:23
 msgid "Legal Notices Enabled"
-msgstr ""
+msgstr "Rechtliche Hinweise aktiviert"
 
 #: ckanext/theme_ldm_tib/templates/admin/config.html:24
 msgid "Show cookies alert"
-msgstr ""
+msgstr "Cookie-Hinweis anzeigen"
 
 #: ckanext/theme_ldm_tib/templates/admin/config.html:25
 msgid "Show TIB Terms of Use Link"
-msgstr ""
+msgstr "Link zu den Nutzungsbedingungen der TIB anzeigen"
 
 #: ckanext/theme_ldm_tib/templates/admin/config.html:26
 msgid "Show Special Conditions Link"
-msgstr ""
+msgstr "Link zu den besonderen Bedingungen anzeigen"
 
 #: ckanext/theme_ldm_tib/templates/admin/config.html:27
 msgid "Special Conditions Link Label"
-msgstr ""
+msgstr "Link-Bezeichnung für Sonderbedingungen"
 
 #: ckanext/theme_ldm_tib/templates/admin/config.html:28
 msgid "Show Data Privacy Link"
-msgstr ""
+msgstr "Link zum Datenschutz anzeigen"
 
 #: ckanext/theme_ldm_tib/templates/admin/config.html:29
 msgid "Show Imprint Link"
-msgstr ""
+msgstr "Link zum Impressum anzeigen"
 
 #: ckanext/theme_ldm_tib/templates/admin/config.html:30
 msgid "Show Accessibility Link"
-msgstr ""
+msgstr "Link zur Barrierefreiheit anzeigen"
 
 #: ckanext/theme_ldm_tib/templates/admin/config.html:34
 msgid "Automatic update of imported Datasets"
-msgstr ""
+msgstr "Automatische Aktualisierung importierter Datensätze"
 
 #: ckanext/theme_ldm_tib/templates/admin/config.html:37
 msgid "Update imported Datasets"
-msgstr ""
+msgstr "Importierte Datensätze aktualisieren"
 
 #: ckanext/theme_ldm_tib/templates/admin/config.html:46
 msgid "CKAN config options"
-msgstr ""
+msgstr "Optionen der CKAN-Konfiguration"
 
 #: ckanext/theme_ldm_tib/templates/admin/config.html:55
 #, python-format
 msgid ""
 "%(ss)sSite Title:%(se)s This is the title of this CKAN instance. It "
 "appears in various places throughout CKAN."
-msgstr ""
+msgstr "%(ss)sSeitenüberschrift:%(se)s Dieses ist der Seitentitel dieser "
+"CKAN Installation. Er erscheint an verschiedenen Stellen in CKAN."
 
 #: ckanext/theme_ldm_tib/templates/admin/config.html:56
 #, python-format
 msgid ""
 "%(ss)sSite Tag Logo:%(se)s This is the logo that appears in the header of"
 " all the CKAN instance templates."
-msgstr ""
+msgstr "%(ss)sSeiten-Logo:%(se)s Dieses Logo erscheint im Kopf aller CKAN Instance Templates."
 
 #: ckanext/theme_ldm_tib/templates/admin/config.html:57
 #, python-format
 msgid ""
 "%(ss)sLegal Notices Panel:%(se)s This is the list of links placed in the "
 "footer of the page."
-msgstr ""
+msgstr "%(ss)sRechtliche Hinweise:%(se)s Dies ist die Liste der Links, die in der Fußzeile der Seite platziert sind."
 
 #: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:5
 #: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:8
@@ -192,7 +193,7 @@ msgstr ""
 #: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:39
 #: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:40
 msgid "Accessibility Statement"
-msgstr ""
+msgstr "Erklärung zur Barrierefreiheit"
 
 #: ckanext/theme_ldm_tib/templates/home/data_privacy.html:5
 #: ckanext/theme_ldm_tib/templates/home/data_privacy.html:8
@@ -200,7 +201,7 @@ msgstr ""
 #: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:24
 #: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:25
 msgid "Data Privacy Statement"
-msgstr ""
+msgstr "Datenschutzerklärung"
 
 #: ckanext/theme_ldm_tib/templates/home/imprint.html:5
 #: ckanext/theme_ldm_tib/templates/home/imprint.html:8
@@ -208,334 +209,334 @@ msgstr ""
 #: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:31
 #: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:32
 msgid "Imprint"
-msgstr ""
+msgstr "Impressum"
 
 #: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:5
 #: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:8
 msgid "Special Conditions LDM"
-msgstr ""
+msgstr "Sonderbedingungen LDM"
 
 #: ckanext/theme_ldm_tib/templates/home/snippets/data_privacy_de.html:185
 #: ckanext/theme_ldm_tib/templates/home/snippets/data_privacy_en.html:169
 msgid "You are currently opted out. Uncheck this box to opt back in."
-msgstr ""
+msgstr "Sie haben diese Option derzeit deaktiviert. Deaktivieren Sie dieses Kontrollkästchen, um die Option wieder zu aktivieren."
 
 #: ckanext/theme_ldm_tib/templates/home/snippets/data_privacy_de.html:186
 #: ckanext/theme_ldm_tib/templates/home/snippets/data_privacy_en.html:170
 msgid "You are currently opted in. Check this box to opt out."
-msgstr ""
+msgstr "Sie haben diese Option derzeit aktiviert. Aktivieren Sie dieses Kontrollkästchen, um die Option wieder zu deaktivieren."
 
 #: ckanext/theme_ldm_tib/templates/home/snippets/search.html:2
 msgid "E.g. environment"
-msgstr ""
+msgstr "z.B. Environment"
 
 #: ckanext/theme_ldm_tib/templates/home/snippets/search.html:7
 msgid "Search datasets"
-msgstr ""
+msgstr "Datensatz-Suche"
 
 #: ckanext/theme_ldm_tib/templates/home/snippets/stats.html:10
 msgid "dataset"
-msgstr ""
+msgstr "Datensatz"
 
 #: ckanext/theme_ldm_tib/templates/home/snippets/stats.html:10
 msgid "datasets"
-msgstr ""
+msgstr "Datensätze"
 
 #: ckanext/theme_ldm_tib/templates/home/snippets/stats.html:16
 msgid "organization"
-msgstr ""
+msgstr "Organisation"
 
 #: ckanext/theme_ldm_tib/templates/home/snippets/stats.html:16
 msgid "organizations"
-msgstr ""
+msgstr "Organisationen"
 
 #: ckanext/theme_ldm_tib/templates/home/snippets/stats.html:22
 msgid "group"
-msgstr ""
+msgstr "Gruppe"
 
 #: ckanext/theme_ldm_tib/templates/home/snippets/stats.html:22
 msgid "groups"
-msgstr ""
+msgstr "Gruppen"
 
 #: ckanext/theme_ldm_tib/templates/package/snippets/resources_list.html:15
 msgid "Data and Resources"
-msgstr ""
+msgstr "Daten und Ressourcen"
 
 #: ckanext/theme_ldm_tib/templates/package/snippets/resources_list.html:34
 #, python-format
 msgid "This dataset has no data, %(link_start)swhy not add some?%(link_end)s"
-msgstr ""
+msgstr "Dieser Datensatz hat keine Daten, %(link_start)sWarum nicht etwas hinzufügen??%(link_end)s"
 
 #: ckanext/theme_ldm_tib/templates/package/snippets/resources_list.html:39
 msgid "This dataset has no data"
-msgstr ""
+msgstr "Dieser Datensatz hat keine Daten"
 
 #: ckanext/theme_ldm_tib/templates/snippets/language_selector.html:4
 msgid "Language"
-msgstr ""
+msgstr "Sprache"
 
 #: ckanext/theme_ldm_tib/templates/snippets/language_selector.html:14
 msgid "Go"
-msgstr ""
+msgstr "Los"
 
 #: ckanext/theme_ldm_tib/templates/snippets/package_item.html:47
 msgid "Private"
-msgstr ""
+msgstr "Privat"
 
 #: ckanext/theme_ldm_tib/templates/snippets/package_item.html:58
 msgid "Draft"
-msgstr ""
+msgstr "Entwurf"
 
 #: ckanext/theme_ldm_tib/templates/snippets/package_item.html:60
 msgid "Deleted"
-msgstr ""
+msgstr "Gelöscht"
 
 #: ckanext/theme_ldm_tib/templates/snippets/package_item.html:69
 msgid "Popular"
-msgstr ""
+msgstr "Beliebt"
 
 #: ckanext/theme_ldm_tib/templates/snippets/package_item.html:77
 msgid "This dataset has no description"
-msgstr ""
+msgstr "Dieser Datensatz hat keine Beschreibung"
 
 #: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:15
 msgid "{number} dataset found for \"{query}\""
 msgid_plural "{number} datasets found for \"{query}\""
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{number} Datensatz gefunden für \"{query}\""
+msgstr[1] "{number} Datensätze gefunden für \"{query}\""
 
 #: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:16
 msgid "No datasets found for \"{query}\""
-msgstr ""
+msgstr "Keine Datensätze gefunden bei der Suche \"{query}\""
 
 #: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:17
 msgid "{number} dataset found"
 msgid_plural "{number} datasets found"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{number} Datensatz gefunden"
+msgstr[1] "{number} Datensätze gefunden"
 
 #: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:18
 msgid "No datasets found"
-msgstr ""
+msgstr "Keine Datensätze gefunden"
 
 #: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:21
 msgid "{number} imported dataset found for \"{query}\""
 msgid_plural "{number} datasets found for \"{query}\""
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{number} importierter Datensatz gefunden für \"{query}\""
+msgstr[1] "{number} importierte Datensätze gefunden für \"{query}\""
 
 #: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:22
 msgid "No imported datasets found for \"{query}\""
-msgstr ""
+msgstr "Keine importierten Datensätze gefunden bei der Suche \"{query}\""
 
 #: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:23
 msgid "{number} imported dataset found"
 msgid_plural "{number} imported datasets found"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{number} importierer Datensatz gefunden"
+msgstr[1] "{number} importierte Datensätze gefunden"
 
 #: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:24
 msgid "No imported datasets found"
-msgstr ""
+msgstr "Keine importierten Datensätze gefunden"
 
 #: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:27
 msgid "{number} service found for \"{query}\""
 msgid_plural "{number} service found for \"{query}\""
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{number} Service gefunden für \"{query}\""
+msgstr[1] "{number} Services gefunden für \"{query}\""
 
 #: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:28
 msgid "No service found for \"{query}\""
-msgstr ""
+msgstr "Keine Services gefunden bei der Suche \"{query}\""
 
 #: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:29
 msgid "{number} service found"
 msgid_plural "{number} services found"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{number} Service gefunden"
+msgstr[1] "{number} Services gefunden"
 
 #: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:30
 msgid "No service found"
-msgstr ""
+msgstr "Keine Services gefunden"
 
 #: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:33
 msgid "{number} group found for \"{query}\""
 msgid_plural "{number} groups found for \"{query}\""
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{number} Gruppe gefunden für \"{query}\""
+msgstr[1] "{number} Gruppen gefunden für \"{query}\""
 
 #: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:34
 msgid "No groups found for \"{query}\""
-msgstr ""
+msgstr "Keine Gruppen gefunden bei der Suche nach \"{query}\""
 
 #: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:35
 msgid "{number} group found"
 msgid_plural "{number} groups found"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{number} Gruppe gefunden"
+msgstr[1] "{number} Gruppen gefunden"
 
 #: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:36
 msgid "No groups found"
-msgstr ""
+msgstr "Keine Gruppen gefunden"
 
 #: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:39
 msgid "{number} organization found for \"{query}\""
 msgid_plural "{number} organizations found for \"{query}\""
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{number} Organisation wurde zu \"{query}\" gefunden"
+msgstr[1] "{number} Organisationen wurden zu \"{query}\" gefunden"
 
 #: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:40
 msgid "No organizations found for \"{query}\""
-msgstr ""
+msgstr "Keine Organisationen gefunden bei der Suche nach \"{query}\""
 
 #: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:41
 msgid "{number} organization found"
 msgid_plural "{number} organizations found"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{number} Organisation gefunden"
+msgstr[1] "{number} Organisationen gefunden"
 
 #: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:42
 msgid "No organizations found"
-msgstr ""
+msgstr "Keine Organisationen gefunden"
 
 #: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:2
 msgid "Legal Notices"
-msgstr ""
+msgstr "Rechtliche Hinweise"
 
 #: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:8
 #: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:9
 msgid "Terms of Use of the TIB"
-msgstr ""
+msgstr "Nutzungsbedingungen der TIB"
 
 #: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:7
 msgid "Change details"
-msgstr ""
+msgstr "Änderungsdetails"
 
 #: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:8
 #: ckanext/theme_ldm_tib/templates/user/new_user_form.html:25
 msgid "Username"
-msgstr ""
+msgstr "Benutzername"
 
 #: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:9
 #: ckanext/theme_ldm_tib/templates/user/new_user_form.html:26
 msgid "Full Name"
-msgstr ""
+msgstr "Vollständiger Name"
 
 #: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:9
 #: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:10
 msgid "eg."
-msgstr ""
+msgstr "z.B."
 
 #: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:10
 #: ckanext/theme_ldm_tib/templates/user/new_user_form.html:27
 msgid "Email"
-msgstr ""
+msgstr "E-Mail"
 
 #: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:11
 msgid "A little information about yourself"
-msgstr ""
+msgstr "Ein paar Informationen zu dir"
 
 #: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:14
 msgid "Subscribe to notification emails"
-msgstr ""
+msgstr "Abonniere E-Mail-Benachrichtigungen"
 
 #: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:24
 #: ckanext/theme_ldm_tib/templates/user/new_user_form.html:34
 msgid "Profile picture"
-msgstr ""
+msgstr "Profilbild"
 
 #: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:24
 #: ckanext/theme_ldm_tib/templates/user/new_user_form.html:34
 msgid "Profile picture URL"
-msgstr ""
+msgstr "Profilbild-URL"
 
 #: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:28
 msgid "Change password"
-msgstr ""
+msgstr "Passwort ändern"
 
 #: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:31
 msgid "Sysadmin Password"
-msgstr ""
+msgstr "Sysadmin Passwort"
 
 #: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:31
 msgid "Old Password"
-msgstr ""
+msgstr "Altes Passwort"
 
 #: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:38
 #: ckanext/theme_ldm_tib/templates/user/new_user_form.html:28
 msgid "Password"
-msgstr ""
+msgstr "Passwort"
 
 #: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:39
 msgid "Confirm Password"
-msgstr ""
+msgstr "Passwort wiederholen"
 
 #: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:45
 msgid "Are you sure you want to delete this User?"
-msgstr ""
+msgstr "Sind sie sicher, dass Sie diesen Benutzer löschen wollen?"
 
 #: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:45
 msgid "Delete"
-msgstr ""
+msgstr "Löschen"
 
 #: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:50
 msgid "Are you sure you want to regenerate the API key?"
-msgstr ""
+msgstr "Sind Sie sicher, dass Sie den API-Key erzeugen wollen?"
 
 #: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:50
 msgid "Regenerate API Key"
-msgstr ""
+msgstr "API-Key nochmals erzeugen"
 
 #: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:54
 msgid "Update Profile"
-msgstr ""
+msgstr "Profil aktualisieren"
 
 #: ckanext/theme_ldm_tib/templates/user/new_user_form.html:6
 msgid "Data processing by TIB must be approved.."
-msgstr ""
+msgstr "Die Datenverarbeitung durch die TIB muss genehmigt werden."
 
 #: ckanext/theme_ldm_tib/templates/user/new_user_form.html:7
 #: ckanext/theme_ldm_tib/templates/user/new_user_form.html:20
 msgid "Data Protection"
-msgstr ""
+msgstr "Datenschutz"
 
 #: ckanext/theme_ldm_tib/templates/user/new_user_form.html:7
 #: ckanext/theme_ldm_tib/templates/user/new_user_form.html:20
 msgid "Data processing by TIB must be approved."
-msgstr ""
+msgstr "Die Datenverarbeitung durch die TIB muss genehmigt werden."
 
 #: ckanext/theme_ldm_tib/templates/user/new_user_form.html:10
 #: ckanext/theme_ldm_tib/templates/user/new_user_form.html:11
 #: ckanext/theme_ldm_tib/templates/user/new_user_form.html:19
 msgid "The Special Conditions have to be accepted."
-msgstr ""
+msgstr "Die Sonderbedingungen müssen akzeptiert werden."
 
 #: ckanext/theme_ldm_tib/templates/user/new_user_form.html:11
 #: ckanext/theme_ldm_tib/templates/user/new_user_form.html:19
 msgid "Special Conditions"
-msgstr ""
+msgstr "Sonderbedingungen"
 
 #: ckanext/theme_ldm_tib/templates/user/new_user_form.html:17
 msgid "The form contains invalid entries:"
-msgstr ""
+msgstr "Das Formular enthält unzulässige Einträge:"
 
 #: ckanext/theme_ldm_tib/templates/user/new_user_form.html:25
 msgid "username"
-msgstr ""
+msgstr "Benutzername"
 
 #: ckanext/theme_ldm_tib/templates/user/new_user_form.html:29
 msgid "Confirm"
-msgstr ""
+msgstr "Bestätigen"
 
 #: ckanext/theme_ldm_tib/templates/user/new_user_form.html:68
 msgid "Create Account"
-msgstr ""
+msgstr "Erstelle Benutzerkonto"
 
 #: ckanext/theme_ldm_tib/templates/user/read_base.html:5
 msgid "Activity Stream"
-msgstr ""
+msgstr "Aktivitätsanzeige"
 
 #: ckanext/theme_ldm_tib/templates/user/read_base.html:7
 msgid "API Tokens"
-msgstr ""
+msgstr "API Token"
 
