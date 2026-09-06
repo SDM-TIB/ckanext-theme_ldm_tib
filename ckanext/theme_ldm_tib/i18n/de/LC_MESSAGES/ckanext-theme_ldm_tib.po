@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme_ldm_tib 1.1.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-06 12:52+0200\n"
+"POT-Creation-Date: 2026-09-06 16:48+0200\n"
 "PO-Revision-Date: 2026-09-05 12:37+0200\n"
 "Last-Translator: Philipp D. Rohde\n"
 "Language: de\n"
@@ -221,18 +221,161 @@ msgstr "Impressum"
 msgid "Special Conditions LDM"
 msgstr "Sonderbedingungen LDM"
 
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:1
 #: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:3
 msgid "About the Leibniz Data Manager"
 msgstr "Über den Leibniz Data Manager"
 
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:2
+msgid ""
+"The <strong>Leibniz Data Manager (LDM)</strong> is a modular research "
+"data infrastructure that enables the <strong>FAIR-compliant management "
+"and exploration of Research Digital Objects (RDOs)</strong>—such as "
+"datasets, software, documents, and scientific publications. By combining "
+"<strong>Knowledge Graphs (KGs)</strong> with <strong>Neuro-Symbolic "
+"AI</strong>, LDM supports intelligent, interoperable, and reusable data "
+"workflows across scientific domains. Key features include:"
+msgstr ""
+"Der <strong>Leibniz Data Manager (LDM)</strong> ist eine modulare "
+"Forschungsdateninfrastruktur, die das <strong>FAIR-konforme Management "
+"und die Exploration von Research Digital Objects (RDOs)</strong> "
+"ermöglicht—wie Datensätze, Software, Dokumente und wissenschaftliche "
+"Publikationen. Durch die Kombination von <strong>Knowledge Graphs "
+"(KGs)</strong> mit <strong>Neuro-Symbolischer KI</strong> unterstützt LDM"
+" intelligente, interoperable und wiederverwendbare Daten-Workflows über "
+"wissenschaftliche Domänen hinweg. Zu den Hauptmerkmalen gehören:"
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:4
+msgid ""
+"<strong>Metadata Representation</strong> using standard and domain-"
+"specific vocabularies (e.g., DCAT, Datacite, UMLS), ensuring semantic "
+"interoperability and alignment with FAIR principles."
+msgstr ""
+"<strong>Metadaten-Repräsentation</strong> unter Verwendung von Standard- "
+"und domänenspezifischen Vokabularen (z.B. DCAT, Datacite, UMLS), die "
+"semantische Interoperabilität und Ausrichtung an FAIR-Prinzipien "
+"gewährleisten."
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:5
+msgid ""
+"<strong>Knowledge Graph Construction</strong> from heterogeneous data "
+"sources through a declarative data integration system (DIS), enabling "
+"structured and contextual metadata."
+msgstr ""
+"<strong>Knowledge Graph-Konstruktion</strong> aus heterogenen "
+"Datenquellen durch ein deklaratives Datenintegrationssystem (DIS), das "
+"strukturierte und kontextuelle Metadaten ermöglicht."
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:6
+msgid ""
+"<strong>Entity Linking and Enrichment</strong> of RDOs with external KGs "
+"such as <strong>Wikidata</strong> and the <strong>Open Research Knowledge"
+" Graph (ORKG)</strong>, using tools like Falcon and BioLinkedAI to "
+"automatically expand metadata."
+msgstr ""
+"<strong>Entity Linking und Anreicherung</strong> von RDOs mit externen "
+"KGs wie <strong>Wikidata</strong> und dem <strong>Open Research Knowledge"
+" Graph (ORKG)</strong>, unter Verwendung von Tools wie Falcon und "
+"BioLinkedAI zur automatischen Erweiterung von Metadaten."
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:7
+msgid ""
+"<strong>On-the-Fly Metadata Updates</strong>, maintaining synchronization"
+" with evolving knowledge and newly published resources."
+msgstr ""
+"<strong>On-the-Fly Metadaten-Updates</strong>, die die Synchronisation "
+"mit sich entwickelndem Wissen und neu veröffentlichten Ressourcen "
+"aufrechterhalten."
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:8
+msgid ""
+"<strong>Federated Query Processing</strong> across multiple KGs, allowing"
+" users to pose <strong>natural language questions</strong> that are "
+"transformed into SPARQL and executed over LDM and ORKG."
+msgstr ""
+"<strong>Föderierte Abfrageverarbeitung</strong> über mehrere KGs hinweg, "
+"die es Benutzern ermöglicht, <strong>natürlichsprachliche Fragen</strong>"
+" zu stellen, die in SPARQL umgewandelt und über LDM und ORKG ausgeführt "
+"werden."
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:9
+msgid ""
+"<strong>Dataset Comparison and Visualization</strong>, offering tools to "
+"analyze and contrast RDOs based on shared attributes and research "
+"contexts."
+msgstr ""
+"<strong>Datensatz-Vergleich und Visualisierung</strong>, mit Tools zur "
+"Analyse und zum Vergleich von RDOs basierend auf gemeinsamen Attributen "
+"und Forschungskontexten."
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:10
+msgid ""
+"<strong>Live Code Execution</strong> via <strong>Jupyter "
+"Notebooks</strong>, enabling reproducible scientific workflows and "
+"interactive data analysis within a secure, containerized environment."
+msgstr ""
+"<strong>Live-Code-Ausführung</strong> über <strong>Jupyter "
+"Notebooks</strong>, die reproduzierbare wissenschaftliche Workflows und "
+"interaktive Datenanalyse in einer sicheren, containerisierten Umgebung "
+"ermöglichen."
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:11
+msgid ""
+"<strong>Neuro-Symbolic Reasoning</strong> for both query answering and "
+"metadata expansion, combining symbolic models with LLM-based "
+"contextualization to enhance discoverability and usability of RDOs."
+msgstr ""
+"<strong>Neuro-Symbolisches Reasoning</strong> sowohl für die Beantwortung"
+" von Anfragen als auch für die Metadaten-Erweiterung, das symbolische "
+"Modelle mit LLM-basierter Kontextualisierung kombiniert, um die "
+"Auffindbarkeit und Nutzbarkeit von RDOs zu verbessern."
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:23
+msgid "Demo page"
+msgstr "Demo-Seite"
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:26
+msgid "video"
+msgstr "Video"
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:30
+#, python-format
+msgid ""
+"LDM is publicly accessible at %(ldm_link)s, and a <strong>Docker "
+"container</strong> for local deployment is available at %(docker_link)s."
+msgstr ""
+"LDM ist öffentlich zugänglich unter %(ldm_link)s, und ein <strong>Docker-"
+"Container</strong> für die lokale Bereitstellung ist verfügbar unter "
+"%(docker_link)s."
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:37
+#, python-format
+msgid ""
+"The upload and description of dataset metadata require registration. More"
+" detailed information in %(register_link)s."
+msgstr ""
+"Das Hochladen und die Beschreibung von Datensatz-Metadaten erfordern eine"
+" Registrierung. Ausführlichere Informationen unter %(register_link)s."
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:43
+#, python-format
+msgid ""
+"For more details on using LDM, visit the %(demo_link)s or watch the "
+"following explanatory %(video_link)s."
+msgstr ""
+"Für weitere Details zur Nutzung von LDM besuchen Sie die %(demo_link)s "
+"oder schauen Sie sich das folgende Erklärungs-%(video_link)s an."
+
+# | msgid "" "The&nbsp;<strong>Leibniz Data Manager (LDM)</strong>&nbsp;is an
+# | open " "source and free web-based application\n" "        for Research
+# Data
+# | Management (RDM). LDM delivers different " "distributions to best fit the
+# | specific\n" "        requirements of various customers, e.g., institutes
+# and
+# | research " "groups performing RDM in various\n" "        scientific
+# | disciplines."
 #: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:4
 #, fuzzy
-#| msgid "" "The&nbsp;<strong>Leibniz Data Manager (LDM)</strong>&nbsp;is an
-#| open " "source and free web-based application\n" "        for Research Data
-#| Management (RDM). LDM delivers different " "distributions to best fit the
-#| specific\n" "        requirements of various customers, e.g., institutes and
-#| research " "groups performing RDM in various\n" "        scientific
-#| disciplines."
 msgid ""
 "The&nbsp;<strong>Leibniz Data Manager (LDM)</strong>&nbsp;is an open "
 "source and free web-based application\n"
@@ -654,4 +797,26 @@ msgstr "Aktivitätsanzeige"
 #: ckanext/theme_ldm_tib/templates/user/read_base.html:7
 msgid "API Tokens"
 msgstr "API Token"
+
+#~ msgid ""
+#~ "LDM is publicly accessible at <a "
+#~ "href=\"%(ldm_url)s\">%(ldm_url)s</a>, and a "
+#~ "<strong>Docker container</strong> for local "
+#~ "deployment is available at <a "
+#~ "href=\"%(docker_url)s\">%(docker_url)s</a>"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The upload and description of dataset"
+#~ " metadata require registration. More "
+#~ "detailed information in <a "
+#~ "href=\"%(register_url)s\">%(register_url)s</a>."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For more details on using LDM, "
+#~ "visit the <a href=\"%(demo_url)s\">Demo "
+#~ "page</a> or watch the following "
+#~ "explanatory <a href=\"%(video_url)s\">video</a>."
+#~ msgstr ""
 

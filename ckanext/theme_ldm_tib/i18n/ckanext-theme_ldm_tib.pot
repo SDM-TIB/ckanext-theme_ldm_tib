@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme_ldm_tib 1.1.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-06 12:52+0200\n"
+"POT-Creation-Date: 2026-09-06 16:48+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -184,8 +184,83 @@ msgstr ""
 msgid "Special Conditions LDM"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:3
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:1 ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:3
 msgid "About the Leibniz Data Manager"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:2
+msgid ""
+"The <strong>Leibniz Data Manager (LDM)</strong> is a modular research data infrastructure that enables the <strong>FAIR-compliant management and exploration "
+"of Research Digital Objects (RDOs)</strong>—such as datasets, software, documents, and scientific publications. By combining <strong>Knowledge Graphs "
+"(KGs)</strong> with <strong>Neuro-Symbolic AI</strong>, LDM supports intelligent, interoperable, and reusable data workflows across scientific domains. Key "
+"features include:"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:4
+msgid ""
+"<strong>Metadata Representation</strong> using standard and domain-specific vocabularies (e.g., DCAT, Datacite, UMLS), ensuring semantic interoperability and"
+" alignment with FAIR principles."
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:5
+msgid ""
+"<strong>Knowledge Graph Construction</strong> from heterogeneous data sources through a declarative data integration system (DIS), enabling structured and "
+"contextual metadata."
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:6
+msgid ""
+"<strong>Entity Linking and Enrichment</strong> of RDOs with external KGs such as <strong>Wikidata</strong> and the <strong>Open Research Knowledge Graph "
+"(ORKG)</strong>, using tools like Falcon and BioLinkedAI to automatically expand metadata."
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:7
+msgid "<strong>On-the-Fly Metadata Updates</strong>, maintaining synchronization with evolving knowledge and newly published resources."
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:8
+msgid ""
+"<strong>Federated Query Processing</strong> across multiple KGs, allowing users to pose <strong>natural language questions</strong> that are transformed into"
+" SPARQL and executed over LDM and ORKG."
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:9
+msgid "<strong>Dataset Comparison and Visualization</strong>, offering tools to analyze and contrast RDOs based on shared attributes and research contexts."
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:10
+msgid ""
+"<strong>Live Code Execution</strong> via <strong>Jupyter Notebooks</strong>, enabling reproducible scientific workflows and interactive data analysis within "
+"a secure, containerized environment."
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:11
+msgid ""
+"<strong>Neuro-Symbolic Reasoning</strong> for both query answering and metadata expansion, combining symbolic models with LLM-based contextualization to "
+"enhance discoverability and usability of RDOs."
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:23
+msgid "Demo page"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:26
+msgid "video"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:30
+#, python-format
+msgid "LDM is publicly accessible at %(ldm_link)s, and a <strong>Docker container</strong> for local deployment is available at %(docker_link)s."
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:37
+#, python-format
+msgid "The upload and description of dataset metadata require registration. More detailed information in %(register_link)s."
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:43
+#, python-format
+msgid "For more details on using LDM, visit the %(demo_link)s or watch the following explanatory %(video_link)s."
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:4
