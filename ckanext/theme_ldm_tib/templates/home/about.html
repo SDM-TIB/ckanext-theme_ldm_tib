@@ -1,5 +1,4 @@
 {% ckan_extends %}
-{% set asset_path = h.url_for('home') %}
 
 {% block subtitle %}{{ _('About') }}{% endblock %}
 
@@ -14,8 +13,8 @@
                 {% if g.site_about %}
                     {{ h.render_markdown(g.site_about) }}
                 {% else %}
-                    {% if not h.tibtheme_styled_header_enabled() and h.tibtheme_is_TIBservice_instance():%}
-                        <img id="tib_event_logo" src="{{asset_path}}images/tib_datamanager_1150.jpg" alt="TIB Leibniz Data Manager Logo" class="img-responsive">
+                    {% if not h.tibtheme_styled_header_enabled() and h.tibtheme_is_TIBservice_instance() %}
+                        <img id="tib_event_logo" src="{{ h.url_for_static('/images/tib_datamanager_1150.jpg') }}" alt="TIB Leibniz Data Manager Logo" class="img-responsive">
                     {% endif %}
 
                     {% if h.tibtheme_is_TIBservice_instance() %}
@@ -23,7 +22,6 @@
                     {% else %}
                         {% snippet 'home/snippets/about_text_default.html' %}
                     {% endif %}
-
                 {% endif %}
             {% endblock %}
         </div>
