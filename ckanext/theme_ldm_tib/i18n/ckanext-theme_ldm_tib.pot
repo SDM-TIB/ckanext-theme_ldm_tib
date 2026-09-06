@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme_ldm_tib 1.1.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-05 12:35+0200\n"
+"POT-Creation-Date: 2026-09-06 12:52+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -79,7 +79,7 @@ msgstr ""
 msgid "Groups"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/header.html:73 ckanext/theme_ldm_tib/templates/home/about.html:4 ckanext/theme_ldm_tib/templates/home/about.html:7
+#: ckanext/theme_ldm_tib/templates/header.html:73 ckanext/theme_ldm_tib/templates/home/about.html:3 ckanext/theme_ldm_tib/templates/home/about.html:6
 #: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:11
 msgid "About"
 msgstr ""
@@ -182,6 +182,75 @@ msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:5 ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:8
 msgid "Special Conditions LDM"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:3
+msgid "About the Leibniz Data Manager"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:4
+msgid ""
+"The&nbsp;<strong>Leibniz Data Manager (LDM)</strong>&nbsp;is an open source and free web-based application\n"
+"    for Research Data Management (RDM). LDM delivers different distributions to best fit the specific\n"
+"    requirements of various customers, e.g., institutes and research groups performing RDM in various\n"
+"    scientific disciplines."
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:8
+msgid "The prototype currently offers the following functions for the visualization of research data:"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:10
+msgid "Supports data collections and publications with different formats"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:11
+msgid "Different views on the same data set (2D and 3D support)"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:12
+msgid "Visualization of Auto CAD files"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:13
+msgid "Jupyter Notebooks for demonstrating live code"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:14
+msgid "RDF Description of data collections"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:16
+msgid ""
+"The file specific viewers were implemented using CKAN (Comprehensive Knowledge Archive Network) plugins\n"
+"        to render existing viewers for the datasets included in the CKAN instance."
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:19
+#, python-format
+msgid "This is an instance of the tool installed for: %(instance_name)s."
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:21
+msgid "Other available instances of the LDM:"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:27
+msgid "TIB webpage"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:28
+msgid "GitHub repository"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:29
+#, python-format
+msgid "More info about the LDM project can be found on the %(tib_link)s and the last updated code in the %(github_link)s."
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:33
+#, python-format
+msgid "Please, contact us at %(contact_link)s if you have comments or questions."
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/home/snippets/data_privacy_de.html:185 ckanext/theme_ldm_tib/templates/home/snippets/data_privacy_en.html:169

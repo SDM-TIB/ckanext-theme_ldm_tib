@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme_ldm_tib 1.1.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-05 12:35+0200\n"
+"POT-Creation-Date: 2026-09-06 12:52+0200\n"
 "PO-Revision-Date: 2026-09-05 12:37+0200\n"
 "Last-Translator: Philipp D. Rohde\n"
 "Language: de\n"
@@ -91,8 +91,8 @@ msgid "Groups"
 msgstr "Gruppen"
 
 #: ckanext/theme_ldm_tib/templates/header.html:73
-#: ckanext/theme_ldm_tib/templates/home/about.html:4
-#: ckanext/theme_ldm_tib/templates/home/about.html:7
+#: ckanext/theme_ldm_tib/templates/home/about.html:3
+#: ckanext/theme_ldm_tib/templates/home/about.html:6
 #: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:11
 msgid "About"
 msgstr "Über"
@@ -170,22 +170,27 @@ msgstr "Optionen der CKAN-Konfiguration"
 msgid ""
 "%(ss)sSite Title:%(se)s This is the title of this CKAN instance. It "
 "appears in various places throughout CKAN."
-msgstr "%(ss)sSeitenüberschrift:%(se)s Dieses ist der Seitentitel dieser "
-"CKAN Installation. Er erscheint an verschiedenen Stellen in CKAN."
+msgstr ""
+"%(ss)sSeitenüberschrift:%(se)s Dieses ist der Seitentitel dieser CKAN "
+"Installation. Er erscheint an verschiedenen Stellen in CKAN."
 
 #: ckanext/theme_ldm_tib/templates/admin/config.html:56
 #, python-format
 msgid ""
 "%(ss)sSite Tag Logo:%(se)s This is the logo that appears in the header of"
 " all the CKAN instance templates."
-msgstr "%(ss)sSeiten-Logo:%(se)s Dieses Logo erscheint im Kopf aller CKAN Instance Templates."
+msgstr ""
+"%(ss)sSeiten-Logo:%(se)s Dieses Logo erscheint im Kopf aller CKAN "
+"Instance Templates."
 
 #: ckanext/theme_ldm_tib/templates/admin/config.html:57
 #, python-format
 msgid ""
 "%(ss)sLegal Notices Panel:%(se)s This is the list of links placed in the "
 "footer of the page."
-msgstr "%(ss)sRechtliche Hinweise:%(se)s Dies ist die Liste der Links, die in der Fußzeile der Seite platziert sind."
+msgstr ""
+"%(ss)sRechtliche Hinweise:%(se)s Dies ist die Liste der Links, die in der"
+" Fußzeile der Seite platziert sind."
 
 #: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:5
 #: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:8
@@ -216,15 +221,123 @@ msgstr "Impressum"
 msgid "Special Conditions LDM"
 msgstr "Sonderbedingungen LDM"
 
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:3
+msgid "About the Leibniz Data Manager"
+msgstr "Über den Leibniz Data Manager"
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:4
+#, fuzzy
+#| msgid "" "The&nbsp;<strong>Leibniz Data Manager (LDM)</strong>&nbsp;is an
+#| open " "source and free web-based application\n" "        for Research Data
+#| Management (RDM). LDM delivers different " "distributions to best fit the
+#| specific\n" "        requirements of various customers, e.g., institutes and
+#| research " "groups performing RDM in various\n" "        scientific
+#| disciplines."
+msgid ""
+"The&nbsp;<strong>Leibniz Data Manager (LDM)</strong>&nbsp;is an open "
+"source and free web-based application\n"
+"    for Research Data Management (RDM). LDM delivers different "
+"distributions to best fit the specific\n"
+"    requirements of various customers, e.g., institutes and research "
+"groups performing RDM in various\n"
+"    scientific disciplines."
+msgstr ""
+"Der <strong>Leibniz Data Manager (LDM)</strong> ist eine quelloffene und "
+"kostenlose webbasierte Anwendung für das Forschungsdatenmanagement (FDM)."
+" Der LDM bietet verschiedene Distributionen an, um den spezifischen "
+"Anforderungen verschiedener Kunden gerecht zu werden, z.B. Instituten und"
+" Forschungsgruppen, die RDM in verschiedenen wissenschaftlichen "
+"Disziplinen betreiben."
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:8
+msgid ""
+"The prototype currently offers the following functions for the "
+"visualization of research data:"
+msgstr ""
+"Der Prototyp bietet derzeit die folgenden Funktionen zur Visualisierung "
+"von Forschungsdaten:"
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:10
+msgid "Supports data collections and publications with different formats"
+msgstr ""
+"Unterstützung von Datensammlungen und Publikationen mit unterschiedlichen"
+" Formaten"
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:11
+msgid "Different views on the same data set (2D and 3D support)"
+msgstr ""
+"Unterschiedliche Sichten auf denselben Datensatz (2D- und 3D-"
+"Unterstützung)"
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:12
+msgid "Visualization of Auto CAD files"
+msgstr "Visualisierung von Auto-CAD-Dateien"
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:13
+msgid "Jupyter Notebooks for demonstrating live code"
+msgstr "Jupyter Notebooks zur Demonstration von Live-Code"
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:14
+msgid "RDF Description of data collections"
+msgstr "RDF-Beschreibung von Datensammlungen"
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:16
+msgid ""
+"The file specific viewers were implemented using CKAN (Comprehensive "
+"Knowledge Archive Network) plugins\n"
+"        to render existing viewers for the datasets included in the CKAN "
+"instance."
+msgstr ""
+"Die dateispezifischen Viewer wurden mithilfe von CKAN-Plugins "
+"(Comprehensive Knowledge Archive Network) implementiert, um bestehende "
+"Viewer für die in der CKAN-Instanz enthaltenen Datensätze darzustellen."
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:19
+#, python-format
+msgid "This is an instance of the tool installed for: %(instance_name)s."
+msgstr "Dies ist eine LDM-Instanz für: %(instance_name)s."
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:21
+msgid "Other available instances of the LDM:"
+msgstr "Weitere verfügbare LDM-Instanzen:"
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:27
+msgid "TIB webpage"
+msgstr "TIB-Webseite"
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:28
+msgid "GitHub repository"
+msgstr "GitHub-Repository"
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:29
+#, python-format
+msgid ""
+"More info about the LDM project can be found on the %(tib_link)s and the "
+"last updated code in the %(github_link)s."
+msgstr ""
+"Weitere Informationen über das LDM-Projekt finden Sie auf der "
+"%(tib_link)s und den zuletzt aktualisierten Code im %(github_link)s."
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:33
+#, python-format
+msgid "Please, contact us at %(contact_link)s if you have comments or questions."
+msgstr ""
+"Bitte kontaktieren Sie uns unter %(contact_link)s, wenn Sie Kommentare "
+"oder Fragen haben."
+
 #: ckanext/theme_ldm_tib/templates/home/snippets/data_privacy_de.html:185
 #: ckanext/theme_ldm_tib/templates/home/snippets/data_privacy_en.html:169
 msgid "You are currently opted out. Uncheck this box to opt back in."
-msgstr "Sie haben diese Option derzeit deaktiviert. Deaktivieren Sie dieses Kontrollkästchen, um die Option wieder zu aktivieren."
+msgstr ""
+"Sie haben diese Option derzeit deaktiviert. Deaktivieren Sie dieses "
+"Kontrollkästchen, um die Option wieder zu aktivieren."
 
 #: ckanext/theme_ldm_tib/templates/home/snippets/data_privacy_de.html:186
 #: ckanext/theme_ldm_tib/templates/home/snippets/data_privacy_en.html:170
 msgid "You are currently opted in. Check this box to opt out."
-msgstr "Sie haben diese Option derzeit aktiviert. Aktivieren Sie dieses Kontrollkästchen, um die Option wieder zu deaktivieren."
+msgstr ""
+"Sie haben diese Option derzeit aktiviert. Aktivieren Sie dieses "
+"Kontrollkästchen, um die Option wieder zu deaktivieren."
 
 #: ckanext/theme_ldm_tib/templates/home/snippets/search.html:2
 msgid "E.g. environment"
@@ -265,7 +378,9 @@ msgstr "Daten und Ressourcen"
 #: ckanext/theme_ldm_tib/templates/package/snippets/resources_list.html:34
 #, python-format
 msgid "This dataset has no data, %(link_start)swhy not add some?%(link_end)s"
-msgstr "Dieser Datensatz hat keine Daten, %(link_start)sWarum nicht etwas hinzufügen??%(link_end)s"
+msgstr ""
+"Dieser Datensatz hat keine Daten, %(link_start)sWarum nicht etwas "
+"hinzufügen??%(link_end)s"
 
 #: ckanext/theme_ldm_tib/templates/package/snippets/resources_list.html:39
 msgid "This dataset has no data"
