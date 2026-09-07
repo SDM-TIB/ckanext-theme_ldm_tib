@@ -1,20 +1,76 @@
 {% extends "page.html" %}
 {% import 'macros/form.html' as form %}
-{% set current_lang = request.environ.CKAN_LANG %}
 
 {% block subtitle %}{{ _('Accessibility Statement') }}{% endblock %}
 
 {% block breadcrumb_content %}
-    <li class="active">{% link_for _('Accessibility Statement'), 'accessibility_statement' %}</li>
+<li class="active">{% link_for _('Accessibility Statement'), 'accessibility_statement' %}</li>
 {% endblock %}
 
 {% block primary %}
-    <article class="module" role="main">
-        <div class="module-content">
-            <h1 class="">{{_('Accessibility Statement')}}</h1>
-            {% snippet "home/snippets/accessibility_statement.html", current_lang=current_lang %}
-        </div>
-    </article>
+<article class="module" role="main">
+    <div class="module-content">
+        <h1 class="">{{_('Accessibility Statement')}}</h1>
+        <p><strong>{{ _("Date of this declaration: 21.03.2022") }}</strong></p>
+        <p>{{ _("Information on the accessibility of these web pages and its contact details in accordance with § 9b NBGG.") }}</p>
+        {%- set ldmservice_link -%}
+        <a href="https://service.tib.eu/ldmservice/" target="_blank" class="external-link">https://service.tib.eu/ldmservice/</a>
+        {%- endset -%}
+        {%- set ldmjupyter_link -%}
+        <a href="https://service.tib.eu/ldmjupyter/" target="_blank" class="external-link">https://service.tib.eu/ldmjupyter/</a>
+        {%- endset -%}
+        <p>
+            {%- trans ldmservice_link=ldmservice_link, ldmjupyter_link=ldmjupyter_link -%}
+            This accessibility statement applies to {{ ldmservice_link }},
+            {{ ldmjupyter_link }} and their sub-pages.
+            {%- endtrans -%}
+        </p>
+        </p>
+        <p>{{ _("These websites are mostly compatible with the requirements of the harmonized European standard EN 301 549 V2.1.2 (08-2018) and WCAG 2.1 (Web Content Accessibility Guidelines).") }}</p>
+        <h2 id="non-accessible-content">{{ _("Non-accessible content:") }}</h2>
+        <ol>
+            <li>{{ _("Contents that the TIB, in its function as a cultural heritage collection, is unable to convert into barrier-free content or can only do so at disproportionate expense.") }}</li>
+            <li>{{ _("Contents that are considered as archives of the TIB, i.e. contents that are neither required for active administrative procedures nor updated or revised after 23 September 2019.") }}</li>
+            <li>{{ _("Information integrated into the website, in particular:") }}</li>
+            <ul>
+                <li>{{ _("PDF documents") }}</li>
+                <li>{{ _("Videos") }}</li>
+                <li>{{ _("Texts") }}</li>
+                <li>{{ _("Graphics") }}</li>
+                <li>{{ _("Photos") }}</li>
+            </ul>
+        </ol>
+        <p><strong>{{ _("The listed contents are not barrier-free for the following reasons:") }}</strong></p>
+        <p>{{ _("To 1 & 2:") }}</p>
+        <p>{{ _("These contents are excluded from the application of accessibility according to § 9 section 2 NBGG.") }}</p>
+        <p>{{ _("To 3:") }}</p>
+        <p>{{ _("The website is being adapted and optimized to comply with the EU Directive 2016/2102 on the implementation of a barrier-free Internet for public sector bodies. The identified deficits and deficiencies are currently undergoing a continuous improvement process that will be successively processed.") }}</p>
+
+        <h2 id="establishment-of-this-accessibility-statement">{{ _("Establishment of this Accessibility Statement") }}</h2>
+        <p>{{ _("This statement was established on 18 August 2020. The assessment is based on self-assessment.") }}</p>
+
+        <h2 id="feedback-and-contact-details">{{ _("Feedback and contact details") }}</h2>
+        <p>{{ _("You can report cases of non-compliance with accessibility requirements to us:") }}</p>
+        <p>
+            <strong>Technische Informationsbibliothek (TIB)</strong><br>
+            Vertrauensperson der TIB für schwerbehinderte Menschen<br>
+            Postfach 60 80, 30060 Hannover</p>
+        <p>
+            {{ _("Phone") }}: +49 (0)511 762-17806<br>
+            {{ _("EMail") }}: <a href="mailto:SBV@tib.eu">SBV@tib.eu</a>
+        </p>
+
+        <h2 id="arbitration-procedure">{{ _("Arbitration procedure") }}</h2>
+        <p>{{ _("If you are not satisfied with the answers of our above-mentioned contact point, you can contact the arbitration office, which is located at the State Representative for People with Disabilities in Lower Saxony, for the initiation of an arbitration procedure in accordance with the Niedersächsisches Behindertengleichstellungsgesetz (Disability Equality Act of Lower Saxony) (NBGG).") }}</p>
+        <p>{{ _("The arbitration office has the task according to § 9 d NBGG of settling disputes between people with disabilities and public institutions of the state of Lower Saxony on the topic of accessibility in IT.") }}</p>
+        <p>{{ _("The arbitration procedure is free of charge. No legal counsels are required.") }}</p>
+        <p>{{ _("You can contact the arbitration office directly at:") }}</p>
+        <p>
+            {{ _("Phone") }}: +49 (0)511/120-4010<br>
+            {{ _("EMail") }}: <a href="mailto:schlichtungsstelle@ms.niedersachsen.de">schlichtungsstelle@ms.niedersachsen.de</a>
+        </p>
+    </div>
+</article>
 
 {% endblock %}
 
