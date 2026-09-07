@@ -1,4 +1,4 @@
-# Makefile for managing the translations of ckanext-downloadall
+# Makefile for managing the translations of ckanext-theme_ldm_tib
 
 .PHONY: help extract update compile
 
