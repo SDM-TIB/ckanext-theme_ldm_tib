@@ -1,6 +1,5 @@
 {% extends "page.html" %}
 {% import 'macros/form.html' as form %}
-{% set current_lang = request.environ.CKAN_LANG %}
 
 {% block subtitle %}{{ _('API') }}{% endblock %}
 
@@ -9,31 +8,105 @@
 {% endblock %}
 
 {% block primary %}
-    <article class="module" role="main">
-        <div class="module-content">
-            {% if not h.tibtheme_styled_header_enabled() and h.tibtheme_is_TIBservice_instance():%}
-                <img id="tib_event_logo" src="{{asset_path}}images/tib_datamanager_1150.jpg" alt="TIB Leibniz Data Manager Logo" class="img-responsive">
-            {% endif %}
+<article class="module" role="main">
+    <div class="module-content">
+        {% if not h.tibtheme_styled_header_enabled() and h.tibtheme_is_TIBservice_instance():%}
+            <img id="tib_event_logo" src="{{asset_path}}images/tib_datamanager_1150.jpg" alt="TIB Leibniz Data Manager Logo" class="img-responsive">
+        {% endif %}
 
-            {% snippet 'home/snippets/api_text.html' %}
+        <h1 class="page-heading">{{ _("APIs offered by the Leibniz Data Manager") }}</h1>
+        <p>{{ _("The <strong>Leibniz Data Manager (LDM)</strong> is an open-source and free web-based application for Research Data Management (RDM). To facilitate integration with external tools and workflows, the LDM offers a series of APIs that fulfil various data management purposes.") }}</p>
+        <p>{{ _("The APIs offered can be applied in the following areas:") }}</p>
+        <ul>
+            <li>
+                <b>{{ _("Service for Data Comparison") }}:</b> {{ _("This API enables direct side-by-side comparison of CSV datasets. Upload two or more CSV files, join them on a shared key column, and explore the result in a filterable table. Visualisations can be rendered as line, scatter, or bar charts with an optional logarithmic scale.") }}
+                <ul>
+                    <li>{{ _("Incremental resource loading — start with a single CSV and join additional files one at a time") }}</li>
+                    <li>{{ _("Automatic left-join on the first shared column across datasets") }}</li>
+                    <li>{{ _("Filterable table with column-level search and pagination (DataTables)") }}</li>
+                    <li>{{ _("Interactive charts with selectable series and filtering to currently visible rows (Plotly)") }}</li>
+                    <li>{{ _("Available as a Docker container or a local Python application") }}</li>
+                </ul>
+                {{ _("This API is available on") }}&nbsp;<a href="https://github.com/SDM-TIB/FAIR_RDM_APIs/tree/main/data_comparison" title="GitHub" target="_blank" class="external-link-new-window">GitHub</a>.
+            </li>
+            <li>
+                <b>{{ _("Service for Jupyter Notebook Execution") }}:</b> {{ _("A containerised, multi-user JupyterHub instance with a unified REST API for notebook management. Designed for integration into external applications that need to spawn temporary Jupyter environments and serve notebooks to end users.") }}
+                <ul>
+                    <li>{{ _("Configurable pool of guest users for concurrent sessions (e.g. <code>guest0..guestN</code>)") }}</li>
+                    <li>{{ _("Automatic cleanup of idle servers with configurable timeouts and kernel lifecycle management") }}</li>
+                    <li>{{ _("Per-container resource limits for CPU, memory, and disk") }}</li>
+                    <li>{{ _("Admin dashboard for configuring limits and monitoring active sessions") }}</li>
+                    <li>{{ _("Unified REST API on a single port for all operations") }}</li>
+                </ul>
+                {{ _("This API is available on") }}&nbsp;<a href="https://github.com/SDM-TIB/jupyterhub-standalone/tree/d37bb1f3746b3b51ed7653bf5d6e4eb770f2c13a" title="GitHub" target="_blank" class="external-link-new-window">GitHub</a>.
+            </li>
+            <li>
+                <b>{{ _("Service for Knowledge Graph Creation") }}:</b> {{ _("This API transforms heterogeneous data sources into RDF knowledge graphs using SDM-RDFizer executed with RML mappings. RML (RDF Mapping Language) is a declarative language for defining how data elements from sources such as CSV, JSON, or XML correspond to RDF subjects, predicates, and objects. The API allows users to submit datasets and RML mapping rules, automatically execute the transformation process, and output the resulting knowledge graph to a specified folder.") }}
+                <ul>
+                    <li>{{ _("Supports heterogeneous source formats (CSV, JSON, XML, relational databases)") }}</li>
+                    <li>{{ _("Automated RDF triple generation based on RML mapping rules") }}</li>
+                    <li>{{ _("Knowledge graph output to a configurable folder") }}</li>
+                </ul>
+                {{ _("This API is available on") }}&nbsp;<a href="https://github.com/SDM-TIB/FAIR_RDM_APIs/tree/main/knowledge_graph_managment/knowledge_graph_creation/api" title="GitHub" target="_blank" class="external-link-new-window">GitHub</a>.
+            </li>
+            <li>
+                <b>{{ _("Service for Knowledge Graph Integration") }}:</b> {{ _("This API maps dataset metadata properties to those defined in a mapping template. The purpose of this service is to map dataset metadata to the structure required by the dataset template of the Leibniz Data Manager (LDM), facilitating easier import of datasets into the platform.") }}
+                <ul>
+                    <li>{{ _("User-defined mapping templates for linking existing metadata properties") }}</li>
+                    <li>{{ _("Support for nested metadata structures via iterator configuration") }}</li>
+                    <li>{{ _("Generates a structured output file compatible with the LDM dataset template") }}</li>
+                </ul>
+                {{ _("This API is available on") }}&nbsp;<a href="https://github.com/SDM-TIB/FAIR_RDM_APIs/tree/main/knowledge_graph_managment/knowledge_graph_integration/api" title="GitHub" target="_blank" class="external-link-new-window">GitHub</a>.
+            </li>
+            <li>
+                <b>{{ _("Service for Knowledge Graph Exploration") }}:</b> {{ _("This API returns metadata about datasets associated with a scientific publication or an author's ORCID. It supports both single-entry lookups and batch processing of multiple DOIs in a single request.") }}
+                <ul>
+                    <li>{{ _("Retrieve dataset metadata by DOI — individually or as a batch of multiple DOIs") }}</li>
+                    <li>{{ _("Retrieve dataset metadata by an author's ORCID") }}</li>
+                    <li>{{ _("Retrieve datasets citing an author's work, identified by ORCID") }}</li>
+                    <li>{{ _("Supports both GET and POST requests") }}</li>
+                </ul>
+                {{ _("This API is available on") }}&nbsp;<a href="https://github.com/SDM-TIB/FAIR_RDM_APIs/tree/main/knowledge_graph_managment/knowledge_graph_exploration/api" title="GitHub" target="_blank" class="external-link-new-window">GitHub</a>.
+            </li>
+        </ul>
 
-            {% if not h.tibtheme_styled_footer_enabled() and h.tibtheme_is_TIBservice_instance() %}
-                <div class="ldm_about_foot">
-                    <ul class="list-inline">
-                        <li>
-                            <a target="_blank" href="https://www.tib.eu"><img alt="TIB Logo" src="{{asset_path}}images/tib_logo_weiss_footer.png"></a>
-                        </li>
-                        <li>
-                            <a target="_blank" href="http://www.leibniz-gemeinschaft.de"><img alt="Logo Leibniz-Gemeinschaft" src="{{asset_path}}images/logo_leibniz_mitglied.png"></a>
-                        </li>
-                        <li>
-                            <a target="_blank" href="https://www.dfg.de/"><img style="width: 240px" alt="Logo Deustche Forschungsgemeinschaft" src="{{asset_path}}images/dfg_logo_schriftzug_weiss_foerderung_en.gif"></a>
-                        </li>
-                    </ul>
-                </div>
-            {% endif %}
-        </div>
-    </article>
+        {%- set github_link -%}
+        <a href="https://github.com/SDM-TIB/FAIR_RDM_APIs" title="GitHub" target="_blank" class="external-link-new-window">GitHub</a>
+        {%- endset -%}
+        <p>
+            {%- trans github_link=github_link -%}
+                All available APIs can be found in this {{ github_link }} repository.
+            {%- endtrans -%}
+        </p>
+
+        {%- set contact_link -%}
+        <a href="mailto:service.ldm@tib.eu">service.ldm@tib.eu</a>
+        {%- endset -%}
+        <p>
+            {%- trans contact_link=contact_link -%}
+                Please, contact us at {{ contact_link }} if you have comments or questions.
+            {%- endtrans -%}
+        </p>
+        <p>&nbsp;</p>
+
+
+        {% if not h.tibtheme_styled_footer_enabled() and h.tibtheme_is_TIBservice_instance() %}
+            <div class="ldm_about_foot">
+                <ul class="list-inline">
+                    <li>
+                        <a target="_blank" href="https://www.tib.eu"><img alt="TIB Logo" src="{{asset_path}}images/tib_logo_weiss_footer.png"></a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="http://www.leibniz-gemeinschaft.de"><img alt="Logo Leibniz-Gemeinschaft" src="{{asset_path}}images/logo_leibniz_mitglied.png"></a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.dfg.de/"><img style="width: 240px" alt="Logo Deustche Forschungsgemeinschaft" src="{{asset_path}}images/dfg_logo_schriftzug_weiss_foerderung_en.gif"></a>
+                    </li>
+                </ul>
+            </div>
+        {% endif %}
+    </div>
+</article>
 {% endblock %}
 
 {% block secondary %}{% endblock %}

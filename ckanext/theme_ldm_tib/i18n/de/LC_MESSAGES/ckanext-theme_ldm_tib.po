@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme_ldm_tib 1.1.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-07 13:28+0200\n"
+"POT-Creation-Date: 2026-09-08 10:18+0200\n"
 "PO-Revision-Date: 2026-09-05 12:37+0200\n"
 "Last-Translator: Philipp D. Rohde\n"
 "Language: de\n"
@@ -104,8 +104,8 @@ msgid "Demo"
 msgstr "Demo"
 
 #: ckanext/theme_ldm_tib/templates/header.html:75
-#: ckanext/theme_ldm_tib/templates/home/api.html:5
-#: ckanext/theme_ldm_tib/templates/home/api.html:8
+#: ckanext/theme_ldm_tib/templates/home/api.html:4
+#: ckanext/theme_ldm_tib/templates/home/api.html:7
 msgid "API"
 msgstr "API"
 
@@ -192,19 +192,19 @@ msgstr ""
 "%(ss)sRechtliche Hinweise:%(se)s Dies ist die Liste der Links, die in der"
 " Fußzeile der Seite platziert sind."
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:5
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:8
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:14
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:4
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:7
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:13
 #: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:39
 #: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:40
 msgid "Accessibility Statement"
 msgstr "Erklärung zur Barrierefreiheit"
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:15
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:14
 msgid "Date of this declaration: 21.03.2022"
 msgstr "Stand der Erklärung: 21.03.2022"
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:16
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:15
 msgid ""
 "Information on the accessibility of these web pages and its contact "
 "details in accordance with § 9b NBGG."
@@ -212,7 +212,7 @@ msgstr ""
 "Informationen über die Zugänglichkeit dieser Webseiten gemäß § 9b NBGG "
 "sowie über diesbezügliche Kontaktmöglichkeiten."
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:24
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:23
 #, python-format
 msgid ""
 "This accessibility statement applies to %(ldmservice_link)s, "
@@ -221,7 +221,7 @@ msgstr ""
 "Diese Erklärung zur Barrierefreiheit gilt für %(ldmservice_link)s, "
 "%(ldmjupyter_link)s und deren Unterseiten."
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:30
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:29
 msgid ""
 "These websites are mostly compatible with the requirements of the "
 "harmonized European standard EN 301 549 V2.1.2 (08-2018) and WCAG 2.1 "
@@ -231,11 +231,11 @@ msgstr ""
 "Norm EN 301 549 V2.1.2 (08-2018) und des WCAG 2.1 (Web Content "
 "Accessibility Guidelines) größtenteils vereinbar."
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:31
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:30
 msgid "Non-accessible content:"
 msgstr "Nicht barrierefreie Inhalte:"
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:33
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:32
 msgid ""
 "Contents that the TIB, in its function as a cultural heritage collection,"
 " is unable to convert into barrier-free content or can only do so at "
@@ -245,7 +245,7 @@ msgstr ""
 "oder nur durch unverhältnismäßigem Aufwand barrierefrei umgewandelt "
 "werden können."
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:34
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:33
 msgid ""
 "Contents that are considered as archives of the TIB, i.e. contents that "
 "are neither required for active administrative procedures nor updated or "
@@ -255,39 +255,39 @@ msgstr ""
 "aktive Verwaltungsverfahren benötigt werden noch nach dem 23. September "
 "2019 aktualisiert oder überarbeitet wurden."
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:35
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:34
 msgid "Information integrated into the website, in particular:"
 msgstr "In den Webauftritt eingebundene Informationen, insbesondere:"
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:37
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:36
 msgid "PDF documents"
 msgstr "PDF-Dokumente"
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:38
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:37
 msgid "Videos"
 msgstr "Videos"
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:39
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:38
 msgid "Texts"
 msgstr "Texte"
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:40
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:39
 msgid "Graphics"
 msgstr "Grafiken"
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:41
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:40
 msgid "Photos"
 msgstr "Fotos"
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:44
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:43
 msgid "The listed contents are not barrier-free for the following reasons:"
 msgstr "Die aufgeführten Inhalte sind aus folgenden Gründen nicht barrierefrei:"
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:45
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:44
 msgid "To 1 & 2:"
 msgstr "Zu 1. & 2.:"
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:46
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:45
 msgid ""
 "These contents are excluded from the application of accessibility "
 "according to § 9 section 2 NBGG."
@@ -295,11 +295,11 @@ msgstr ""
 "Diese Inhalte sind von der Anwendung der Barrierefreiheit ausgenommen "
 "gemäß § 9 Absatz 2 NBGG."
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:47
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:46
 msgid "To 3:"
 msgstr "Zu 3.:"
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:48
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:47
 msgid ""
 "The website is being adapted and optimized to comply with the EU "
 "Directive 2016/2102 on the implementation of a barrier-free Internet for "
@@ -312,11 +312,11 @@ msgstr ""
 "Die identifizierten Defizite und Mängel befinden sich aktuell in einem "
 "kontinuierlichen Verbesserungsprozess, der sukzessive abgearbeitet wird."
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:50
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:49
 msgid "Establishment of this Accessibility Statement"
 msgstr "Erstellung dieser Erklärung zur Barrierefreiheit"
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:51
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:50
 msgid ""
 "This statement was established on 18 August 2020. The assessment is based"
 " on self-assessment."
@@ -324,11 +324,11 @@ msgstr ""
 "Diese Erklärung wurde am 21.03.22 erstellt. Die Einschätzung basiert auf "
 "Selbstbewertung."
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:53
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:52
 msgid "Feedback and contact details"
 msgstr "Feedback und Kontaktangaben"
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:54
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:53
 msgid ""
 "You can report cases of non-compliance with accessibility requirements to"
 " us:"
@@ -336,23 +336,23 @@ msgstr ""
 "Über folgenden Kontakt können Sie Mängel in Bezug auf die Einhaltung der "
 "Barrierefreiheitsanforderungen mitteilen:"
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:60
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:70
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:59
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:69
 msgid "Phone"
 msgstr "Telefon"
 
 # | msgid "Email"
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:61
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:71
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:60
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:70
 #, fuzzy
 msgid "EMail"
 msgstr "E-Mail"
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:64
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:63
 msgid "Arbitration procedure"
 msgstr "Schlichtungsverfahren"
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:65
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:64
 msgid ""
 "If you are not satisfied with the answers of our above-mentioned contact "
 "point, you can contact the arbitration office, which is located at the "
@@ -368,7 +368,7 @@ msgstr ""
 "nach dem Niedersächsischen Behindertengleichstellungsgesetz (NBGG) "
 "stellen."
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:66
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:65
 msgid ""
 "The arbitration office has the task according to § 9 d NBGG of settling "
 "disputes between people with disabilities and public institutions of the "
@@ -380,7 +380,7 @@ msgstr ""
 "Schlichtungsverfahren ist kostenlos. Es muss kein Rechtsbeistand "
 "eingeschaltet werden."
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:67
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:66
 msgid ""
 "The arbitration procedure is free of charge. No legal counsels are "
 "required."
@@ -388,9 +388,259 @@ msgstr ""
 "Das Schiedsverfahren ist kostenlos. Es ist kein Rechtsbeistand "
 "erforderlich."
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:68
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:67
 msgid "You can contact the arbitration office directly at:"
 msgstr "Direkt kontaktieren können Sie die Schlichtungsstelle unter:"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:17
+msgid "APIs offered by the Leibniz Data Manager"
+msgstr "APIs angeboten vom Leibniz Data Manager"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:18
+msgid ""
+"The <strong>Leibniz Data Manager (LDM)</strong> is an open-source and "
+"free web-based application for Research Data Management (RDM). To "
+"facilitate integration with external tools and workflows, the LDM offers "
+"a series of APIs that fulfil various data management purposes."
+msgstr ""
+"Der <strong>Leibniz Data Manager (LDM)</strong> ist eine Open-Source- und"
+" frei verfügbare webbasierte Anwendung für Forschungsdatenmanagement "
+"(FDM). Um die Integration mit externen Werkzeugen und Arbeitsabläufen zu "
+"erleichtern, bietet der LDM eine Reihe von APIs an, die verschiedene "
+"Zwecke im Bereich des Datenmanagements erfüllen."
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:19
+msgid "The APIs offered can be applied in the following areas:"
+msgstr "Die angebotenen APIs können in den folgenden Bereichen eingesetzt werden:"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:22
+msgid "Service for Data Comparison"
+msgstr "Service für Datenvergleich"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:22
+msgid ""
+"This API enables direct side-by-side comparison of CSV datasets. Upload "
+"two or more CSV files, join them on a shared key column, and explore the "
+"result in a filterable table. Visualisations can be rendered as line, "
+"scatter, or bar charts with an optional logarithmic scale."
+msgstr ""
+"Diese API ermöglicht den direkten Vergleich von CSV-Datensätzen "
+"nebeneinander. Laden Sie zwei oder mehr CSV-Dateien hoch, verbinden Sie "
+"diese über eine gemeinsame Schlüsselspalte und erkunden Sie das Ergebnis "
+"in einer filterbaren Tabelle. Visualisierungen können als Linien-, Streu-"
+" oder Balkendiagramm mit optionaler logarithmischer Skala erstellt "
+"werden."
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:24
+msgid ""
+"Incremental resource loading — start with a single CSV and join "
+"additional files one at a time"
+msgstr ""
+"Schrittweises Laden von Ressourcen – beginnen Sie mit einer einzelnen "
+"CSV-Datei und ergänzen Sie weitere"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:25
+msgid "Automatic left-join on the first shared column across datasets"
+msgstr "Automatischer Left-Join über die erste gemeinsame Spalte"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:26
+msgid "Filterable table with column-level search and pagination (DataTables)"
+msgstr ""
+"Filterbare Tabelle mit spaltenbasierter Suche und Seitennavigation "
+"(DataTables)"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:27
+msgid ""
+"Interactive charts with selectable series and filtering to currently "
+"visible rows (Plotly)"
+msgstr ""
+"Interaktive Diagramme mit wählbaren Serien und Filterung auf sichtbare "
+"Zeilen (Plotly)"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:28
+msgid "Available as a Docker container or a local Python application"
+msgstr "Verfügbar als Docker-Container oder lokale Python-Anwendung"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:30
+#: ckanext/theme_ldm_tib/templates/home/api.html:41
+#: ckanext/theme_ldm_tib/templates/home/api.html:50
+#: ckanext/theme_ldm_tib/templates/home/api.html:59
+#: ckanext/theme_ldm_tib/templates/home/api.html:69
+msgid "This API is available on"
+msgstr "Diese API ist verfügbar auf"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:33
+msgid "Service for Jupyter Notebook Execution"
+msgstr "Service für die Ausführung von Jupyter Notebooks"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:33
+msgid ""
+"A containerised, multi-user JupyterHub instance with a unified REST API "
+"for notebook management. Designed for integration into external "
+"applications that need to spawn temporary Jupyter environments and serve "
+"notebooks to end users."
+msgstr ""
+"Eine containerisierte, multiuserfähige JupyterHub-Instanz mit einer "
+"einheitlichen REST-API zur Verwaltung von Notebooks. Entwickelt für die "
+"Integration in externe Anwendungen, die temporäre Jupyter-Umgebungen "
+"starten und Notebooks für Endnutzer bereitstellen müssen."
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:35
+msgid ""
+"Configurable pool of guest users for concurrent sessions (e.g. "
+"<code>guest0..guestN</code>)"
+msgstr ""
+"Pool konfigurierbarer Gastnutzer für gleichzeitige Sitzungen (z.&nbsp;B. "
+"<code>guest0..guestN</code>)"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:36
+msgid ""
+"Automatic cleanup of idle servers with configurable timeouts and kernel "
+"lifecycle management"
+msgstr ""
+"Automatische Bereinigung inaktiver Server mit konfigurierbaren Zeitlimits"
+" und Kernel-Lebenszyklusverwaltung"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:37
+msgid "Per-container resource limits for CPU, memory, and disk"
+msgstr ""
+"Pro-Container-Ressourcenlimits für CPU, Arbeitsspeicher und "
+"Festplattenplatz"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:38
+msgid "Admin dashboard for configuring limits and monitoring active sessions"
+msgstr ""
+"Admin-Dashboard zur Konfiguration von Limits und Überwachung aktiver "
+"Sitzungen"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:39
+msgid "Unified REST API on a single port for all operations"
+msgstr "Einheitliche REST-API über einen einzigen Port für alle Operationen"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:44
+msgid "Service for Knowledge Graph Creation"
+msgstr "Service zur Erstellung von Knowledge Graphs"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:44
+msgid ""
+"This API transforms heterogeneous data sources into RDF knowledge graphs "
+"using SDM-RDFizer executed with RML mappings. RML (RDF Mapping Language) "
+"is a declarative language for defining how data elements from sources "
+"such as CSV, JSON, or XML correspond to RDF subjects, predicates, and "
+"objects. The API allows users to submit datasets and RML mapping rules, "
+"automatically execute the transformation process, and output the "
+"resulting knowledge graph to a specified folder."
+msgstr ""
+"Diese API transformiert heterogene Datenquellen mithilfe von SDM-RDFizer "
+"und RML-Mappings in RDF-Knowledge-Graphs. RML (RDF Mapping Language) ist "
+"eine deklarative Sprache, mit der definiert wird, wie Datenelemente aus "
+"Quellen wie CSV, JSON oder XML auf RDF-Subjekte, Prädikate und Objekte "
+"abgebildet werden. Die API ermöglicht es Nutzern, Datensätze und RML-"
+"Mappingregeln einzureichen, den Transformationsprozess automatisch "
+"auszuführen und den resultierenden Knowledge Graph in einen angegebenen "
+"Ausgabeordner zu exportieren."
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:46
+msgid ""
+"Supports heterogeneous source formats (CSV, JSON, XML, relational "
+"databases)"
+msgstr ""
+"Unterstützt heterogene Quellformate (CSV, JSON, XML, relationale "
+"Datenbanken)"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:47
+msgid "Automated RDF triple generation based on RML mapping rules"
+msgstr "Automatisierte RDF-Tripel-Generierung auf Basis von RML-Mappingregeln"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:48
+msgid "Knowledge graph output to a configurable folder"
+msgstr "Ausgabe des Knowledge Graphs in einen konfigurierbaren Ordner"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:53
+msgid "Service for Knowledge Graph Integration"
+msgstr "Service zur Integration von Knowledge Graphs"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:53
+msgid ""
+"This API maps dataset metadata properties to those defined in a mapping "
+"template. The purpose of this service is to map dataset metadata to the "
+"structure required by the dataset template of the Leibniz Data Manager "
+"(LDM), facilitating easier import of datasets into the platform."
+msgstr ""
+"Diese API bildet Metadateneigenschaften von Datensätzen auf diejenigen "
+"ab, die in einer Mapping-Vorlage definiert sind. Der Zweck dieses "
+"Services besteht darin, Metadaten von Datensätzen auf die Struktur "
+"abzubilden, die von der Datensatzvorlage des Leibniz Data Managers (LDM) "
+"verlangt wird, um den Import von Datensätzen in die Plattform zu "
+"erleichtern."
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:55
+msgid "User-defined mapping templates for linking existing metadata properties"
+msgstr ""
+"Nutzerdefinierte Mapping-Vorlagen zur Verknüpfung vorhandener "
+"Metadateneigenschaften"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:56
+msgid "Support for nested metadata structures via iterator configuration"
+msgstr ""
+"Unterstützung für verschachtelte Metadatenstrukturen über Iterator-"
+"Konfiguration"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:57
+msgid ""
+"Generates a structured output file compatible with the LDM dataset "
+"template"
+msgstr ""
+"Erzeugung einer strukturierten Ausgabedatei, die mit dem LDM-Template "
+"kompatibel ist"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:62
+msgid "Service for Knowledge Graph Exploration"
+msgstr "Service zur Exploration von Knowledge Graphs"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:62
+msgid ""
+"This API returns metadata about datasets associated with a scientific "
+"publication or an author's ORCID. It supports both single-entry lookups "
+"and batch processing of multiple DOIs in a single request."
+msgstr ""
+"Diese API liefert Metadaten zu Datensätzen, die mit einer "
+"wissenschaftlichen Publikation oder mit der ORCID eines Autors verbunden "
+"sind. Sie unterstützt sowohl die Abfrage einzelner Einträge als auch die "
+"Stapelverarbeitung mehrerer DOIs in einem einzigen Aufruf."
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:64
+msgid ""
+"Retrieve dataset metadata by DOI — individually or as a batch of multiple"
+" DOIs"
+msgstr ""
+"Abfrage von Datensatzmetadaten anhand einer DOI (einzeln oder als Batch "
+"mehrerer DOIs)"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:65
+msgid "Retrieve dataset metadata by an author's ORCID"
+msgstr "Abfrage von Datensatzmetadaten anhand der ORCID eines Autors"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:66
+msgid "Retrieve datasets citing an author's work, identified by ORCID"
+msgstr "Abruf von Datensätzen, die Werke eines Autors zitieren, anhand der ORCID"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:67
+msgid "Supports both GET and POST requests"
+msgstr "Unterstützt sowohl GET- als auch POST-Anfragen"
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:77
+#, python-format
+msgid "All available APIs can be found in this %(github_link)s repository."
+msgstr "Alle verfügbaren APIs finden Sie in diesem %(github_link)s-Repository."
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:86
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:33
+#, python-format
+msgid "Please, contact us at %(contact_link)s if you have comments or questions."
+msgstr ""
+"Bitte kontaktieren Sie uns unter %(contact_link)s, wenn Sie Kommentare "
+"oder Fragen haben."
 
 #: ckanext/theme_ldm_tib/templates/home/data_privacy.html:5
 #: ckanext/theme_ldm_tib/templates/home/data_privacy.html:8
@@ -652,13 +902,6 @@ msgid ""
 msgstr ""
 "Weitere Informationen über das LDM-Projekt finden Sie auf der "
 "%(tib_link)s und den zuletzt aktualisierten Code im %(github_link)s."
-
-#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:33
-#, python-format
-msgid "Please, contact us at %(contact_link)s if you have comments or questions."
-msgstr ""
-"Bitte kontaktieren Sie uns unter %(contact_link)s, wenn Sie Kommentare "
-"oder Fragen haben."
 
 #: ckanext/theme_ldm_tib/templates/home/snippets/data_privacy_de.html:185
 #: ckanext/theme_ldm_tib/templates/home/snippets/data_privacy_en.html:169
@@ -989,26 +1232,4 @@ msgstr "Aktivitätsanzeige"
 #: ckanext/theme_ldm_tib/templates/user/read_base.html:7
 msgid "API Tokens"
 msgstr "API Token"
-
-#~ msgid ""
-#~ "LDM is publicly accessible at <a "
-#~ "href=\"%(ldm_url)s\">%(ldm_url)s</a>, and a "
-#~ "<strong>Docker container</strong> for local "
-#~ "deployment is available at <a "
-#~ "href=\"%(docker_url)s\">%(docker_url)s</a>"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The upload and description of dataset"
-#~ " metadata require registration. More "
-#~ "detailed information in <a "
-#~ "href=\"%(register_url)s\">%(register_url)s</a>."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "For more details on using LDM, "
-#~ "visit the <a href=\"%(demo_url)s\">Demo "
-#~ "page</a> or watch the following "
-#~ "explanatory <a href=\"%(video_url)s\">video</a>."
-#~ msgstr ""
 
