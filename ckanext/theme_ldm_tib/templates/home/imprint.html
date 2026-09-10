@@ -1,6 +1,5 @@
 {% extends "page.html" %}
 {% import 'macros/form.html' as form %}
-{% set current_lang = request.environ.CKAN_LANG %}
 
 {% block subtitle %}{{ _('Imprint') }}{% endblock %}
 
@@ -12,7 +11,34 @@
     <article class="module" role="main">
         <div class="module-content">
             <h1 class="">{{_('Imprint')}}</h1>
-            {% snippet "home/snippets/imprint.html", current_lang=current_lang %}
+            <p>{{ _("Imprint for this website – also serves as provider identification according to § 5 Digital Services Act (DDG)") }}</p>
+            <h4>{{ _("Provider:") }}</h4>
+            <p>
+                Technische Informationsbibliothek (TIB)<br>
+                Welfengarten 1 B, 30167 Hannover<br>
+                Postfach 6080, 30060 Hannover<br>
+                {{ _("Germany") }}
+            </p>
+            <h4>{{ _("Authorised Representative:") }}</h4>
+            <p>Prof. Dr. Sören Auer ({{ _("Director of TIB") }})<br><br>{{ _("Technische Informationsbibliothek (TIB) is a foundation of public law of the state of Lower Saxony.") }}</p>
+            <h4>{{ _("Responsible Supervisory Authority:") }}</h4>
+            <p>{{ _("Ministry for Science and Culture of Lower Saxony") }}</p>
+            <h4>{{ _("Contact") }}:</h4>
+            <p>
+                {{ _("Phone") }}: +49 511 762-2268<br>
+                {{ _("Email") }}: <a href="mailto: information@tib.eu">information@tib.eu</a>
+            </p>
+            <h4>{{ _("VAT (sales tax) registration number") }}:</h4>
+            <p>DE 214931803</p>
+            <h4>{{ _("Editorial Office") }}:</h4>
+            <p>
+                {{ _("Responsible for the content according to § 18 Abs. 2 MStV") }}:<br>
+                Dr. Sandra Niemeyer; {{ _("Email") }}: <a href="mailto:sandra.niemeyer@tib.eu">sandra.niemeyer@tib.eu</a><br>
+                Michael Hohlfeld; {{ _("Email") }}: <a href="mailto:michael.hohlfeld@tib.eu">michael.hohlfeld@tib.eu</a><br>
+            </p>
+            <h4>{{ _("Copyright") }}:</h4>
+            <p>{{ _("The layout of this website is protected under copyright, as are the graphics and all other contents contained in the website.") }}</p>
+
         </div>
     </article>
 

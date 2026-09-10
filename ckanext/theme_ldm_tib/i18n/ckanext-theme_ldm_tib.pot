@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme_ldm_tib 1.1.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-10 13:49+0200\n"
+"POT-Creation-Date: 2026-09-10 14:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -268,6 +268,7 @@ msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:59 ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:69
 #: ckanext/theme_ldm_tib/templates/home/data_privacy.html:31 ckanext/theme_ldm_tib/templates/home/data_privacy.html:40
+#: ckanext/theme_ldm_tib/templates/home/imprint.html:28
 msgid "Phone"
 msgstr ""
 
@@ -505,11 +506,12 @@ msgid "The controller under data protection law shall be:"
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/home/data_privacy.html:28 ckanext/theme_ldm_tib/templates/home/data_privacy.html:49
-#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:56
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:56 ckanext/theme_ldm_tib/templates/home/imprint.html:20
 msgid "Germany"
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/home/data_privacy.html:32 ckanext/theme_ldm_tib/templates/home/data_privacy.html:41
+#: ckanext/theme_ldm_tib/templates/home/imprint.html:29 ckanext/theme_ldm_tib/templates/home/imprint.html:36 ckanext/theme_ldm_tib/templates/home/imprint.html:37
 #: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:10 ckanext/theme_ldm_tib/templates/user/new_user_form.html:27
 msgid "Email"
 msgstr ""
@@ -918,9 +920,61 @@ msgid ""
 "feature is capable of producing different plots putting selected attributes into perspective."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/imprint.html:5 ckanext/theme_ldm_tib/templates/home/imprint.html:8 ckanext/theme_ldm_tib/templates/home/imprint.html:14
+#: ckanext/theme_ldm_tib/templates/home/imprint.html:4 ckanext/theme_ldm_tib/templates/home/imprint.html:7 ckanext/theme_ldm_tib/templates/home/imprint.html:13
 #: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:31 ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:32
 msgid "Imprint"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/imprint.html:14
+msgid "Imprint for this website – also serves as provider identification according to § 5 Digital Services Act (DDG)"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/imprint.html:15
+msgid "Provider:"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/imprint.html:22
+msgid "Authorised Representative:"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/imprint.html:23
+msgid "Director of TIB"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/imprint.html:23
+msgid "Technische Informationsbibliothek (TIB) is a foundation of public law of the state of Lower Saxony."
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/imprint.html:24
+msgid "Responsible Supervisory Authority:"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/imprint.html:25
+msgid "Ministry for Science and Culture of Lower Saxony"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/imprint.html:26
+msgid "Contact"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/imprint.html:31
+msgid "VAT (sales tax) registration number"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/imprint.html:33
+msgid "Editorial Office"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/imprint.html:35
+msgid "Responsible for the content according to § 18 Abs. 2 MStV"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/imprint.html:39
+msgid "Copyright"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/imprint.html:40
+msgid "The layout of this website is protected under copyright, as are the graphics and all other contents contained in the website."
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:5 ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:8
