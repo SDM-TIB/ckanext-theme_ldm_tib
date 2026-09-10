@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme_ldm_tib 1.1.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-10 13:07+0200\n"
+"POT-Creation-Date: 2026-09-10 13:49+0200\n"
 "PO-Revision-Date: 2026-09-05 12:37+0200\n"
 "Last-Translator: Philipp D. Rohde\n"
 "Language: de\n"
@@ -98,8 +98,8 @@ msgid "About"
 msgstr "Über"
 
 #: ckanext/theme_ldm_tib/templates/header.html:74
-#: ckanext/theme_ldm_tib/templates/home/demo.html:5
-#: ckanext/theme_ldm_tib/templates/home/demo.html:8
+#: ckanext/theme_ldm_tib/templates/home/demo.html:4
+#: ckanext/theme_ldm_tib/templates/home/demo.html:7
 msgid "Demo"
 msgstr "Demo"
 
@@ -637,6 +637,7 @@ msgid "All available APIs can be found in this %(github_link)s repository."
 msgstr "Alle verfügbaren APIs finden Sie in diesem %(github_link)s-Repository."
 
 #: ckanext/theme_ldm_tib/templates/home/api.html:86
+#: ckanext/theme_ldm_tib/templates/home/demo.html:42
 #: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:33
 #, python-format
 msgid "Please, contact us at %(contact_link)s if you have comments or questions."
@@ -1240,6 +1241,190 @@ msgstr ""
 "können jederzeit bei oben angegebener Aufsichtsbehörde vorgebracht "
 "werden. Hierzu sowie zu weiteren Fragen zum Thema personenbezogene Daten "
 "können Sie sich jederzeit an uns wenden."
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:15
+msgid "LDM Demo"
+msgstr "LDM-Demo"
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:16
+msgid ""
+"This demo presents the Leibniz Data Manager (LDM) and illustrates how "
+"Semantic Web technologies and  FAIR principles empower research data "
+"management. The demonstration shows how various digital objects are "
+"created and puts in perspective the crucial role of metadata in efficient"
+" and effective management and analysis of research data management."
+msgstr ""
+"Diese Demo präsentiert den Leibniz Data Manager (LDM) und "
+"veranschaulicht, wie Semantic-Web-Technologien und die FAIR-Prinzipien "
+"das Forschungsdatenmanagement unterstützen. Das Demo zeigt, wie "
+"verschiedene digitale Objekte erstellt werden und verdeutlicht die "
+"entscheidende Rolle von Metadaten für eine effiziente und effektive "
+"Verwaltung sowie Analyse von Forschungsdaten."
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:18
+msgid "demonstration"
+msgstr "Demonstration"
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:20
+#, python-format
+msgid "The %(demo_link)s comprises:"
+msgstr "Die %(demo_link)s umfasst:"
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:23
+msgid ""
+"This short paper is published in the WSDM '25: Proceedings of the "
+"Eighteenth ACM International Conference on Web Search and Data Mining "
+"(March 2025). It describes the main features of the Leibniz Data Manager,"
+msgstr ""
+"Dieses Kurzpapier ist veröffentlicht in den WSDM '25: Proceedings of the "
+"Eighteenth ACM International Conference on Web Search and Data Mining "
+"(März 2025). Es beschreibt die Hauptmerkmale des Leibniz Data Managers."
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:27
+msgid "A poster summarizing the project,"
+msgstr "Ein Poster mit einer Zusammenfassung des Projekts,"
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:31
+msgid "A video showing the LDM features."
+msgstr "Ein Video, das die Funktionen des LDM zeigt und"
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:35
+msgid ""
+"A Jupyter Notebook explaining the use of the LDM’s API (CKAN), for "
+"developers who want to write code that interacts with LDM instances and "
+"their data."
+msgstr ""
+"Ein Jupyter Notebook, das die Anwendung der LDM-API (CKAN) für Entwickler"
+" oder Entwicklerinnen erklärt, die Code schreiben wollen, der mit LDM-"
+"Instanzen und deren Daten interagiert."
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:45
+msgid "RDM Services in the LDM"
+msgstr "FDM-Services im LDM"
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:56
+msgid "Wikidata Explorer Feature"
+msgstr "Funktion des Wikidata-Explorers"
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:57
+msgid "Extend your dataset with information from Wikidata"
+msgstr "Erweitern Sie Ihren Datensatz mit Informationen aus Wikidata"
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:65
+msgid ""
+"With this feature the user is able to extend CSV datasets with existing "
+"information in the Wikidata KG. The tool applies entity linking to all "
+"concepts in the same column and enable the user to use the extracted "
+"entities to extend the dataset."
+msgstr ""
+"Mit dieser Funktion kann der Nutzer CSV-Datensätze um vorhandene "
+"Informationen aus dem Wikidata KG erweitern. Das Tool wendet die "
+"Entitätsverknüpfung auf alle Begriffe in derselben Spalte an und "
+"ermöglicht es dem Nutzer, die extrahierten Entitäten zur Erweiterung des "
+"Datensatzes zu verwenden."
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:66
+#: ckanext/theme_ldm_tib/templates/home/demo.html:95
+#: ckanext/theme_ldm_tib/templates/home/demo.html:124
+#: ckanext/theme_ldm_tib/templates/home/demo.html:156
+#: ckanext/theme_ldm_tib/templates/home/demo.html:185
+msgid "Here below is a demo video of how the tool works:"
+msgstr ""
+"Nachfolgend finden Sie ein Demo-Video, das die Funktionsweise des Tools "
+"veranschaulicht:"
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:70
+#: ckanext/theme_ldm_tib/templates/home/demo.html:99
+#: ckanext/theme_ldm_tib/templates/home/demo.html:128
+#: ckanext/theme_ldm_tib/templates/home/demo.html:160
+#: ckanext/theme_ldm_tib/templates/home/demo.html:189
+msgid "Your browser does not support the video tag."
+msgstr "Ihr Browser unterstützt das Video-Tag nicht."
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:85
+msgid "Federated Search"
+msgstr "Föderierte Suche"
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:86
+msgid "Retrieve answers from multiple ORKGs in a single query"
+msgstr "Antworten aus mehreren ORKGs in einer einzigen Abfrage abrufen"
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:94
+msgid ""
+"This feature enables users to execute SPARQL queries over a federation of"
+" ORKGs, i.e., retrieving answers from multiple KGs with a single query. "
+"DeTrusty decomposes the query and retrieves the answers from the "
+"appropriate KGs. The federation includes but is not limited to the LDM KG"
+" and the ORKG."
+msgstr ""
+"Diese Funktion ermöglicht es Benutzern, SPARQL-Abfragen über einen "
+"Verbund von ORKGs auszuführen, d. h., mit einer einzigen Abfrage "
+"Antworten aus mehreren KGs abzurufen. DeTrusty zerlegt die Abfrage und "
+"ruft die Antworten aus den entsprechenden KGs ab. Der Verbund umfasst "
+"unter anderem das LDM KG und das ORKG."
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:114
+msgid "Enhancing Links between ORKG KGs"
+msgstr "Stärkung der Verbindungen zwischen den ORKG KGs"
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:115
+msgid "Describe a dataset and its relations with scientific articles"
+msgstr ""
+"Beschreiben Sie einen Datensatz und dessen Zusammenhänge mit "
+"wissenschaftlichen Artikeln"
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:123
+msgid ""
+"By adding the DOI of the paper that defines the dataset to the LDM, a "
+"link to the corresponding paper in the ORKG will added to the dataset."
+msgstr ""
+"Durch Hinzufügen der DOI des Artikels, in dem der Datensatz beschrieben "
+"wird, zum LDM wird dem Datensatz ein Link zum entsprechenden Artikel in "
+"der ORKG hinzugefügt."
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:146
+msgid "Live Code"
+msgstr "Live-Code"
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:147
+msgid "Creating, sharing, and executing live code interactively"
+msgstr "Live-Code interaktiv erstellen, teilen und ausführen"
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:155
+msgid ""
+"This feature enables users to create, share, and execute live code "
+"interactively. We use JupyterHub, which allows multiple users to use the "
+"Jupyter Notebook and manages a separate Jupyter environment for each "
+"user. The feature facilitates exploratory data analysis and visualization"
+" of code outputs. Furthermore, it is ideal for teaching and data science."
+msgstr ""
+"Mit dieser Funktion können Nutzer interaktiv Live-Code erstellen, teilen "
+"und ausführen. Wir nutzen JupyterHub, das es mehreren Nutzern ermöglicht,"
+" das Jupyter-Notebook zu verwenden, und für jeden Nutzer eine eigene "
+"Jupyter-Umgebung verwaltet. Die Funktion erleichtert die explorative "
+"Datenanalyse und die Visualisierung von Code-Ausgaben. Darüber hinaus "
+"eignet sie sich ideal für den Unterricht und die Datenwissenschaft."
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:175
+msgid "Datasets Comparison"
+msgstr "Vergleich von Datensätzen"
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:176
+msgid "Compare data across multiple datasets"
+msgstr "Daten aus mehreren Datensätzen vergleichen"
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:184
+msgid ""
+"This feature enables users to compare the data of multiple CSV datasets. "
+"The feature allows the users to analyze the combined data in a table. "
+"Moreover, the feature is capable of producing different plots putting "
+"selected attributes into perspective."
+msgstr ""
+"Mit dieser Funktion können Benutzer die Daten mehrerer CSV-Datensätze "
+"vergleichen. Die Funktion ermöglicht es den Benutzern, die "
+"zusammengeführten Daten in einer Tabelle zu analysieren. Darüber hinaus "
+"kann die Funktion verschiedene Diagramme erstellen, die ausgewählte "
+"Attribute in einen Zusammenhang stellen."
 
 #: ckanext/theme_ldm_tib/templates/home/imprint.html:5
 #: ckanext/theme_ldm_tib/templates/home/imprint.html:8
