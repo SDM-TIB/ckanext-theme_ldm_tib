@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme_ldm_tib 1.1.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-11 11:25+0200\n"
+"POT-Creation-Date: 2026-09-11 14:34+0200\n"
 "PO-Revision-Date: 2026-09-05 12:37+0200\n"
 "Last-Translator: Philipp D. Rohde\n"
 "Language: de\n"
@@ -341,6 +341,7 @@ msgstr ""
 #: ckanext/theme_ldm_tib/templates/home/data_privacy.html:31
 #: ckanext/theme_ldm_tib/templates/home/data_privacy.html:40
 #: ckanext/theme_ldm_tib/templates/home/imprint.html:28
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:32
 msgid "Phone"
 msgstr "Telefon"
 
@@ -726,6 +727,8 @@ msgstr "Verantwortlicher im Sinne des Datenschutzrechts ist die:"
 #: ckanext/theme_ldm_tib/templates/home/data_privacy.html:49
 #: ckanext/theme_ldm_tib/templates/home/data_privacy.html:56
 #: ckanext/theme_ldm_tib/templates/home/imprint.html:20
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:25
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:26
 msgid "Germany"
 msgstr "Deutschland"
 
@@ -734,6 +737,7 @@ msgstr "Deutschland"
 #: ckanext/theme_ldm_tib/templates/home/imprint.html:29
 #: ckanext/theme_ldm_tib/templates/home/imprint.html:36
 #: ckanext/theme_ldm_tib/templates/home/imprint.html:37
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:33
 #: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:10
 #: ckanext/theme_ldm_tib/templates/user/new_user_form.html:27
 msgid "Email"
@@ -1453,10 +1457,12 @@ msgid "Provider:"
 msgstr "Herausgeber:"
 
 #: ckanext/theme_ldm_tib/templates/home/imprint.html:22
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:28
 msgid "Authorised Representative:"
 msgstr "Vertretungsberechtigte Person:"
 
 #: ckanext/theme_ldm_tib/templates/home/imprint.html:23
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:28
 msgid "Director of TIB"
 msgstr "Direktor der TIB"
 
@@ -1469,18 +1475,22 @@ msgstr ""
 "öffentlichen Rechts des Landes Niedersachsen."
 
 #: ckanext/theme_ldm_tib/templates/home/imprint.html:24
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:29
 msgid "Responsible Supervisory Authority:"
 msgstr "Aufsichtsbehörde:"
 
 #: ckanext/theme_ldm_tib/templates/home/imprint.html:25
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:29
 msgid "Ministry for Science and Culture of Lower Saxony"
 msgstr "Ministerium für Wissenschaft und Kultur des Landes Niedersachsen"
 
 #: ckanext/theme_ldm_tib/templates/home/imprint.html:26
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:31
 msgid "Contact"
 msgstr "Kontakt"
 
 #: ckanext/theme_ldm_tib/templates/home/imprint.html:31
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:35
 msgid "VAT (sales tax) registration number"
 msgstr "Umsatzsteuer-Identifikationsnummer"
 
@@ -1664,10 +1674,518 @@ msgstr ""
 "neue Nutzende den Administrator fragen, ob er oder sie seine E-Mail-"
 "Adresse und persönlichen Daten mitbringen darf."
 
-#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:5
-#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:8
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:4
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:7
 msgid "Special Conditions LDM"
 msgstr "Sonderbedingungen LDM"
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:13
+msgid "Terms of Use Leibniz Data Manager"
+msgstr "Nutzungsbedingungen Leibniz Data Manager"
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:14
+msgid "Status: April 2022"
+msgstr "Stand: April 2022"
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:16
+#: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:8
+#: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:9
+msgid "Terms of Use of the TIB"
+msgstr "Nutzungsbedingungen der TIB"
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:18
+#, python-format
+msgid ""
+"%(terms_link)s apply, supplemented by the following Special Conditions of"
+" the TIB LDM."
+msgstr ""
+"Es gelten die Allgemeinen %(terms_link)s ergänzt durch die nachfolgenden "
+"Sonderbedingungen des TIB LDM."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:20
+msgid "Special Conditions of the TIB LDM"
+msgstr "Sonderbedingungen des TIB LDM"
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:21
+msgid "The Leibniz Data Manager (LDM) service is provided by:"
+msgstr "Der Leibniz Data Manager (LDM) wird bereitgestellt von:"
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:37
+msgid "Scope of Application"
+msgstr "Geltungsbereich"
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:38
+msgid ""
+"These Special Conditions of the LDM regulate the use of the LDM as well "
+"as the rights and obligations of Registered Users and the TIB in addition"
+" to the Terms of Use of TIB."
+msgstr ""
+"Die vorliegenden Nutzungsbedingungen regeln die Nutzung des LDM sowie die"
+" Rechte und Pflichten der registrierten Nutzerinnen und Nutzer sowie der "
+"TIB."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:42
+#, python-format
+msgid ""
+"LDM is primarily aimed at scholars who want to share, explore and reuse "
+"research datasets in a novel manner. The LDM is built on top of "
+"%(ckan_link)s and the LDM software is freely accessible to everyone."
+msgstr ""
+"LDM richtet sich in erster Linie an Wissenschaftler, die "
+"Forschungsdatensätze auf neuartige Weise gemeinsam nutzen, erforschen und"
+" wiederverwenden wollen. LDM baut auf %(ckan_link)s auf. Die LDM-Software"
+" ist für jede Person frei zugänglich. Jeder Datensatz im LDM wird von "
+"Metadaten beschrieben (unter Verwendung von kontrolliertem Vokabular wie "
+"DCAT oder DataCite) und mit einem Digital Object Identifier (DOI) "
+"versehen, wenn die Erstellerin oder der Ersteller des Datensatzes dies "
+"wünscht."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:44
+msgid "Registration"
+msgstr "Registrierung und Zulassung"
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:45
+msgid "LDM datasets can be searched and explored without registration."
+msgstr ""
+"LDM-Inhalte (z. B. Datensets und Metadaten) können ohne Registrierung "
+"durchsucht und erkundet werden."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:46
+msgid ""
+"The upload and description of dataset metadata require registration "
+"(Registered Users)."
+msgstr ""
+"Das Hochladen von Datensätzen und ihre Beschreibung mit Metadaten "
+"erfordern eine Registrierung (registrierte Nutzerin oder registrierter "
+"Nutzer)."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:47
+msgid ""
+"An LDM dataset can be accessed following the access rights imposed by the"
+" Registered Users who are the dataset creators."
+msgstr ""
+"Der Zugriff auf einen LDM-Datensatz erfolgt gemäß den Zugriffsrechten, "
+"die von den registrierten Nutzerinnen oder Nutzern, den Erstellerinnen "
+"oder Erstellern der Datensätze, festgelegt wurden."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:48
+msgid ""
+"There is no entitlement to registration, account, or profile. The TIB is "
+"entitled to reject registrations or terminate accounts if a violation of "
+"these Special Conditions LDM exists or is expected."
+msgstr ""
+"Ein Anspruch auf Registrierung, ein Konto oder Profil besteht nicht. Die "
+"TIB ist berechtigt, Anmeldungen abzulehnen oder Konten zu sperren, wenn "
+"ein Verstoß gegen diese Sonderbedingungen des LDM vorliegt oder zu "
+"erwarten ist."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:49
+msgid ""
+"When registering, users must agree to the Special Conditions of the LDM "
+"and the Data Protection Declaration. If these Special Conditions of the "
+"LDM are updated, Registered Users will be notified of the changes two "
+"weeks in advance by email. By subsequently continuing to use LDM, "
+"Registered Users agree to the changes."
+msgstr ""
+"Bei der Registrierung müssen die Nutzerinnen oder Nutzer den "
+"Sonderbedingungen des LDM und der Datenschutzerklärung zustimmen. Werden "
+"diese Sonderbedingungen des LDM aktualisiert, werden die registrierten "
+"Nutzerinnen oder Nutzer zwei Wochen im Voraus per E-Mail über die "
+"Änderungen informiert. Durch die weitere Nutzung von LDM erklären sich "
+"die registrierten Nutzerinnen oder Nutzer mit den Änderungen "
+"einverstanden."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:50
+msgid ""
+"A usage relationship is established between the TIB and the Registered "
+"User through registration."
+msgstr ""
+"Durch die Registrierung kommt ein Nutzungsverhältnis zwischen der TIB und"
+" der registrierten Nutzerin oder dem registrierten Nutzer zustande."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:51
+msgid ""
+"When registering, users are obliged to fill in mandatory fields "
+"truthfully and completely, to keep their data up-to-date and secret and "
+"to protect data from access by third parties."
+msgstr ""
+"Bei der Registrierung sind die Nutzerinnen oder Nutzer verpflichtet, "
+"Pflichtfelder wahrheitsgemäß und vollständig auszufüllen, ihre Daten "
+"aktuell und geheim zu halten und sie vor dem Zugriff Dritter zu schützen."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:53
+msgid "Accounts may be terminated for cause by TIB. A cause can be"
+msgstr ""
+"Konten können von der TIB aus wichtigem Grund gekündigt werden. Ein "
+"wichtiger Grund kann"
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:55
+msgid "a breach of the Terms of Use or these Special Conditions or"
+msgstr ""
+"ein Verstoß gegen die Nutzungsbedingungen oder diese Sonderbedingungen "
+"oder"
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:56
+msgid "a legal obligation or official order for TIB to block the access or"
+msgstr ""
+"eine gesetzliche Verpflichtung oder behördliche Anordnung zur Sperrung "
+"des Zugangs durch die TIB oder"
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:57
+msgid "any other conduct,"
+msgstr "ein sonstiges Verhalten sein,"
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:59
+msgid ""
+"which raises the suspicion that the user violates or will violate the "
+"Terms of Use, these Special Conditions or other legal obligations also in"
+" the future."
+msgstr ""
+"das den Verdacht begründet, dass die Nutzerin oder der Nutzer auch in "
+"Zukunft gegen die Nutzungsbedingungen, diese Sonderbedingungen oder "
+"sonstige gesetzliche Verpflichtungen verstößt oder verstoßen wird."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:61
+msgid ""
+"TIB will terminate accounts at the request of the user in text form at "
+"any time and without undue delay. All personal data in the user profile "
+"will be deleted without undue delay. Content created by users remains "
+"published as long as the TIB does not delete this content or the user "
+"does not request its deletion, whereupon the TIB will anonymize this "
+"content."
+msgstr ""
+"Die TIB wird Konten auf Verlangen der Nutzerin oder des Nutzers in "
+"Textform jederzeit und ohne unnötigen Verzug kündigen. Alle "
+"personenbezogenen Daten im Nutzerprofil werden unverzüglich gelöscht. Von"
+" Nutzerinnen oder Nutzern erstellte Inhalte bleiben veröffentlicht, "
+"solange die TIB diese Inhalte nicht löscht oder die Nutzerin bzw. der "
+"Nutzer die Löschung nicht verlangt, woraufhin die TIB diese Inhalte "
+"anonymisiert. Metadaten von Datensätzen mit DOIs bilden eine Ausnahme, d."
+" h. die Metadaten dieser Datensätze werden aufgrund der Bedingungen von "
+"DataCite werden nicht gelöscht. Diese besagen, dass Metadaten von "
+"Datensätzen mit DOIs dauerhaft verfügbar sein sollten. Wie unter 4.4. "
+"beschrieben, können sich die Urheberinnen oder Urheber von Datensätzen "
+"für die DOI-Vergabe an ihre Datensätze entscheiden."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:64
+msgid ""
+"Anyone can view and use LDM content (the metadata of the LDM datasets). "
+"Registered Users can add datasets, and create and modify the metadata of "
+"their datasets."
+msgstr ""
+"Jeder Person kann die LDM-Inhalte gemäß der Lizenzen für die "
+"entsprechenden Datensätze und Metadaten einsehen und nutzen. Registrierte"
+" Nutzerinnen oder Nutzer können Datensätze hinzufügen und die Metadaten "
+"ihrer im LDM hochgeladenen Datensätze erstellen und ändern."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:65
+msgid ""
+"The source code is made available under the GNU Affero General Public "
+"v3.0 License."
+msgstr ""
+"Der Quellcode wird unter der Lizenz Creative GNU Affero General Public "
+"v3.0 zur Verfügung gestellt."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:66
+msgid ""
+"Registered Users confirm that the datasets they publish and the metadata "
+"they provide, do not infringe any third-party rights (e.g. copyright, "
+"rights of performers, personality and publicity rights, data protection)."
+" If others are involved in the production, Registered Users confirm that "
+"all participants are aware of the content of this agreement and have "
+"given their consent."
+msgstr ""
+"Die registrierten Nutzerinnen oder Nutzer bestätigen, dass die von ihnen "
+"veröffentlichten Datensätze und die von ihnen bereitgestellten Metadaten "
+"keine Rechte Dritter (z.B. Urheberrechte, Rechte der ausübenden Künstler,"
+" Persönlichkeits- und Publizitätsrechte, Datenschutz) verletzen. Falls "
+"weitere Personen an der Produktion beteiligt sind, bestätigen die "
+"registrierten Nutzerinnen oder Nutzer, dass alle Beteiligten vom Inhalt "
+"dieser Vereinbarung Kenntnis haben und ihre Zustimmung gegeben haben."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:67
+msgid ""
+"Registered Users ensure that the datasets they publish and the metadata "
+"they provide, do not violate applicable law or offend common decency, in "
+"particular, they do not constitute a criminal offense and do not "
+"constitute an administrative offense (e.g. infringement of copyright, "
+"trademark law, competition law) or none have offensive, discriminatory, "
+"racist, pornographic or extremist content. In the event of a violation, "
+"Section 5 applies."
+msgstr ""
+"Die registrierten Nutzerinnen oder Nutzer versichern, dass die von ihnen "
+"veröffentlichten Datensätze und die von ihnen bereitgestellten Metadaten "
+"nicht gegen geltendes Recht oder die guten Sitten verstoßen, insbesondere"
+" keine Straftat und keine Ordnungswidrigkeit darstellen (z.B. Verletzung "
+"von Urheberrecht, Markenrecht, Wettbewerbsrecht) oder keine beleidigende,"
+" diskriminierende, rassistische, pornografische oder extremistische "
+"Inhalte darstellen. Im Falle eines Verstoßes gilt Abschnitt 5."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:68
+msgid ""
+"If a user becomes aware of a violation of the law within the meaning of "
+"3.3 or 3.4 he / she is obliged to inform the TIB immediately."
+msgstr ""
+"Erlangt eine Nutzerin oder ein Nutzer Kenntnis von einem Rechtsverstoß im"
+" Sinne von 3.3 oder 3.4, ist sie oder er verpflichtet, die TIB "
+"unverzüglich zu informieren."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:69
+msgid ""
+"Registered Users will indemnify the TIB from all claims of other users or"
+" third parties that they assert against the TIB due to infringement of "
+"their rights through content published by the respective Registered User,"
+" if the respective user can be held responsible. The respective "
+"Registered User assumes the costs of an appropriate legal defense of the "
+"TIB. This does not apply if the Registered User is not responsible for "
+"the infringement. Users are obliged to provide all information necessary "
+"for the examination of the claims and a defense in the event of a claim "
+"against the TIB truthfully and completely without further delay."
+msgstr ""
+"Registrierte Nutzerinnen oder Nutzer stellen die TIB von allen Ansprüchen"
+" anderer Nutzerinnen bzw. Nutzer oder Dritter frei, die diese gegenüber "
+"der TIB wegen der Verletzung ihrer Rechte durch von der registrierten "
+"Nutzerin oder dem jeweiligen registrierten Nutzer veröffentlichte Inhalte"
+" geltend machen, wenn die jeweilige Nutzerin oder der jeweilige Nutzer "
+"verantwortlich gemacht werden kann. Die jeweilige registrierte Nutzerin "
+"oder der jeweilige registrierte Nutzer übernimmt die Kosten einer "
+"angemessenen Rechtsverteidigung der TIB. Dies gilt nicht, wenn die "
+"registrierte Nutzerin oder der registrierte Nutzer die Rechtsverletzung "
+"nicht zu vertreten hat. Die Nutzerinnen oder Nutzer sind verpflichtet, "
+"alle für die Prüfung der Ansprüche und eine Verteidigung im Falle einer "
+"Inanspruchnahme der TIB wahrheitsgemäß und vollständig und unverzüglich "
+"zur Verfügung zu stellen."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:71
+msgid "Functionality of the LDM"
+msgstr "Funktionsweise des LDM"
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:72
+msgid ""
+"Anyone can use the LDM service to explore LDM datasets without "
+"registration. The metadata describing the LDM datasets can be reused "
+"freely for any purpose users see fit, in accordance with the CC BY-SA "
+"License (5.2 of these Special Conditions LDM). The LDM datasets can be "
+"reused following the regulations imposed by the license of the dataset, "
+"which is specified by the registered user who created the dataset in LDM."
+msgstr ""
+"Jede Person kann den LDM-Dienst nutzen, um LDM-Datensätze ohne "
+"Registrierung zu erkunden. Die Metadaten, die die LDM-Datensätze "
+"beschreiben, können gemäß der CCO-Lizenz (5.1 dieser Sonderbedingungen "
+"des LDM) für jeden Zweck frei weiterverwendet werden. Die LDM-Datensätze "
+"können gemäß den Bestimmungen der Lizenz des Datensatzes weiterverwendet "
+"werden, die von der registrierten Nutzerin oder dem registrierten Nutzer,"
+" die oder der den Datensatz in LDM erstellt hat, angegeben wird. Falls "
+"die Datensätze aus anderen Datenquellen importiert wurden, unterliegt die"
+" Verwendung dieser Datensätze und ihrer Metadaten den von der Erstellerin"
+" oder vom Ersteller der Datensätze angegebenen Lizenzen."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:73
+msgid ""
+"LDM provides functionality that requires registration. Adding and "
+"editing, including deleting, existing datasets and their metadata is "
+"reserved for Registered Users. Metadata about the LDM datasets is created"
+" and edited in accordance with the CC0 License (5.1 of these Special "
+"Conditions LDM). Registered Users obtain LDM user profiles, can link "
+"their profile to ORCiD; the profiles include provenance information."
+msgstr ""
+"LDM bietet Funktionen, die eine Registrierung erfordern. Das Hinzufügen "
+"und Bearbeiten, einschliesslich Löschen, von bestehenden Datensätzen und "
+"deren Metadaten ist registrierten Nutzerinnen oder Nutzer vorbehalten. "
+"Ausnahme sind Metadaten von Datensätzen mit DOIs, die aufgrund der "
+"Bedingungen von DataCite für die dauerhafte Verfügbarkeit von DOIs nicht "
+"gelöscht werden. Metadaten von LDM-Datensätzen werden in Übereinstimmung "
+"mit der CC0-Lizenz (5.1 dieser Sonderbedingungen des LDM) erstellt und "
+"bearbeitet. Registrierte Nutzerinnen oder Nutzer erhalten LDM-"
+"Nutzerprofile, können ihr Profil mit ORCiD verknüpfen; die Profile "
+"enthalten Informationen zur Provenienz."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:74
+msgid ""
+"LDM provides programmatic access to the content (API). Anyone can use the"
+" LDM API to access existing content. Creating and editing, including "
+"deleting, existing content via the LDM API is reserved for Registered "
+"Users."
+msgstr ""
+"LDM bietet einen programmatischen Zugang zu den Inhalten (API). Jeder "
+"Person kann die LDM-API nutzen, um auf bestehende Inhalte zuzugreifen. "
+"Das Erstellen und Bearbeiten, einschließlich des Löschens, bestehender "
+"Inhalte über die LDM-API ist registrierten Nutzerinnen und Nutzern "
+"vorbehalten. Als Ausnahme werden die Metadaten von Datensätzen mit DOIs "
+"aufgrund der dauerhaften Verfügbarkeit von DOIs gemäß den Bedingungen von"
+" DataCite nicht gelöscht."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:75
+msgid ""
+"LDM enables DOI-based publication of LDM datasets. In doing so, metadata "
+"including creator names and, if known, ORCiD IDs are shared with "
+"DataCite. If a Registered User publishes an LDM dataset in this form, she"
+" or he agrees to the sharing of metadata with DataCite. The sharing of "
+"such data is based on user consent given as part of the service of "
+"DataCite e. V. and ORCiD. Registered Users need to connect their LDM "
+"profile with ORCiD and need to explicitly activate DOI-based publication "
+"of the LDM datasets."
+msgstr ""
+"LDM ermöglicht die DOI-basierte Veröffentlichung von LDM-Datensätzen. "
+"Dabei werden Metadaten, einschließlich der Namen der Autoren und, falls "
+"bekannt, ORCiD-IDs, mit DataCite geteilt. Wenn eine registrierte Nutzerin"
+" oder ein registrierte Nutzer einen LDM-Datensatz in dieser Form "
+"veröffentlicht, erklärt sie oder er sich mit der Weitergabe von Metadaten"
+" an DataCite einverstanden. Die Weitergabe dieser Daten basiert auf der "
+"Zustimmung der Nutzerin oder des Nutzers, die im Rahmen des Services von "
+"DataCite e. V. und ORCiD erteilt wird. Registrierte Nutzerinnen oder "
+"Nutzer können ihr LDM-Profil mit ORCiD verknüpfen und die DOI-basierte "
+"Veröffentlichung der LDM-Datensätze explizit aktivieren."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:77
+msgid "Rights and obligations of the TIB"
+msgstr "Rechte und Pflichten der TIB"
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:78
+msgid ""
+"LDM dataset metadata created by Registered Users is licensed to TIB under"
+" the licence CC0 1.0 Universal (CC0 1.0 Public Domain Dedication)."
+msgstr ""
+"Die von registrierten Nutzerinnen oder Nutzern erstellten Metadaten der "
+"LDM-Datensätze sind unter der Lizenz CC0 1.0 Universal (CC0 1.0 Public "
+"Domain Dedication) an die TIB lizenziert."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:79
+msgid ""
+"The TIB assumes no liability that the service and its content are always "
+"uninterrupted, unchanged and available in full, as well as being up-to-"
+"date and free from errors of an editorial or technical nature. No "
+"liability is accepted for damage caused by trusting the content of the "
+"platform or its use."
+msgstr ""
+"Die TIB übernimmt keine Haftung dafür, dass der Dienst und sein Inhalt "
+"stets ununterbrochen, unverändert und vollständig zur Verfügung stehen, "
+"sowie aktuell und frei von Fehlern redaktioneller oder technischer Art "
+"sind. Es wird keine Haftung für Schäden, die durch das Vertrauen auf die "
+"Inhalte der Plattform oder deren Nutzung entstanden sind."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:80
+msgid ""
+"The TIB reserves the right to change the functionality, the appearance "
+"and these Special Conditions of the LDM at any time. Registered Users "
+"will be informed of the changes two weeks in advance by email. By "
+"continuing to use the platform after the deadline, users agree to the "
+"changes."
+msgstr ""
+"Die TIB behält sich das Recht vor, die Funktionalität, das "
+"Erscheinungsbild und diese Sonderbedingungen des LDM jederzeit zu ändern."
+" Die registrierten Nutzerinnen oder Nutzer werden zwei Wochen im Voraus "
+"per E-Mail über die Änderungen informiert. Durch die weitere Nutzung der "
+"Plattform nach Ablauf der Frist erklären sich die Nutzerinnen oder Nutzer"
+" mit den Änderungen einverstanden."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:81
+msgid ""
+"The TIB is entitled to terminate its service at any time. In this case, "
+"the TIB reserves the right to delete the content. However, this does not "
+"result in an obligation to delete the content."
+msgstr ""
+"Die TIB ist berechtigt, ihren Dienst jederzeit einzustellen. In diesem "
+"Fall behält sich die TIB das Recht vor, die Inhalte zu löschen. Daraus "
+"ergibt sich jedoch keine Verpflichtung zur Löschung der Inhalte. Die "
+"Metadaten von Datensätzen mit DOIs werden nicht gelöscht, sondern auf "
+"andere Weise gespeichert, sodass diese Metadaten weiterhin öffentlich "
+"zugänglich sind (z. B. in einem anderen Repositorium)."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:82
+msgid ""
+"The TIB provides scientific information in all areas of engineering as "
+"well as chemistry, information technology, mathematics and physics to the"
+" public. If content by Registered Users does not satisfy the quality "
+"criteria TIB generally applies to scientific information, TIB may exclude"
+" the content from its services without prior notice."
+msgstr ""
+"Die TIB stellt wissenschaftliche Informationen in allen Bereichen der "
+"Ingenieurwissenschaften sowie Chemie, Informatik, Mathematik und Physik "
+"für die Öffentlichkeit bereit. Wenn Inhalte von registrierten Nutzerinnen"
+" oder Nutzern nicht den Qualitätskriterien entsprechen, die die TIB "
+"generell an wissenschaftliche Informationen anlegt kann die TIB die "
+"Inhalte ohne Vorankündigung von ihren Diensten ausschließen. Die "
+"Metadaten von Datensätzen mit DOIs werden nicht gelöscht und um einen "
+"Hinweis ergänzt, dass die Löschung aufgrund von Qualitätsmängeln  "
+"vonseiten der TIB erfolgte."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:83
+msgid ""
+"In principle, the TIB is only liable for damage caused by intent or gross"
+" negligence. In case of injuries to life, body or health statutory "
+"provisions apply."
+msgstr ""
+"Die TIB haftet grundsätzlich nur für Schäden, die durch Vorsatz oder "
+"grobe Fahrlässigkeit verursacht wurden. Bei der Verletzung von Leben, "
+"Körper oder Gesundheit gelten die gesetzlichen Bestimmungen."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:84
+msgid ""
+"Liability for damage from unauthorized use of password-protected logins "
+"by third parties is not accepted."
+msgstr ""
+"Eine Haftung für Schäden aus der unbefugten Nutzung von "
+"passwortgeschützten Logins durch Dritte wird nicht übernommen."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:85
+msgid ""
+"Insofar as liability is limited or excluded, this also applies in favor "
+"of executive employees (m / f), representatives (m / f) and vicarious "
+"agents (m / f) of the TIB."
+msgstr ""
+"Soweit die Haftung beschränkt bzw. ausgeschlossen ist, gilt dies auch "
+"zugunsten von leitenden Angestellten (m/w/d), Vertretern (m/w/d) und "
+"Erfüllungsgehilfen (m/w/d) der TIB."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:86
+msgid ""
+"If there are concrete indications of a violation of these Special "
+"Conditions of the LDM, the TIB is entitled to delete content, restrict "
+"the use of the services or block the Registered User concerned. When "
+"choosing a measure, the legitimate interests of the Registered User are "
+"taken into account, in particular whether there are indications that the "
+"Registered User was not responsible for the violation."
+msgstr ""
+"Bestehen konkrete Anhaltspunkte für einen Verstoß gegen diese "
+"Sonderbedingungen des LDM, ist die TIB berechtigt, Inhalte zu löschen "
+"(außer Metadaten von Datensätzen mit DOIs), die Nutzung der Dienste "
+"einzuschränken oder die betroffene registrierte Nutzerin bzw. den "
+"betroffenen registrierten Nutzer zu sperren. Bei der Wahl einer Maßnahme "
+"werden die berechtigten Interessen der registrierten Nutzerin bzw. des "
+"registrierten Nutzers berücksichtigt, insbesondere wenn Anhaltspunkte "
+"dafür vorliegen, dass die registrierte Nutzerin oder der registrierte "
+"Nutzer den Verstoß nicht zu vertreten hat."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:87
+msgid ""
+"Content that contains a legal violation according to 3.3 or 3.4 may be "
+"blocked or deleted by the TIB."
+msgstr ""
+"Inhalte, die einen Rechtsverstoß nach 3.3 oder 3.4 enthalten, können von "
+"der TIB gesperrt oder gelöscht werden."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:89
+msgid "Miscellaneous"
+msgstr "Sonstiges"
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:90
+msgid ""
+"The usage relationship and these Special Conditions of the LDM are "
+"subject to German law."
+msgstr ""
+"Das Nutzungsverhältnis und diese Sonderbedingungen des LDM unterliegen "
+"deutschem Recht."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:91
+msgid "The place of jurisdiction is Hannover, Lower Saxony, Germany."
+msgstr "Gerichtsstand ist Hannover, Niedersachsen, Deutschland."
+
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:92
+msgid ""
+"In the event of a dispute, the TIB endeavors to reach an amicable "
+"settlement."
+msgstr "In Streitfällen ist die TIB um eine gütliche Einigung bemüht."
 
 #: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:1
 #: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:3
@@ -2087,11 +2605,6 @@ msgstr "Keine Organisationen gefunden"
 #: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:2
 msgid "Legal Notices"
 msgstr "Rechtliche Hinweise"
-
-#: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:8
-#: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:9
-msgid "Terms of Use of the TIB"
-msgstr "Nutzungsbedingungen der TIB"
 
 #: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:7
 msgid "Change details"
