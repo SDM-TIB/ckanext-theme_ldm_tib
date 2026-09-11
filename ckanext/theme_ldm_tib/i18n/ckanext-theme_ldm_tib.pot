@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme_ldm_tib 1.1.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-10 14:06+0200\n"
+"POT-Creation-Date: 2026-09-11 11:25+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,8 +38,8 @@ msgstr ""
 msgid "Log in"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/header.html:6 ckanext/theme_ldm_tib/templates/header.html:9 ckanext/theme_ldm_tib/templates/home/ldm_register.html:5
-#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:8
+#: ckanext/theme_ldm_tib/templates/header.html:6 ckanext/theme_ldm_tib/templates/header.html:9 ckanext/theme_ldm_tib/templates/home/ldm_register.html:4
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:7
 msgid "Register"
 msgstr ""
 
@@ -457,7 +457,7 @@ msgstr ""
 msgid "All available APIs can be found in this %(github_link)s repository."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/api.html:86 ckanext/theme_ldm_tib/templates/home/demo.html:42
+#: ckanext/theme_ldm_tib/templates/home/api.html:86 ckanext/theme_ldm_tib/templates/home/demo.html:42 ckanext/theme_ldm_tib/templates/home/ldm_register.html:39
 #: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:33
 #, python-format
 msgid "Please, contact us at %(contact_link)s if you have comments or questions."
@@ -975,6 +975,99 @@ msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/home/imprint.html:40
 msgid "The layout of this website is protected under copyright, as are the graphics and all other contents contained in the website."
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:13
+msgid "Rights and roles of different users"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:14
+msgid "LDM visitors"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:15
+msgid ""
+"Any visitor of the website is able to navigate the site, perform searches over the public datasets, preview and/or download the available public resources "
+"without restrictions."
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:16
+msgid "Users, organizations and authorization"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:17
+msgid ""
+"LDM users can register user accounts and log in. Login is not needed to search for and find data, but is needed for all publishing functions: datasets can be"
+" created, edited, etc by users with the appropriate permissions. In LDM all research data is managed within Organizations and Groups. An Organization is an "
+"institution or entity where the researcher/s is/are affiliated."
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:18
+msgid "Registering to the platform"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:22
+#, python-format
+msgid ""
+"In case an organization or group wants to be added to LDM, the responsible or representative must contact LDM's sysadmin asking for the creation of the "
+"organization or group in the system and creation of an administrator user to it. For this please email %(contact_link)s."
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:23
+msgid ""
+"After receiving the solitude, LDM's System Administrators will create the Organization and Groups and assign an \"Administrator\" user to them. A new "
+"registered user is not able to create datasets until a role is assigned."
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:24
+msgid ""
+"<b>Organizations</b> are controlling which users can add, update and publish which datasets. Every dataset in LDM must belong to exactly one organization. If"
+" a user is an editor or admin of an organization, then he or she can create new datasets in that organization, and can edit and publish the datasets that "
+"belong to that organization."
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:25
+msgid ""
+"<b>Groups</b> are about curation – collecting datasets together into groups, across organisational boundaries. If a user is an editor or admin of a group, "
+"then he or she can add datasets (that already exist on the website) into their group and can remove datasets from their group, but they cannot add new "
+"datasets to the site, or edit the datasets that are in their group. Groups are intended for collecting related datasets together into themes like \"climate\""
+" etc."
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:26
+msgid "LDM allows administrator users to add members (users) to organizations/groups with three kind of roles:"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:27
+msgid "For organizations"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:29
+msgid "Member – can see the organization's private datasets"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:30
+msgid "Editor – can edit and publish datasets"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:31
+msgid "Admin – can add, remove and change roles for organization members"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:33
+msgid "For groups"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:35
+msgid "Member – can add/remove datasets from groups"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:36
+msgid "Admin – can edit group information, as well as manage group's members."
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:38
+msgid "To be able to add members to organizations/groups the new user must ask the administrator user her/his addition bringing her/his email and personal data."
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:5 ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:8
