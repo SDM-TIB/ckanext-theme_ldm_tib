@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme_ldm_tib 1.1.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-11 14:34+0200\n"
+"POT-Creation-Date: 2026-09-12 13:05+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1465,6 +1465,19 @@ msgstr ""
 #: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:29
 #, python-format
 msgid "More info about the LDM project can be found on the %(tib_link)s and the last updated code in the %(github_link)s."
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/cookies_alert.html:2
+msgid "cookie policy"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/cookies_alert.html:5
+#, python-format
+msgid "Before browse our site, please accept our %(cookie_link)s"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/cookies_alert.html:6
+msgid "Accept and close this alert"
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/home/snippets/search.html:2
