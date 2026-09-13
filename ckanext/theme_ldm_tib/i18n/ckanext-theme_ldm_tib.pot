@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme_ldm_tib 1.1.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-12 13:05+0200\n"
+"POT-Creation-Date: 2026-09-13 12:08+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1516,12 +1516,16 @@ msgstr ""
 msgid "Data and Resources"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/package/snippets/resources_list.html:34
+#: ckanext/theme_ldm_tib/templates/package/snippets/resources_list.html:29
+msgid "This is an imported dataset. For details on files and resources visit the source:"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/package/snippets/resources_list.html:35
 #, python-format
 msgid "This dataset has no data, %(link_start)swhy not add some?%(link_end)s"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/package/snippets/resources_list.html:39
+#: ckanext/theme_ldm_tib/templates/package/snippets/resources_list.html:40
 msgid "This dataset has no data"
 msgstr ""
 

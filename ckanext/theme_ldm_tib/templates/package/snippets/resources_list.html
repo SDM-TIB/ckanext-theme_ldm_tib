@@ -25,7 +25,8 @@ Example:
             </ul>
         {% else %}
             {% if pkg['type'] == 'vdataset' %}
-                <p class="empty">This is an imported dataset. For details on files and resources visit the source: <a href="https://doi.org/{{ pkg['doi'] }}" target="_blank">https://doi.org/{{pkg['doi']}}</a></p>
+                {%- set doi = '<a href="https://doi.org/' ~ pkg['doi'] ~ ' target="_blank">https://doi.org/' ~ pkg['doi'] ~ '</a>' -%}
+                <p class="empty">{{ _("This is an imported dataset. For details on files and resources visit the source:") }} {{ doi }}</p>
             {% elif h.check_access('resource_create', {'package_id': pkg['id']}) and not is_activity_archive %}
                 {%- set url = h.url_for(pkg.type ~ '_resource.new', id=pkg.name) -%}
                 {%- set link_start = '<a href="' ~ url ~ '">' -%}
