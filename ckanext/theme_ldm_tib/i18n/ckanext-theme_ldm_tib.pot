@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme_ldm_tib 1.1.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-13 12:08+0200\n"
+"POT-Creation-Date: 2026-09-13 12:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -514,7 +514,7 @@ msgstr ""
 #: ckanext/theme_ldm_tib/templates/home/data_privacy.html:32 ckanext/theme_ldm_tib/templates/home/data_privacy.html:41
 #: ckanext/theme_ldm_tib/templates/home/imprint.html:29 ckanext/theme_ldm_tib/templates/home/imprint.html:36 ckanext/theme_ldm_tib/templates/home/imprint.html:37
 #: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:33 ckanext/theme_ldm_tib/templates/user/edit_user_form.html:10
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:27
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:35
 msgid "Email"
 msgstr ""
 
@@ -560,7 +560,7 @@ msgstr ""
 msgid "Terms of use of the TIB"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:70 ckanext/theme_ldm_tib/templates/user/new_user_form.html:11
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:70 ckanext/theme_ldm_tib/templates/user/new_user_form.html:10
 #: ckanext/theme_ldm_tib/templates/user/new_user_form.html:19
 msgid "Special Conditions"
 msgstr ""
@@ -1665,11 +1665,11 @@ msgstr ""
 msgid "Change details"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:8 ckanext/theme_ldm_tib/templates/user/new_user_form.html:25
+#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:8 ckanext/theme_ldm_tib/templates/user/new_user_form.html:29
 msgid "Username"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:9 ckanext/theme_ldm_tib/templates/user/new_user_form.html:26
+#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:9 ckanext/theme_ldm_tib/templates/user/new_user_form.html:32
 msgid "Full Name"
 msgstr ""
 
@@ -1685,11 +1685,11 @@ msgstr ""
 msgid "Subscribe to notification emails"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:24 ckanext/theme_ldm_tib/templates/user/new_user_form.html:34
+#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:24 ckanext/theme_ldm_tib/templates/user/new_user_form.html:54
 msgid "Profile picture"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:24 ckanext/theme_ldm_tib/templates/user/new_user_form.html:34
+#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:24 ckanext/theme_ldm_tib/templates/user/new_user_form.html:55
 msgid "Profile picture URL"
 msgstr ""
 
@@ -1705,7 +1705,7 @@ msgstr ""
 msgid "Old Password"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:38 ckanext/theme_ldm_tib/templates/user/new_user_form.html:28
+#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:38 ckanext/theme_ldm_tib/templates/user/new_user_form.html:39
 msgid "Password"
 msgstr ""
 
@@ -1733,36 +1733,46 @@ msgstr ""
 msgid "Update Profile"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:6
-msgid "Data processing by TIB must be approved.."
-msgstr ""
-
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:7 ckanext/theme_ldm_tib/templates/user/new_user_form.html:20
-msgid "Data Protection"
-msgstr ""
-
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:7 ckanext/theme_ldm_tib/templates/user/new_user_form.html:20
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:5 ckanext/theme_ldm_tib/templates/user/new_user_form.html:6
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:22
 msgid "Data processing by TIB must be approved."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:10 ckanext/theme_ldm_tib/templates/user/new_user_form.html:11
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:6 ckanext/theme_ldm_tib/templates/user/new_user_form.html:22
+msgid "Data Protection"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:9 ckanext/theme_ldm_tib/templates/user/new_user_form.html:10
 #: ckanext/theme_ldm_tib/templates/user/new_user_form.html:19
 msgid "The Special Conditions have to be accepted."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:17
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:16
 msgid "The form contains invalid entries:"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:25
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:29
 msgid "username"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:29
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:43
 msgid "Confirm"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:68
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:69
+#, python-format
+msgid "I accept the <a href=\"%(url)s\" target=\"_blank\" style=\"color:red\">Special Conditions TIB LDM</a>"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:73
+#, python-format
+msgid ""
+"I agree to the processing of my personal data provided here by Technische Informationsbibliothek (TIB). In accordance with the <a href=\"%(dp_url)s\" "
+"target=\"_blank\" style=\"color:red\">data protection declaration</a> as well as the <a href=\"%(dp_pdf_url)s\" target=\"_blank\" style=\"color:red\">info "
+"sheet data protection</a>, the data is processed exclusively by TIB in order to provide services of our portals."
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:93
 msgid "Create Account"
 msgstr ""
 
