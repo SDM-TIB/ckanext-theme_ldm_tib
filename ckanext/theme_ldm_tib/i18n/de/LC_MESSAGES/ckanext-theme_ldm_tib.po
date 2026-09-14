@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme_ldm_tib 1.1.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-13 12:29+0200\n"
+"POT-Creation-Date: 2026-09-14 10:34+0200\n"
 "PO-Revision-Date: 2026-09-05 12:37+0200\n"
 "Last-Translator: Philipp D. Rohde\n"
 "Language: de\n"
@@ -1290,13 +1290,26 @@ msgstr ""
 "Eighteenth ACM International Conference on Web Search and Data Mining "
 "(März 2025). Es beschreibt die Hauptmerkmale des Leibniz Data Managers."
 
+#: ckanext/theme_ldm_tib/templates/home/demo.html:24
+msgid "Paper"
+msgstr "Wissenschaftliches Papier"
+
 #: ckanext/theme_ldm_tib/templates/home/demo.html:27
 msgid "A poster summarizing the project,"
 msgstr "Ein Poster mit einer Zusammenfassung des Projekts,"
 
+#: ckanext/theme_ldm_tib/templates/home/demo.html:28
+msgid "Poster"
+msgstr "Poster"
+
 #: ckanext/theme_ldm_tib/templates/home/demo.html:31
 msgid "A video showing the LDM features."
 msgstr "Ein Video, das die Funktionen des LDM zeigt und"
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:32
+#: ckanext/theme_ldm_tib/templates/home/demo.html:36
+msgid "Demo Video"
+msgstr "Demo-Video"
 
 #: ckanext/theme_ldm_tib/templates/home/demo.html:35
 msgid ""
@@ -1336,8 +1349,8 @@ msgstr ""
 #: ckanext/theme_ldm_tib/templates/home/demo.html:66
 #: ckanext/theme_ldm_tib/templates/home/demo.html:95
 #: ckanext/theme_ldm_tib/templates/home/demo.html:124
-#: ckanext/theme_ldm_tib/templates/home/demo.html:156
-#: ckanext/theme_ldm_tib/templates/home/demo.html:185
+#: ckanext/theme_ldm_tib/templates/home/demo.html:155
+#: ckanext/theme_ldm_tib/templates/home/demo.html:184
 msgid "Here below is a demo video of how the tool works:"
 msgstr ""
 "Nachfolgend finden Sie ein Demo-Video, das die Funktionsweise des Tools "
@@ -1346,8 +1359,8 @@ msgstr ""
 #: ckanext/theme_ldm_tib/templates/home/demo.html:70
 #: ckanext/theme_ldm_tib/templates/home/demo.html:99
 #: ckanext/theme_ldm_tib/templates/home/demo.html:128
-#: ckanext/theme_ldm_tib/templates/home/demo.html:160
-#: ckanext/theme_ldm_tib/templates/home/demo.html:189
+#: ckanext/theme_ldm_tib/templates/home/demo.html:159
+#: ckanext/theme_ldm_tib/templates/home/demo.html:188
 msgid "Your browser does not support the video tag."
 msgstr "Ihr Browser unterstützt das Video-Tag nicht."
 
@@ -1392,15 +1405,15 @@ msgstr ""
 "wird, zum LDM wird dem Datensatz ein Link zum entsprechenden Artikel in "
 "der ORKG hinzugefügt."
 
-#: ckanext/theme_ldm_tib/templates/home/demo.html:146
+#: ckanext/theme_ldm_tib/templates/home/demo.html:145
 msgid "Live Code"
 msgstr "Live-Code"
 
-#: ckanext/theme_ldm_tib/templates/home/demo.html:147
+#: ckanext/theme_ldm_tib/templates/home/demo.html:146
 msgid "Creating, sharing, and executing live code interactively"
 msgstr "Live-Code interaktiv erstellen, teilen und ausführen"
 
-#: ckanext/theme_ldm_tib/templates/home/demo.html:155
+#: ckanext/theme_ldm_tib/templates/home/demo.html:154
 msgid ""
 "This feature enables users to create, share, and execute live code "
 "interactively. We use JupyterHub, which allows multiple users to use the "
@@ -1415,15 +1428,15 @@ msgstr ""
 "Datenanalyse und die Visualisierung von Code-Ausgaben. Darüber hinaus "
 "eignet sie sich ideal für den Unterricht und die Datenwissenschaft."
 
-#: ckanext/theme_ldm_tib/templates/home/demo.html:175
+#: ckanext/theme_ldm_tib/templates/home/demo.html:174
 msgid "Datasets Comparison"
 msgstr "Vergleich von Datensätzen"
 
-#: ckanext/theme_ldm_tib/templates/home/demo.html:176
+#: ckanext/theme_ldm_tib/templates/home/demo.html:175
 msgid "Compare data across multiple datasets"
 msgstr "Daten aus mehreren Datensätzen vergleichen"
 
-#: ckanext/theme_ldm_tib/templates/home/demo.html:184
+#: ckanext/theme_ldm_tib/templates/home/demo.html:183
 msgid ""
 "This feature enables users to compare the data of multiple CSV datasets. "
 "The feature allows the users to analyze the combined data in a table. "
@@ -2433,10 +2446,10 @@ msgstr "Cookie-Richtlinie"
 
 #: ckanext/theme_ldm_tib/templates/home/snippets/cookies_alert.html:5
 #, python-format
-msgid "Before browse our site, please accept our %(cookie_link)s"
+msgid "Before you browse our site, please accept our %(cookie_link)s."
 msgstr ""
 "Bevor Sie auf unserer Website surfen, akzeptieren Sie bitte unsere "
-"%(cookie_link)s"
+"%(cookie_link)s."
 
 #: ckanext/theme_ldm_tib/templates/home/snippets/cookies_alert.html:6
 msgid "Accept and close this alert"

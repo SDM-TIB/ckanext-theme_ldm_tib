@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme_ldm_tib 1.1.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-13 12:29+0200\n"
+"POT-Creation-Date: 2026-09-14 10:34+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -827,12 +827,24 @@ msgid ""
 "describes the main features of the Leibniz Data Manager,"
 msgstr ""
 
+#: ckanext/theme_ldm_tib/templates/home/demo.html:24
+msgid "Paper"
+msgstr ""
+
 #: ckanext/theme_ldm_tib/templates/home/demo.html:27
 msgid "A poster summarizing the project,"
 msgstr ""
 
+#: ckanext/theme_ldm_tib/templates/home/demo.html:28
+msgid "Poster"
+msgstr ""
+
 #: ckanext/theme_ldm_tib/templates/home/demo.html:31
 msgid "A video showing the LDM features."
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:32 ckanext/theme_ldm_tib/templates/home/demo.html:36
+msgid "Demo Video"
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/home/demo.html:35
@@ -858,12 +870,12 @@ msgid ""
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/home/demo.html:66 ckanext/theme_ldm_tib/templates/home/demo.html:95 ckanext/theme_ldm_tib/templates/home/demo.html:124
-#: ckanext/theme_ldm_tib/templates/home/demo.html:156 ckanext/theme_ldm_tib/templates/home/demo.html:185
+#: ckanext/theme_ldm_tib/templates/home/demo.html:155 ckanext/theme_ldm_tib/templates/home/demo.html:184
 msgid "Here below is a demo video of how the tool works:"
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/home/demo.html:70 ckanext/theme_ldm_tib/templates/home/demo.html:99 ckanext/theme_ldm_tib/templates/home/demo.html:128
-#: ckanext/theme_ldm_tib/templates/home/demo.html:160 ckanext/theme_ldm_tib/templates/home/demo.html:189
+#: ckanext/theme_ldm_tib/templates/home/demo.html:159 ckanext/theme_ldm_tib/templates/home/demo.html:188
 msgid "Your browser does not support the video tag."
 msgstr ""
 
@@ -893,30 +905,30 @@ msgstr ""
 msgid "By adding the DOI of the paper that defines the dataset to the LDM, a link to the corresponding paper in the ORKG will added to the dataset."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/demo.html:146
+#: ckanext/theme_ldm_tib/templates/home/demo.html:145
 msgid "Live Code"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/demo.html:147
+#: ckanext/theme_ldm_tib/templates/home/demo.html:146
 msgid "Creating, sharing, and executing live code interactively"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/demo.html:155
+#: ckanext/theme_ldm_tib/templates/home/demo.html:154
 msgid ""
 "This feature enables users to create, share, and execute live code interactively. We use JupyterHub, which allows multiple users to use the Jupyter Notebook "
 "and manages a separate Jupyter environment for each user. The feature facilitates exploratory data analysis and visualization of code outputs. Furthermore, "
 "it is ideal for teaching and data science."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/demo.html:175
+#: ckanext/theme_ldm_tib/templates/home/demo.html:174
 msgid "Datasets Comparison"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/demo.html:176
+#: ckanext/theme_ldm_tib/templates/home/demo.html:175
 msgid "Compare data across multiple datasets"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/demo.html:184
+#: ckanext/theme_ldm_tib/templates/home/demo.html:183
 msgid ""
 "This feature enables users to compare the data of multiple CSV datasets. The feature allows the users to analyze the combined data in a table. Moreover, the "
 "feature is capable of producing different plots putting selected attributes into perspective."
@@ -1473,7 +1485,7 @@ msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/home/snippets/cookies_alert.html:5
 #, python-format
-msgid "Before browse our site, please accept our %(cookie_link)s"
+msgid "Before you browse our site, please accept our %(cookie_link)s."
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/home/snippets/cookies_alert.html:6

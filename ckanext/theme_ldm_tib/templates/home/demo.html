@@ -21,19 +21,19 @@
         <ul>
             <li>
                 {{ _("This short paper is published in the WSDM '25: Proceedings of the Eighteenth ACM International Conference on Web Search and Data Mining (March 2025). It describes the main features of the Leibniz Data Manager,") }}<br>
-                <a href="https://service.tib.eu/ldmservice/dataset/ldm-demo/resource/f338952e-46f1-4c01-b4bb-4273a38e6a22"><img src="{{url}}images/demo/paper.png" style="border:1px solid; margin:10px" title="Paper"/></a>
+                <a href="https://service.tib.eu/ldmservice/dataset/ldm-demo/resource/f338952e-46f1-4c01-b4bb-4273a38e6a22"><img src="{{url}}images/demo/paper.png" style="border:1px solid; margin:10px" title="{{ _('Paper') }}"/></a>
             </li>
             <li>
                 {{ _("A poster summarizing the project,") }}<br>
-                <a href="https://service.tib.eu/ldmservice/dataset/ldm-demo/resource/52b5e28d-4c2b-4fb2-b97d-deac6586d515"><img src="{{url}}images/demo/poster.png" style="border:1px solid; width:100px; margin:10px" title="Poster"/></a>
+                <a href="https://service.tib.eu/ldmservice/dataset/ldm-demo/resource/52b5e28d-4c2b-4fb2-b97d-deac6586d515"><img src="{{url}}images/demo/poster.png" style="border:1px solid; width:100px; margin:10px" title="{{ _('Poster') }}"/></a>
             </li>
             <li>
                 {{ _("A video showing the LDM features.") }}<br>
-                <a href="https://service.tib.eu/ldmservice/dataset/ldm-demo/resource/c7cf21da-eaa4-438f-a2b4-a1d05aad37e6"><img src="{{url}}images/demo/demo_video.png" style="border:1px solid; width:120px; margin:10px" title="Demo Video"/></a>
+                <a href="https://service.tib.eu/ldmservice/dataset/ldm-demo/resource/c7cf21da-eaa4-438f-a2b4-a1d05aad37e6"><img src="{{url}}images/demo/demo_video.png" style="border:1px solid; width:120px; margin:10px" title="{{ _('Demo Video') }}"/></a>
             </li>
             <li>
                 {{ _("A Jupyter Notebook explaining the use of the LDM’s API (CKAN), for developers who want to write code that interacts with LDM instances and their data.") }}<br>
-                <a href="https://service.tib.eu/ldmservice/dataset/example-ldm-api-implementation"><img src="{{url}}images/demo/API_JupyterNotebook.png" style="border:1px solid; width:120px; margin:10px" title="Demo Video"/></a>
+                <a href="https://service.tib.eu/ldmservice/dataset/example-ldm-api-implementation"><img src="{{url}}images/demo/API_JupyterNotebook.png" style="border:1px solid; width:120px; margin:10px" title="{{ _('Demo Video') }}"/></a>
             </li>
         </ul>
         {%- set contact_link -%}
@@ -135,7 +135,6 @@
                                 </section>
                             </div>
                         </div>
-
                         <div id="accordion-organization" role="tablist" aria-multiselectable="true">
                             <div class="box">
                                 <section class="group-list module module-narrow module-shallow">
@@ -203,7 +202,6 @@
 
     </div>
 </article>
-
 {% endblock %}
 
 {% block secondary %}{% endblock %}
