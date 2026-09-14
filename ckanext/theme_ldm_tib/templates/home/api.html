@@ -10,7 +10,7 @@
 {% block primary %}
 <article class="module" role="main">
     <div class="module-content">
-        {% if not h.tibtheme_styled_header_enabled() and h.tibtheme_is_TIBservice_instance():%}
+        {% if not h.tibtheme_styled_header_enabled() and h.tibtheme_is_TIBservice_instance() %}
             <img id="tib_event_logo" src="{{asset_path}}images/tib_datamanager_1150.jpg" alt="TIB Leibniz Data Manager Logo" class="img-responsive">
         {% endif %}
 

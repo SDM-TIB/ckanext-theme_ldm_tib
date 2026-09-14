@@ -12,7 +12,7 @@
 {% endblock %}
 
 {% block header_account_container_content %}
-    {% if h.tibtheme_styled_header_enabled(): %}
+    {% if h.tibtheme_styled_header_enabled() %}
         <style>header div.container {
           box-shadow: 1px 4px 8px rgba(0,0,0,0.5);
         }
@@ -24,7 +24,7 @@
         <div style="margin-bottom: -21px; clear: both;">
             <img id="tib_event_logo" src="{{h.url_for('home')}}images/tib_datamanager_1150.jpg" alt="TIB Leibniz Data Manager Logo" class="img-responsive">
         </div>
-    {% else: %}
+    {% else %}
         {{ super() }}
     {% endif %}
 {% endblock %}
