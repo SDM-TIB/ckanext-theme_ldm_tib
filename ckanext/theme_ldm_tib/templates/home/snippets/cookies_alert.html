@@ -1,5 +1,5 @@
 {%- set cookie_link -%}
-<a href="{{ h.url_for('home') }}data_privacy#cookies">{{ _("cookie policy") }}</a>
+<a href="{{ h.url_for('home.data_privacy') }}#cookies">{{ _("cookie policy") }}</a>
 {%- endset -%}
 <div id="cookieAcceptBar" class="cookieAcceptBar">
     {% trans cookie_link=cookie_link %}Before you browse our site, please accept our {{ cookie_link }}.{% endtrans %}<br>
