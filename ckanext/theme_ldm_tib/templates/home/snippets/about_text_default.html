@@ -1,10 +1,9 @@
 {% set instance_name = h.tibtheme_default_instance_name() %}
 
 <h1 class="page-heading">{{ _("About the Leibniz Data Manager") }}</h1>
-<p>{{ _("The&nbsp;<strong>Leibniz Data Manager (LDM)</strong>&nbsp;is an open source and free web-based application
-    for Research Data Management (RDM). LDM delivers different distributions to best fit the specific
-    requirements of various customers, e.g., institutes and research groups performing RDM in various
-    scientific disciplines.") }}</p>
+{%- set ss = '<strong>' -%}
+{%- set se = '</strong>' -%}
+<p>{% trans ss=ss|safe, se=se|safe %}The {{ ss }}Leibniz Data Manager (LDM){{ se }} is an open source and free web-based application for Research Data Management (RDM). LDM delivers different distributions to best fit the specific requirements of various customers, e.g., institutes and research groups performing RDM in various scientific disciplines.{% endtrans %}</p>
 <p>{{ _("The prototype currently offers the following functions for the visualization of research data:") }}</p>
 <ul>
     <li>{{ _("Supports data collections and publications with different formats") }}</li>

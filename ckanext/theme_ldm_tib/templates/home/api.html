@@ -15,7 +15,9 @@
         {% endif %}
 
         <h1 class="page-heading">{{ _("APIs offered by the Leibniz Data Manager") }}</h1>
-        <p>{{ _("The <strong>Leibniz Data Manager (LDM)</strong> is an open-source and free web-based application for Research Data Management (RDM). To facilitate integration with external tools and workflows, the LDM offers a series of APIs that fulfil various data management purposes.") }}</p>
+        {%- set ss = '<strong>' -%}
+        {%- set se = '</strong>' -%}
+        <p>{% trans ss=ss|safe, se=se|safe %}The {{ ss }}Leibniz Data Manager (LDM){{ se }} is an open-source and free web-based application for Research Data Management (RDM). To facilitate integration with external tools and workflows, the LDM offers a series of APIs that fulfil various data management purposes.{% endtrans %}</p>
         <p>{{ _("The APIs offered can be applied in the following areas:") }}</p>
         <ul>
             <li>
@@ -32,7 +34,8 @@
             <li>
                 <b>{{ _("Service for Jupyter Notebook Execution") }}:</b> {{ _("A containerised, multi-user JupyterHub instance with a unified REST API for notebook management. Designed for integration into external applications that need to spawn temporary Jupyter environments and serve notebooks to end users.") }}
                 <ul>
-                    <li>{{ _("Configurable pool of guest users for concurrent sessions (e.g. <code>guest0..guestN</code>)") }}</li>
+                    {%- set code_example = '<code>guest0..guestN</code>' -%}
+                    <li>{% trans example=code_example|safe %}Configurable pool of guest users for concurrent sessions (e.g. {{ example }}){% endtrans %}</li>
                     <li>{{ _("Automatic cleanup of idle servers with configurable timeouts and kernel lifecycle management") }}</li>
                     <li>{{ _("Per-container resource limits for CPU, memory, and disk") }}</li>
                     <li>{{ _("Admin dashboard for configuring limits and monitoring active sessions") }}</li>

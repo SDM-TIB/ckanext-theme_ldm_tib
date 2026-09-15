@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme_ldm_tib 1.1.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-14 10:34+0200\n"
+"POT-Creation-Date: 2026-09-15 10:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -164,8 +164,8 @@ msgid "%(ss)sLegal Notices Panel:%(se)s This is the list of links placed in the 
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:4 ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:7
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:13 ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:39
-#: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:40
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:13 ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:35
+#: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:36
 msgid "Accessibility Statement"
 msgstr ""
 
@@ -182,122 +182,122 @@ msgstr ""
 msgid "This accessibility statement applies to %(ldmservice_link)s, %(ldmjupyter_link)s and their sub-pages."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:29
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:28
 msgid ""
 "These websites are mostly compatible with the requirements of the harmonized European standard EN 301 549 V2.1.2 (08-2018) and WCAG 2.1 (Web Content "
 "Accessibility Guidelines)."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:30
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:29
 msgid "Non-accessible content:"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:32
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:31
 msgid ""
 "Contents that the TIB, in its function as a cultural heritage collection, is unable to convert into barrier-free content or can only do so at "
 "disproportionate expense."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:33
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:32
 msgid ""
 "Contents that are considered as archives of the TIB, i.e. contents that are neither required for active administrative procedures nor updated or revised "
 "after 23 September 2019."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:34
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:33
 msgid "Information integrated into the website, in particular:"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:36
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:35
 msgid "PDF documents"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:37
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:36
 msgid "Videos"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:38
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:37
 msgid "Texts"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:39
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:38
 msgid "Graphics"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:40
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:39
 msgid "Photos"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:43
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:42
 msgid "The listed contents are not barrier-free for the following reasons:"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:44
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:43
 msgid "To 1 & 2:"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:45
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:44
 msgid "These contents are excluded from the application of accessibility according to § 9 section 2 NBGG."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:46
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:45
 msgid "To 3:"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:47
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:46
 msgid ""
 "The website is being adapted and optimized to comply with the EU Directive 2016/2102 on the implementation of a barrier-free Internet for public sector "
 "bodies. The identified deficits and deficiencies are currently undergoing a continuous improvement process that will be successively processed."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:49
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:48
 msgid "Establishment of this Accessibility Statement"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:50
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:49
 msgid "This statement was established on 18 August 2020. The assessment is based on self-assessment."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:52
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:51
 msgid "Feedback and contact details"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:53
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:52
 msgid "You can report cases of non-compliance with accessibility requirements to us:"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:59 ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:69
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:58 ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:68
 #: ckanext/theme_ldm_tib/templates/home/data_privacy.html:31 ckanext/theme_ldm_tib/templates/home/data_privacy.html:40
 #: ckanext/theme_ldm_tib/templates/home/imprint.html:28 ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:32
 msgid "Phone"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:60 ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:70
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:59 ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:69
 msgid "EMail"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:63
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:62
 msgid "Arbitration procedure"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:64
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:63
 msgid ""
 "If you are not satisfied with the answers of our above-mentioned contact point, you can contact the arbitration office, which is located at the State "
 "Representative for People with Disabilities in Lower Saxony, for the initiation of an arbitration procedure in accordance with the Niedersächsisches "
 "Behindertengleichstellungsgesetz (Disability Equality Act of Lower Saxony) (NBGG)."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:65
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:64
 msgid ""
 "The arbitration office has the task according to § 9 d NBGG of settling disputes between people with disabilities and public institutions of the state of "
 "Lower Saxony on the topic of accessibility in IT."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:66
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:65
 msgid "The arbitration procedure is free of charge. No legal counsels are required."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:67
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:66
 msgid "You can contact the arbitration office directly at:"
 msgstr ""
 
@@ -305,86 +305,88 @@ msgstr ""
 msgid "APIs offered by the Leibniz Data Manager"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/api.html:18
+#: ckanext/theme_ldm_tib/templates/home/api.html:20
+#, python-format
 msgid ""
-"The <strong>Leibniz Data Manager (LDM)</strong> is an open-source and free web-based application for Research Data Management (RDM). To facilitate "
-"integration with external tools and workflows, the LDM offers a series of APIs that fulfil various data management purposes."
+"The %(ss)sLeibniz Data Manager (LDM)%(se)s is an open-source and free web-based application for Research Data Management (RDM). To facilitate integration "
+"with external tools and workflows, the LDM offers a series of APIs that fulfil various data management purposes."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/api.html:19
+#: ckanext/theme_ldm_tib/templates/home/api.html:21
 msgid "The APIs offered can be applied in the following areas:"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/api.html:22
+#: ckanext/theme_ldm_tib/templates/home/api.html:24
 msgid "Service for Data Comparison"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/api.html:22
+#: ckanext/theme_ldm_tib/templates/home/api.html:24
 msgid ""
 "This API enables direct side-by-side comparison of CSV datasets. Upload two or more CSV files, join them on a shared key column, and explore the result in a "
 "filterable table. Visualisations can be rendered as line, scatter, or bar charts with an optional logarithmic scale."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/api.html:24
+#: ckanext/theme_ldm_tib/templates/home/api.html:26
 msgid "Incremental resource loading — start with a single CSV and join additional files one at a time"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/api.html:25
+#: ckanext/theme_ldm_tib/templates/home/api.html:27
 msgid "Automatic left-join on the first shared column across datasets"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/api.html:26
+#: ckanext/theme_ldm_tib/templates/home/api.html:28
 msgid "Filterable table with column-level search and pagination (DataTables)"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/api.html:27
+#: ckanext/theme_ldm_tib/templates/home/api.html:29
 msgid "Interactive charts with selectable series and filtering to currently visible rows (Plotly)"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/api.html:28
+#: ckanext/theme_ldm_tib/templates/home/api.html:30
 msgid "Available as a Docker container or a local Python application"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/api.html:30 ckanext/theme_ldm_tib/templates/home/api.html:41 ckanext/theme_ldm_tib/templates/home/api.html:50
-#: ckanext/theme_ldm_tib/templates/home/api.html:59 ckanext/theme_ldm_tib/templates/home/api.html:69
+#: ckanext/theme_ldm_tib/templates/home/api.html:32 ckanext/theme_ldm_tib/templates/home/api.html:44 ckanext/theme_ldm_tib/templates/home/api.html:53
+#: ckanext/theme_ldm_tib/templates/home/api.html:62 ckanext/theme_ldm_tib/templates/home/api.html:72
 msgid "This API is available on"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/api.html:33
+#: ckanext/theme_ldm_tib/templates/home/api.html:35
 msgid "Service for Jupyter Notebook Execution"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/api.html:33
+#: ckanext/theme_ldm_tib/templates/home/api.html:35
 msgid ""
 "A containerised, multi-user JupyterHub instance with a unified REST API for notebook management. Designed for integration into external applications that "
 "need to spawn temporary Jupyter environments and serve notebooks to end users."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/api.html:35
-msgid "Configurable pool of guest users for concurrent sessions (e.g. <code>guest0..guestN</code>)"
-msgstr ""
-
-#: ckanext/theme_ldm_tib/templates/home/api.html:36
-msgid "Automatic cleanup of idle servers with configurable timeouts and kernel lifecycle management"
-msgstr ""
-
-#: ckanext/theme_ldm_tib/templates/home/api.html:37
-msgid "Per-container resource limits for CPU, memory, and disk"
-msgstr ""
-
 #: ckanext/theme_ldm_tib/templates/home/api.html:38
-msgid "Admin dashboard for configuring limits and monitoring active sessions"
+#, python-format
+msgid "Configurable pool of guest users for concurrent sessions (e.g. %(example)s)"
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/home/api.html:39
+msgid "Automatic cleanup of idle servers with configurable timeouts and kernel lifecycle management"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:40
+msgid "Per-container resource limits for CPU, memory, and disk"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:41
+msgid "Admin dashboard for configuring limits and monitoring active sessions"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/api.html:42
 msgid "Unified REST API on a single port for all operations"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/api.html:44
+#: ckanext/theme_ldm_tib/templates/home/api.html:47
 msgid "Service for Knowledge Graph Creation"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/api.html:44
+#: ckanext/theme_ldm_tib/templates/home/api.html:47
 msgid ""
 "This API transforms heterogeneous data sources into RDF knowledge graphs using SDM-RDFizer executed with RML mappings. RML (RDF Mapping Language) is a "
 "declarative language for defining how data elements from sources such as CSV, JSON, or XML correspond to RDF subjects, predicates, and objects. The API "
@@ -392,80 +394,80 @@ msgid ""
 "specified folder."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/api.html:46
+#: ckanext/theme_ldm_tib/templates/home/api.html:49
 msgid "Supports heterogeneous source formats (CSV, JSON, XML, relational databases)"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/api.html:47
+#: ckanext/theme_ldm_tib/templates/home/api.html:50
 msgid "Automated RDF triple generation based on RML mapping rules"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/api.html:48
+#: ckanext/theme_ldm_tib/templates/home/api.html:51
 msgid "Knowledge graph output to a configurable folder"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/api.html:53
+#: ckanext/theme_ldm_tib/templates/home/api.html:56
 msgid "Service for Knowledge Graph Integration"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/api.html:53
+#: ckanext/theme_ldm_tib/templates/home/api.html:56
 msgid ""
 "This API maps dataset metadata properties to those defined in a mapping template. The purpose of this service is to map dataset metadata to the structure "
 "required by the dataset template of the Leibniz Data Manager (LDM), facilitating easier import of datasets into the platform."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/api.html:55
+#: ckanext/theme_ldm_tib/templates/home/api.html:58
 msgid "User-defined mapping templates for linking existing metadata properties"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/api.html:56
+#: ckanext/theme_ldm_tib/templates/home/api.html:59
 msgid "Support for nested metadata structures via iterator configuration"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/api.html:57
+#: ckanext/theme_ldm_tib/templates/home/api.html:60
 msgid "Generates a structured output file compatible with the LDM dataset template"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/api.html:62
+#: ckanext/theme_ldm_tib/templates/home/api.html:65
 msgid "Service for Knowledge Graph Exploration"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/api.html:62
+#: ckanext/theme_ldm_tib/templates/home/api.html:65
 msgid ""
 "This API returns metadata about datasets associated with a scientific publication or an author's ORCID. It supports both single-entry lookups and batch "
 "processing of multiple DOIs in a single request."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/api.html:64
+#: ckanext/theme_ldm_tib/templates/home/api.html:67
 msgid "Retrieve dataset metadata by DOI — individually or as a batch of multiple DOIs"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/api.html:65
+#: ckanext/theme_ldm_tib/templates/home/api.html:68
 msgid "Retrieve dataset metadata by an author's ORCID"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/api.html:66
+#: ckanext/theme_ldm_tib/templates/home/api.html:69
 msgid "Retrieve datasets citing an author's work, identified by ORCID"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/api.html:67
+#: ckanext/theme_ldm_tib/templates/home/api.html:70
 msgid "Supports both GET and POST requests"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/api.html:77
+#: ckanext/theme_ldm_tib/templates/home/api.html:80
 #, python-format
 msgid "All available APIs can be found in this %(github_link)s repository."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/api.html:86 ckanext/theme_ldm_tib/templates/home/demo.html:42 ckanext/theme_ldm_tib/templates/home/ldm_register.html:39
-#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:33
+#: ckanext/theme_ldm_tib/templates/home/api.html:89 ckanext/theme_ldm_tib/templates/home/demo.html:42 ckanext/theme_ldm_tib/templates/home/ldm_register.html:41
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:32
 #, python-format
 msgid "Please, contact us at %(contact_link)s if you have comments or questions."
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/home/data_privacy.html:4 ckanext/theme_ldm_tib/templates/home/data_privacy.html:7
-#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:13 ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:24
-#: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:25
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:13 ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:21
+#: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:22
 msgid "Data Privacy Statement"
 msgstr ""
 
@@ -935,7 +937,7 @@ msgid ""
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/home/imprint.html:4 ckanext/theme_ldm_tib/templates/home/imprint.html:7 ckanext/theme_ldm_tib/templates/home/imprint.html:13
-#: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:31 ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:32
+#: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:28 ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:29
 msgid "Imprint"
 msgstr ""
 
@@ -1033,54 +1035,56 @@ msgid ""
 "registered user is not able to create datasets until a role is assigned."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:24
-msgid ""
-"<b>Organizations</b> are controlling which users can add, update and publish which datasets. Every dataset in LDM must belong to exactly one organization. If"
-" a user is an editor or admin of an organization, then he or she can create new datasets in that organization, and can edit and publish the datasets that "
-"belong to that organization."
-msgstr ""
-
-#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:25
-msgid ""
-"<b>Groups</b> are about curation – collecting datasets together into groups, across organisational boundaries. If a user is an editor or admin of a group, "
-"then he or she can add datasets (that already exist on the website) into their group and can remove datasets from their group, but they cannot add new "
-"datasets to the site, or edit the datasets that are in their group. Groups are intended for collecting related datasets together into themes like \"climate\""
-" etc."
-msgstr ""
-
 #: ckanext/theme_ldm_tib/templates/home/ldm_register.html:26
-msgid "LDM allows administrator users to add members (users) to organizations/groups with three kind of roles:"
+#, python-format
+msgid ""
+"%(bs)sOrganizations%(be)s are controlling which users can add, update and publish which datasets. Every dataset in LDM must belong to exactly one "
+"organization. If a user is an editor or admin of an organization, then he or she can create new datasets in that organization, and can edit and publish the "
+"datasets that belong to that organization."
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/home/ldm_register.html:27
-msgid "For organizations"
+#, python-format
+msgid ""
+"%(bs)sGroups%(be)s are about curation – collecting datasets together into groups, across organisational boundaries. If a user is an editor or admin of a "
+"group, then he or she can add datasets (that already exist on the website) into their group and can remove datasets from their group, but they cannot add new"
+" datasets to the site, or edit the datasets that are in their group. Groups are intended for collecting related datasets together into themes like "
+"\"climate\" etc."
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:28
+msgid "LDM allows administrator users to add members (users) to organizations/groups with three kind of roles:"
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/home/ldm_register.html:29
-msgid "Member – can see the organization's private datasets"
-msgstr ""
-
-#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:30
-msgid "Editor – can edit and publish datasets"
+msgid "For organizations"
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/home/ldm_register.html:31
-msgid "Admin – can add, remove and change roles for organization members"
+msgid "Member – can see the organization's private datasets"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:32
+msgid "Editor – can edit and publish datasets"
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/home/ldm_register.html:33
-msgid "For groups"
+msgid "Admin – can add, remove and change roles for organization members"
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/home/ldm_register.html:35
+msgid "For groups"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:37
 msgid "Member – can add/remove datasets from groups"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:36
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:38
 msgid "Admin – can edit group information, as well as manage group's members."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:38
+#: ckanext/theme_ldm_tib/templates/home/ldm_register.html:40
 msgid "To be able to add members to organizations/groups the new user must ask the administrator user her/his addition bringing her/his email and personal data."
 msgstr ""
 
@@ -1096,8 +1100,8 @@ msgstr ""
 msgid "Status: April 2022"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:16 ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:8
-#: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:9
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:16 ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:7
+#: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:8
 msgid "Terms of Use of the TIB"
 msgstr ""
 
@@ -1340,141 +1344,149 @@ msgstr ""
 msgid "In the event of a dispute, the TIB endeavors to reach an amicable settlement."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:1 ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:3
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:3 ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:3
 msgid "About the Leibniz Data Manager"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:2
-msgid ""
-"The <strong>Leibniz Data Manager (LDM)</strong> is a modular research data infrastructure that enables the <strong>FAIR-compliant management and exploration "
-"of Research Digital Objects (RDOs)</strong>—such as datasets, software, documents, and scientific publications. By combining <strong>Knowledge Graphs "
-"(KGs)</strong> with <strong>Neuro-Symbolic AI</strong>, LDM supports intelligent, interoperable, and reusable data workflows across scientific domains. Key "
-"features include:"
-msgstr ""
-
 #: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:4
+#, python-format
 msgid ""
-"<strong>Metadata Representation</strong> using standard and domain-specific vocabularies (e.g., DCAT, Datacite, UMLS), ensuring semantic interoperability and"
-" alignment with FAIR principles."
-msgstr ""
-
-#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:5
-msgid ""
-"<strong>Knowledge Graph Construction</strong> from heterogeneous data sources through a declarative data integration system (DIS), enabling structured and "
-"contextual metadata."
+"The %(ss)sLeibniz Data Manager (LDM)%(se)s is a modular research data infrastructure that enables the %(ss)sFAIR-compliant management and exploration of "
+"Research Digital Objects (RDOs)%(se)s—such as datasets, software, documents, and scientific publications. By combining %(ss)sKnowledge Graphs (KGs)%(se)s "
+"with %(ss)sNeuro-Symbolic AI%(se)s, LDM supports intelligent, interoperable, and reusable data workflows across scientific domains. Key features include:"
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:6
+#, python-format
 msgid ""
-"<strong>Entity Linking and Enrichment</strong> of RDOs with external KGs such as <strong>Wikidata</strong> and the <strong>Open Research Knowledge Graph "
-"(ORKG)</strong>, using tools like Falcon and BioLinkedAI to automatically expand metadata."
+"%(ss)sMetadata Representation%(se)s using standard and domain-specific vocabularies (e.g., DCAT, Datacite, UMLS), ensuring semantic interoperability and "
+"alignment with FAIR principles."
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:7
-msgid "<strong>On-the-Fly Metadata Updates</strong>, maintaining synchronization with evolving knowledge and newly published resources."
+#, python-format
+msgid ""
+"%(ss)sKnowledge Graph Construction%(se)s from heterogeneous data sources through a declarative data integration system (DIS), enabling structured and "
+"contextual metadata."
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:8
+#, python-format
 msgid ""
-"<strong>Federated Query Processing</strong> across multiple KGs, allowing users to pose <strong>natural language questions</strong> that are transformed into"
-" SPARQL and executed over LDM and ORKG."
+"%(ss)sEntity Linking and Enrichment%(se)s of RDOs with external KGs such as %(ss)sWikidata%(se)s and the %(ss)sOpen Research Knowledge Graph (ORKG)%(se)s, "
+"using tools like Falcon and BioLinkedAI to automatically expand metadata."
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:9
-msgid "<strong>Dataset Comparison and Visualization</strong>, offering tools to analyze and contrast RDOs based on shared attributes and research contexts."
+#, python-format
+msgid "%(ss)sOn-the-Fly Metadata Updates%(se)s, maintaining synchronization with evolving knowledge and newly published resources."
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:10
+#, python-format
 msgid ""
-"<strong>Live Code Execution</strong> via <strong>Jupyter Notebooks</strong>, enabling reproducible scientific workflows and interactive data analysis within "
-"a secure, containerized environment."
+"%(ss)sFederated Query Processing%(se)s across multiple KGs, allowing users to pose %(ss)snatural language questions%(se)s that are transformed into SPARQL "
+"and executed over LDM and ORKG."
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:11
-msgid ""
-"<strong>Neuro-Symbolic Reasoning</strong> for both query answering and metadata expansion, combining symbolic models with LLM-based contextualization to "
-"enhance discoverability and usability of RDOs."
+#, python-format
+msgid "%(ss)sDataset Comparison and Visualization%(se)s, offering tools to analyze and contrast RDOs based on shared attributes and research contexts."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:23
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:12
+#, python-format
+msgid ""
+"%(ss)sLive Code Execution%(se)s via %(ss)sJupyter Notebooks%(se)s, enabling reproducible scientific workflows and interactive data analysis within a secure, "
+"containerized environment."
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:13
+#, python-format
+msgid ""
+"%(ss)sNeuro-Symbolic Reasoning%(se)s for both query answering and metadata expansion, combining symbolic models with LLM-based contextualization to enhance "
+"discoverability and usability of RDOs."
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:25
 msgid "Demo page"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:26
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:28
 msgid "video"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:30
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:32
 #, python-format
-msgid "LDM is publicly accessible at %(ldm_link)s, and a <strong>Docker container</strong> for local deployment is available at %(docker_link)s."
+msgid "LDM is publicly accessible at %(ldm_link)s, and a %(ss)sDocker container%(se)s for local deployment is available at %(docker_link)s."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:37
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:39
 #, python-format
 msgid "The upload and description of dataset metadata require registration. More detailed information in %(register_link)s."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:43
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_TIB.html:45
 #, python-format
 msgid "For more details on using LDM, visit the %(demo_link)s or watch the following explanatory %(video_link)s."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:4
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:6
+#, python-format
 msgid ""
-"The&nbsp;<strong>Leibniz Data Manager (LDM)</strong>&nbsp;is an open source and free web-based application\n"
-"    for Research Data Management (RDM). LDM delivers different distributions to best fit the specific\n"
-"    requirements of various customers, e.g., institutes and research groups performing RDM in various\n"
-"    scientific disciplines."
+"The %(ss)sLeibniz Data Manager (LDM)%(se)s is an open source and free web-based application for Research Data Management (RDM). LDM delivers different "
+"distributions to best fit the specific requirements of various customers, e.g., institutes and research groups performing RDM in various scientific "
+"disciplines."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:8
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:7
 msgid "The prototype currently offers the following functions for the visualization of research data:"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:10
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:9
 msgid "Supports data collections and publications with different formats"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:11
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:10
 msgid "Different views on the same data set (2D and 3D support)"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:12
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:11
 msgid "Visualization of Auto CAD files"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:13
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:12
 msgid "Jupyter Notebooks for demonstrating live code"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:14
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:13
 msgid "RDF Description of data collections"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:16
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:15
 msgid ""
 "The file specific viewers were implemented using CKAN (Comprehensive Knowledge Archive Network) plugins\n"
 "        to render existing viewers for the datasets included in the CKAN instance."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:19
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:18
 #, python-format
 msgid "This is an instance of the tool installed for: %(instance_name)s."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:21
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:20
 msgid "Other available instances of the LDM:"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:27
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:26
 msgid "TIB webpage"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:28
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:27
 msgid "GitHub repository"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:29
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:28
 #, python-format
 msgid "More info about the LDM project can be found on the %(tib_link)s and the last updated code in the %(github_link)s."
 msgstr ""

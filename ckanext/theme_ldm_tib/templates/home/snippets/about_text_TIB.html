@@ -1,14 +1,16 @@
+{%- set ss = '<strong>' -%}
+{%- set se = '</strong>' -%}
 <h1 class="page-heading">{{ _("About the Leibniz Data Manager") }}</h1>
-<p>{{ _("The <strong>Leibniz Data Manager (LDM)</strong> is a modular research data infrastructure that enables the <strong>FAIR-compliant management and exploration of Research Digital Objects (RDOs)</strong>—such as datasets, software, documents, and scientific publications. By combining <strong>Knowledge Graphs (KGs)</strong> with <strong>Neuro-Symbolic AI</strong>, LDM supports intelligent, interoperable, and reusable data workflows across scientific domains. Key features include:") }}</p>
+<p>{% trans ss=ss|safe, se=se|safe %}The {{ ss }}Leibniz Data Manager (LDM){{ se }} is a modular research data infrastructure that enables the {{ ss }}FAIR-compliant management and exploration of Research Digital Objects (RDOs){{ se }}—such as datasets, software, documents, and scientific publications. By combining {{ ss }}Knowledge Graphs (KGs){{ se }} with {{ ss }}Neuro-Symbolic AI{{ se }}, LDM supports intelligent, interoperable, and reusable data workflows across scientific domains. Key features include:{% endtrans %}</p>
 <ul>
-    <li>{{ _("<strong>Metadata Representation</strong> using standard and domain-specific vocabularies (e.g., DCAT, Datacite, UMLS), ensuring semantic interoperability and alignment with FAIR principles.") }}</li>
-    <li>{{ _("<strong>Knowledge Graph Construction</strong> from heterogeneous data sources through a declarative data integration system (DIS), enabling structured and contextual metadata.") }}</li>
-    <li>{{ _("<strong>Entity Linking and Enrichment</strong> of RDOs with external KGs such as <strong>Wikidata</strong> and the <strong>Open Research Knowledge Graph (ORKG)</strong>, using tools like Falcon and BioLinkedAI to automatically expand metadata.") }}</li>
-    <li>{{ _("<strong>On-the-Fly Metadata Updates</strong>, maintaining synchronization with evolving knowledge and newly published resources.") }}</li>
-    <li>{{ _("<strong>Federated Query Processing</strong> across multiple KGs, allowing users to pose <strong>natural language questions</strong> that are transformed into SPARQL and executed over LDM and ORKG.") }}</li>
-    <li>{{ _("<strong>Dataset Comparison and Visualization</strong>, offering tools to analyze and contrast RDOs based on shared attributes and research contexts.") }}</li>
-    <li>{{ _("<strong>Live Code Execution</strong> via <strong>Jupyter Notebooks</strong>, enabling reproducible scientific workflows and interactive data analysis within a secure, containerized environment.") }}</li>
-    <li>{{ _("<strong>Neuro-Symbolic Reasoning</strong> for both query answering and metadata expansion, combining symbolic models with LLM-based contextualization to enhance discoverability and usability of RDOs.") }}</li>
+    <li>{% trans ss=ss|safe, se=se|safe %}{{ ss }}Metadata Representation{{ se }} using standard and domain-specific vocabularies (e.g., DCAT, Datacite, UMLS), ensuring semantic interoperability and alignment with FAIR principles.{% endtrans %}</li>
+    <li>{% trans ss=ss|safe, se=se|safe %}{{ ss }}Knowledge Graph Construction{{ se }} from heterogeneous data sources through a declarative data integration system (DIS), enabling structured and contextual metadata.{% endtrans %}</li>
+    <li>{% trans ss=ss|safe, se=se|safe %}{{ ss }}Entity Linking and Enrichment{{ se }} of RDOs with external KGs such as {{ ss }}Wikidata{{ se }} and the {{ ss }}Open Research Knowledge Graph (ORKG){{ se }}, using tools like Falcon and BioLinkedAI to automatically expand metadata.{% endtrans %}</li>
+    <li>{% trans ss=ss|safe, se=se|safe %}{{ ss }}On-the-Fly Metadata Updates{{ se }}, maintaining synchronization with evolving knowledge and newly published resources.{% endtrans %}</li>
+    <li>{% trans ss=ss|safe, se=se|safe %}{{ ss }}Federated Query Processing{{ se }} across multiple KGs, allowing users to pose {{ ss }}natural language questions{{ se }} that are transformed into SPARQL and executed over LDM and ORKG.{% endtrans %}</li>
+    <li>{% trans ss=ss|safe, se=se|safe %}{{ ss }}Dataset Comparison and Visualization{{ se }}, offering tools to analyze and contrast RDOs based on shared attributes and research contexts.{% endtrans %}</li>
+    <li>{% trans ss=ss|safe, se=se|safe %}{{ ss }}Live Code Execution{{ se }} via {{ ss }}Jupyter Notebooks{{ se }}, enabling reproducible scientific workflows and interactive data analysis within a secure, containerized environment.{% endtrans %}</li>
+    <li>{% trans ss=ss|safe, se=se|safe %}{{ ss }}Neuro-Symbolic Reasoning{{ se }} for both query answering and metadata expansion, combining symbolic models with LLM-based contextualization to enhance discoverability and usability of RDOs.{% endtrans %}</li>
 </ul>
 {%- set ldm_link -%}
 <a href="https://service.tib.eu/ldmservice/">https://service.tib.eu/ldmservice/</a>
@@ -27,9 +29,9 @@
 {%- endset -%}
 
 <p>
-    {%- trans ldm_link=ldm_link, docker_link=docker_link -%}
+    {%- trans ldm_link=ldm_link, docker_link=docker_link, ss=ss|safe, se=se|safe -%}
         LDM is publicly accessible at {{ ldm_link }}, and a
-        <strong>Docker container</strong> for local deployment is available at
+        {{ ss }}Docker container{{ se }} for local deployment is available at
         {{ docker_link }}.
     {%- endtrans -%}
 </p>
