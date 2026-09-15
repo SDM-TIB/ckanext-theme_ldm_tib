@@ -14,8 +14,8 @@
             {% if h.tibtheme_styled_footer_enabled() %}
             <div class="ldm_about_foot">
                 <ul class="list-inline">
-                    <li><a target="_blank" href="https://www.tib.eu"><img alt="TIB Logo" src="{{h.url_for('home')}}images/tib_logo_weiss_footer.png"></a></li>
-                    <li><a target="_blank" href="http://www.leibniz-gemeinschaft.de"><img alt="Logo Leibniz-Gemeinschaft" src="{{h.url_for('home')}}images/logo_leibniz_mitglied.png"></a></li>
+                    <li><a target="_blank" href="https://www.tib.eu"><img alt="TIB Logo" src="{{ h.url_for_static('images/tib_logo_weiss_footer.png') }}"></a></li>
+                    <li><a target="_blank" href="http://www.leibniz-gemeinschaft.de"><img alt="Logo Leibniz-Gemeinschaft" src="{{ h.url_for_static('images/logo_leibniz_mitglied.png') }}"></a></li>
                     <li>{% snippet "snippets/tib_legal_notices.html", current_lang=current_lang %}</li>
                 </ul>
                 <ul class="list-inline">

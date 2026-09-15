@@ -11,7 +11,7 @@
 <article class="module" role="main">
     <div class="module-content">
         {% if not h.tibtheme_styled_header_enabled() and h.tibtheme_is_TIBservice_instance() %}
-            <img id="tib_event_logo" src="{{asset_path}}images/tib_datamanager_1150.jpg" alt="TIB Leibniz Data Manager Logo" class="img-responsive">
+            <img id="tib_event_logo" src="{{ h.url_for_static('images/tib_datamanager_1150.jpg') }}" alt="TIB Leibniz Data Manager Logo" class="img-responsive">
         {% endif %}
 
         <h1 class="page-heading">{{ _("APIs offered by the Leibniz Data Manager") }}</h1>
@@ -94,13 +94,13 @@
             <div class="ldm_about_foot">
                 <ul class="list-inline">
                     <li>
-                        <a target="_blank" href="https://www.tib.eu"><img alt="TIB Logo" src="{{asset_path}}images/tib_logo_weiss_footer.png"></a>
+                        <a target="_blank" href="https://www.tib.eu"><img alt="TIB Logo" src="{{ h.url_for_static('images/tib_logo_weiss_footer.png') }}"></a>
                     </li>
                     <li>
-                        <a target="_blank" href="http://www.leibniz-gemeinschaft.de"><img alt="Logo Leibniz-Gemeinschaft" src="{{asset_path}}images/logo_leibniz_mitglied.png"></a>
+                        <a target="_blank" href="http://www.leibniz-gemeinschaft.de"><img alt="Logo Leibniz-Gemeinschaft" src="{{ h.url_for_static('images/logo_leibniz_mitglied.png') }}"></a>
                     </li>
                     <li>
-                        <a target="_blank" href="https://www.dfg.de/"><img style="width: 240px" alt="Logo Deutsche Forschungsgemeinschaft" src="{{asset_path}}images/dfg_logo_schriftzug_weiss_foerderung_en.gif"></a>
+                        <a target="_blank" href="https://www.dfg.de/"><img style="width: 240px" alt="Logo Deutsche Forschungsgemeinschaft" src="{{ h.url_for_static('images/dfg_logo_schriftzug_weiss_foerderung_en.gif') }}"></a>
                     </li>
                 </ul>
             </div>
