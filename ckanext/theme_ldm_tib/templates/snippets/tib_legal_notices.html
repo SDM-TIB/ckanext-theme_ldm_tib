@@ -11,8 +11,8 @@
         {% endif %}
         {% if h.tibtheme_special_conditions_LDM_enabled() %}
             <li>
-                <a href="{{ h.url_for('home') }}special_conditions_LDM" title="{{_(h.tibtheme_special_conditions_label())}}">
-                    {{_(h.tibtheme_special_conditions_label())}}
+                <a href="{{ h.url_for('home') }}special_conditions_LDM" title="{{ _("Special Conditions TIB LDM") }}">
+                    {{ _("Special Conditions TIB LDM") }}
                 </a>
             </li>
         {% endif %}

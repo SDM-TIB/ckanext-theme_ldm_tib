@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme_ldm_tib 1.1.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-15 10:36+0200\n"
+"POT-Creation-Date: 2026-09-17 11:40+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1683,6 +1683,10 @@ msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:2
 msgid "Legal Notices"
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:14 ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:15
+msgid "Special Conditions TIB LDM"
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:7
