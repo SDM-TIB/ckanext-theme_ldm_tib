@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme_ldm_tib 1.1.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-17 11:40+0200\n"
+"POT-Creation-Date: 2026-09-18 11:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -273,7 +273,11 @@ msgid "Phone"
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:59 ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:69
-msgid "EMail"
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:32 ckanext/theme_ldm_tib/templates/home/data_privacy.html:41
+#: ckanext/theme_ldm_tib/templates/home/imprint.html:29 ckanext/theme_ldm_tib/templates/home/imprint.html:36 ckanext/theme_ldm_tib/templates/home/imprint.html:37
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:33 ckanext/theme_ldm_tib/templates/user/edit_user_form.html:10
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:35
+msgid "Email"
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:62
@@ -513,13 +517,6 @@ msgstr ""
 msgid "Germany"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:32 ckanext/theme_ldm_tib/templates/home/data_privacy.html:41
-#: ckanext/theme_ldm_tib/templates/home/imprint.html:29 ckanext/theme_ldm_tib/templates/home/imprint.html:36 ckanext/theme_ldm_tib/templates/home/imprint.html:37
-#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:33 ckanext/theme_ldm_tib/templates/user/edit_user_form.html:10
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:35
-msgid "Email"
-msgstr ""
-
 #: ckanext/theme_ldm_tib/templates/home/data_privacy.html:33
 msgid "Website"
 msgstr ""
@@ -558,8 +555,9 @@ msgid ""
 "services cannot be used without providing the required data."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:67
-msgid "Terms of use of the TIB"
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:67 ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:16
+#: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:7 ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:8
+msgid "Terms of Use of the TIB"
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/home/data_privacy.html:70 ckanext/theme_ldm_tib/templates/user/new_user_form.html:10
@@ -579,7 +577,8 @@ msgstr ""
 msgid "TIB services with registration"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:75
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:75 ckanext/theme_ldm_tib/templates/user/edit_user_form.html:9
+#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:10
 msgid "e.g."
 msgstr ""
 
@@ -1098,11 +1097,6 @@ msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:14
 msgid "Status: April 2022"
-msgstr ""
-
-#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:16 ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:7
-#: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:8
-msgid "Terms of Use of the TIB"
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:18
@@ -1699,10 +1693,6 @@ msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:9 ckanext/theme_ldm_tib/templates/user/new_user_form.html:32
 msgid "Full Name"
-msgstr ""
-
-#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:9 ckanext/theme_ldm_tib/templates/user/edit_user_form.html:10
-msgid "eg."
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:11

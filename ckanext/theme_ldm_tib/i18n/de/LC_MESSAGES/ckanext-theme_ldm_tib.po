@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme_ldm_tib 1.1.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-17 11:40+0200\n"
+"POT-Creation-Date: 2026-09-18 11:28+0200\n"
 "PO-Revision-Date: 2026-09-05 12:37+0200\n"
 "Last-Translator: Philipp D. Rohde\n"
 "Language: de\n"
@@ -345,11 +345,17 @@ msgstr ""
 msgid "Phone"
 msgstr "Telefon"
 
-# | msgid "Email"
 #: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:59
 #: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:69
-#, fuzzy
-msgid "EMail"
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:32
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:41
+#: ckanext/theme_ldm_tib/templates/home/imprint.html:29
+#: ckanext/theme_ldm_tib/templates/home/imprint.html:36
+#: ckanext/theme_ldm_tib/templates/home/imprint.html:37
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:33
+#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:10
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:35
+msgid "Email"
 msgstr "E-Mail"
 
 #: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:62
@@ -658,9 +664,7 @@ msgstr ""
 msgid "Data Privacy Statement"
 msgstr "Datenschutzerklärung"
 
-# | msgid "Data Privacy Statement"
 #: ckanext/theme_ldm_tib/templates/home/data_privacy.html:14
-#, fuzzy
 msgid "Privacy Statement"
 msgstr "Datenschutzerklärung"
 
@@ -734,17 +738,6 @@ msgstr "Verantwortlicher im Sinne des Datenschutzrechts ist die:"
 msgid "Germany"
 msgstr "Deutschland"
 
-#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:32
-#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:41
-#: ckanext/theme_ldm_tib/templates/home/imprint.html:29
-#: ckanext/theme_ldm_tib/templates/home/imprint.html:36
-#: ckanext/theme_ldm_tib/templates/home/imprint.html:37
-#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:33
-#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:10
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:35
-msgid "Email"
-msgstr "E-Mail"
-
 #: ckanext/theme_ldm_tib/templates/home/data_privacy.html:33
 msgid "Website"
 msgstr "Webseite"
@@ -797,10 +790,11 @@ msgstr ""
 " Benutzer erbringen zu können. Ohne Bereitstellung der Daten können die "
 "Dienstleistungen nicht in Anspruch genommen werden."
 
-# | msgid "Terms of Use of the TIB"
 #: ckanext/theme_ldm_tib/templates/home/data_privacy.html:67
-#, fuzzy
-msgid "Terms of use of the TIB"
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:16
+#: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:7
+#: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:8
+msgid "Terms of Use of the TIB"
 msgstr "Nutzungsbedingungen der TIB"
 
 #: ckanext/theme_ldm_tib/templates/home/data_privacy.html:70
@@ -830,9 +824,9 @@ msgstr ""
 msgid "TIB services with registration"
 msgstr "Dienstleistungen der TIB mit Registrierung"
 
-# | msgid "eg."
 #: ckanext/theme_ldm_tib/templates/home/data_privacy.html:75
-#, fuzzy
+#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:9
+#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:10
 msgid "e.g."
 msgstr "z.B."
 
@@ -1703,12 +1697,6 @@ msgstr "Nutzungsbedingungen Leibniz Data Manager"
 #: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:14
 msgid "Status: April 2022"
 msgstr "Stand: April 2022"
-
-#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:16
-#: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:7
-#: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:8
-msgid "Terms of Use of the TIB"
-msgstr "Nutzungsbedingungen der TIB"
 
 #: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:18
 #, python-format
@@ -2663,11 +2651,6 @@ msgstr "Benutzername"
 msgid "Full Name"
 msgstr "Vollständiger Name"
 
-#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:9
-#: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:10
-msgid "eg."
-msgstr "z.B."
-
 #: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:11
 msgid "A little information about yourself"
 msgstr "Ein paar Informationen zu dir"
@@ -2795,49 +2778,4 @@ msgstr "Aktivitätsanzeige"
 #: ckanext/theme_ldm_tib/templates/user/read_base.html:7
 msgid "API Tokens"
 msgstr "API Token"
-
-#~ msgid ""
-#~ "The <strong>Leibniz Data Manager "
-#~ "(LDM)</strong> is a modular research "
-#~ "data infrastructure that enables the "
-#~ "<strong>FAIR-compliant management and "
-#~ "exploration of Research Digital Objects "
-#~ "(RDOs)</strong>—such as datasets, software, "
-#~ "documents, and scientific publications. By "
-#~ "combining <strong>Knowledge Graphs (KGs)</strong>"
-#~ " with <strong>Neuro-Symbolic AI</strong>, "
-#~ "LDM supports intelligent, interoperable, and"
-#~ " reusable data workflows across scientific"
-#~ " domains. Key features include:"
-#~ msgstr ""
-#~ "Der <strong>Leibniz Data Manager "
-#~ "(LDM)</strong> ist eine modulare "
-#~ "Forschungsdateninfrastruktur, die das <strong"
-#~ ">FAIR-konforme Management und die "
-#~ "Exploration von Research Digital Objects "
-#~ "(RDOs)</strong> ermöglicht—wie Datensätze, Software,"
-#~ " Dokumente und wissenschaftliche Publikationen."
-#~ " Durch die Kombination von "
-#~ "<strong>Knowledge Graphs (KGs)</strong> mit "
-#~ "<strong>Neuro-Symbolischer KI</strong> unterstützt"
-#~ " LDM intelligente, interoperable und "
-#~ "wiederverwendbare Daten-Workflows über "
-#~ "wissenschaftliche Domänen hinweg. Zu den "
-#~ "Hauptmerkmalen gehören:"
-
-#~ msgid ""
-#~ "<strong>Entity Linking and Enrichment</strong> "
-#~ "of RDOs with external KGs such as"
-#~ " <strong>Wikidata</strong> and the <strong>Open"
-#~ " Research Knowledge Graph (ORKG)</strong>, "
-#~ "using tools like Falcon and BioLinkedAI"
-#~ " to automatically expand metadata."
-#~ msgstr ""
-#~ "<strong>Entity Linking und Anreicherung</strong> "
-#~ "von RDOs mit externen KGs wie "
-#~ "<strong>Wikidata</strong> und dem <strong>Open "
-#~ "Research Knowledge Graph (ORKG)</strong>, "
-#~ "unter Verwendung von Tools wie Falcon"
-#~ " und BioLinkedAI zur automatischen "
-#~ "Erweiterung von Metadaten."
 
