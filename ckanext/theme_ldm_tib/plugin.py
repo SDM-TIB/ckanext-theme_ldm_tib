@@ -1,7 +1,8 @@
+import ckan.lib.helpers as h
 import ckan.plugins as plugins
 import ckan.plugins.toolkit as toolkit
 from ckan.common import config
-import ckan.lib.helpers as h
+from ckan.lib.plugins import DefaultTranslation
 from flask import Blueprint
 from six import text_type
 
@@ -143,10 +144,15 @@ def data_privacy():
 # **********************************
 
 
-class TibThemePlugin(plugins.SingletonPlugin):
+class TibThemePlugin(plugins.SingletonPlugin, DefaultTranslation):
     plugins.implements(plugins.IConfigurer)
     plugins.implements(plugins.ITemplateHelpers)
     plugins.implements(plugins.IBlueprint)
+    plugins.implements(plugins.ITranslation)
+
+    # ITranslation
+    def i18n_domain(self):
+        return 'ckanext-theme_ldm_tib'
 
     # IConfigurer
     def update_config(self, config_):
