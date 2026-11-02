@@ -73,7 +73,7 @@ def accessibility_statement_enabled():
 
 
 def is_matomo_plugin_enabled():
-    return 'matomo' in config.get('ckan.plugins', '')
+    return 'matomo' in toolkit.aslist(config.get('ckan.plugins', ''))
 
 
 def is_TIBservice_instance():
