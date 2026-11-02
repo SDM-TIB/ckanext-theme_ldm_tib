@@ -37,7 +37,7 @@
 {% endblock %}
 
 {% block header_site_search %}
-    <form class="section site-search simple-input" action="{% url_for controller='dataset', action='search' %}" method="get">
+    <form class="section site-search simple-input" action="{% url_for 'dataset.search' %}" method="get">
         <div class="field">
             <label for="field-sitewide-search">{% block header_site_search_label %}{{ _('Search Datasets') }}{% endblock %}</label>
             <input id="field-sitewide-search" type="text" name="q" placeholder="{{ _('Search') }}" />
@@ -58,10 +58,10 @@
                         {{ _('Datasets') }}
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                        <a class="dropdown-item tib_dropdown_item" href="{{h.url_for('home')}}dataset/">{{_('All')}} {{ menu_item}}</a>
-                        <a class="dropdown-item tib_dropdown_item" href="{{h.url_for('home')}}dataset?type=dataset">{{_('Local')}}</a>
-                        <a class="dropdown-item tib_dropdown_item" href="{{h.url_for('home')}}vdataset/">{{_('Imported')}}</a>
-                        <a class="dropdown-item tib_dropdown_item" href="{{h.url_for('home')}}service/">{{_('Services')}}</a>
+                        <a class="dropdown-item tib_dropdown_item" href="{{ h.url_for('dataset.search') }}">{{_('All')}} {{ menu_item}}</a>
+                        <a class="dropdown-item tib_dropdown_item" href="{{ h.url_for('dataset.search', dataset_type='dataset') }}">{{_('Local')}}</a>
+                        <a class="dropdown-item tib_dropdown_item" href="{{ h.url_for('vdataset.search') }}">{{_('Imported')}}</a>
+                        <a class="dropdown-item tib_dropdown_item" href="{{ h.url_for('service.search') }}">{{_('Services')}}</a>
                     </div>
                 </div>
             </li>

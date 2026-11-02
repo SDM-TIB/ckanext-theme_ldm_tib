@@ -11,28 +11,28 @@
         {% endif %}
         {% if h.tibtheme_special_conditions_LDM_enabled() %}
             <li>
-                <a href="{{ h.url_for('home') }}special_conditions_LDM" title="{{ _("Special Conditions TIB LDM") }}">
+                <a href="{{ h.url_for('TIBtheme.special_conditions_LDM') }}" title="{{ _("Special Conditions TIB LDM") }}">
                     {{ _("Special Conditions TIB LDM") }}
                 </a>
             </li>
         {% endif %}
         {% if h.tibtheme_data_privacy_enabled() %}
             <li>
-                <a href="{{ h.url_for('home') }}data_privacy" title="{{_('Data Privacy Statement')}}">
+                <a href="{{ h.url_for('TIBtheme.data_privacy') }}" title="{{_('Data Privacy Statement')}}">
                     {{_('Data Privacy Statement')}}
                 </a>
             </li>
         {% endif %}
         {% if h.tibtheme_imprint_enabled() %}
             <li>
-                <a href="{{ h.url_for('home') }}imprint" title="{{_('Imprint')}}">
+                <a href="{{ h.url_for('TIBtheme.imprint') }}" title="{{_('Imprint')}}">
                     {{_('Imprint')}}
                 </a>
             </li>
         {% endif %}
         {% if h.tibtheme_accessibility_statement_enabled() %}
             <li>
-                <a href="{{ h.url_for('home') }}accessibility_statement" title="{{_('Accessibility Statement')}}">
+                <a href="{{ h.url_for('TIBtheme.accessibility_statement') }}" title="{{_('Accessibility Statement')}}">
                     {{_('Accessibility Statement')}}
                 </a>
             </li>

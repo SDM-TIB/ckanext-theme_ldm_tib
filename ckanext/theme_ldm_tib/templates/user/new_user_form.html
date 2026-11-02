@@ -61,10 +61,9 @@
     {% if h.tibtheme_legal_notices_enabled() %}
         {% asset 'ckanext-theme_ldm_tib/new_user-js' %}
 
-        {% set home_url   = h.url_for('home') %}
-        {% set sc_url     = home_url ~ 'special_conditions_LDM' %}
-        {% set dp_url     = home_url ~ 'data_privacy' %}
-        {% set dp_pdf_url = home_url ~ 'assets/LeibnizDataManager_InformationsblattDatenschutz.pdf' %}
+        {% set sc_url = h.url_for('TIBtheme.special_conditions_LDM') %}
+        {% set dp_url = h.url_for('TIBtheme.data_privacy') %}
+        {% set dp_pdf_url = h.url_for_static('assets/LeibnizDataManager_InformationsblattDatenschutz.pdf') %}
 
         {% set sc_label = _(
             'I accept the <a href="%(url)s" target="_blank" style="color:red">Special Conditions TIB LDM</a>'
