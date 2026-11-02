@@ -111,6 +111,7 @@
             <p>{{ _("Users can prevent and permanently object to the setting of cookies by TIB websites at any time by choosing the corresponding settings of the Internet browser used. Furthermore, cookies already set can be deleted at any time with the Internet browser or by other software programs. This is possible in all common Internet browsers. If the data subject deactivates the setting of cookies in the Internet browser used, the TIB web pages may not function properly.") }}</p>
         </blockquote>
 
+        {% if h.tibtheme_is_matomo_enabled() %}
         <p><br></p>
 
         <blockquote>
@@ -138,6 +139,7 @@
             </div>
             <p><span style="letter-spacing: 0.0px;color: rgb(51,51,51);">{{ _("In this case, an opt-out cookie is placed in the browser of the data subject, which prevents Matomo from storing usage data. When the cookies are deleted, the Matomo opt-out cookie is also deleted. Such objection (opt-out) must be redeclared when visiting the TIB website again") }}</span></p>
         </blockquote>
+        {% endif %}
 
         <p><br></p>
 
