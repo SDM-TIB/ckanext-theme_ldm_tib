@@ -1300,7 +1300,7 @@ msgstr "Poster"
 
 #: ckanext/theme_ldm_tib/templates/home/demo.html:31
 msgid "A video showing the LDM features."
-msgstr "Ein Video, das die Funktionen des LDM zeigt und"
+msgstr "Ein Video, das die Funktionen des LDM zeigt."
 
 #: ckanext/theme_ldm_tib/templates/home/demo.html:32
 #: ckanext/theme_ldm_tib/templates/home/demo.html:36
@@ -1682,8 +1682,8 @@ msgid ""
 "personal data."
 msgstr ""
 "Um Mitglieder zu Organisationen/Gruppen hinzufügen zu können, muss der "
-"neue Nutzende den Administrator fragen, ob er oder sie seine E-Mail-"
-"Adresse und persönlichen Daten mitbringen darf."
+"neue Nutzende beim Administrator beantragen, aufgenommen zu werden, und "
+"dabei seine E-Mail-Adresse sowie seine persönlichen Daten angeben."
 
 #: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:4
 #: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:7
