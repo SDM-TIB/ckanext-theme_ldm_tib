@@ -35,7 +35,12 @@ def styled_footer_enabled():
 
 
 def get_site_logo_filename():
-    return config.get('ckan.site_logo', h.url_for('home')+'/images/TIB_logo.png')
+    logo = config.get('ckan.site_logo')
+    if logo:
+        if not logo.startswith('http'):
+            return h.url_for_static(logo)
+        return logo
+    return h.url_for('home') + '/images/TIB_logo.png'
 
 
 def legal_notices_enabled():
