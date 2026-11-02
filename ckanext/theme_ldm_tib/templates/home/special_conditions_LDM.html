@@ -13,7 +13,7 @@
         <h1>{{ _("Terms of Use Leibniz Data Manager") }}</h1>
         <p><strong>{{ _("Status: April 2022") }}</strong></p>
         {%- set terms_link -%}
-        <a href="{% if h.lang() == 'en' %}https://www.tib.eu/en/service/terms-of-use/{% else %}https://www.tib.eu/de/service/benutzungsordnung{% endif %}" target="_blank" class="external-link">{{ _("Terms of Use of the TIB") }}</a>
+        <a href="{{ h.tibtheme_get_legal_notice_link(h.lang(), 'terms_of_use_link') }}" target="_blank" class="external-link">{{ _("Terms of Use of the TIB") }}</a>
         {%- endset -%}
         <p>{% trans terms_link=terms_link %}{{ terms_link}} apply, supplemented by the following Special Conditions of the TIB LDM.{% endtrans %}</p>
 
