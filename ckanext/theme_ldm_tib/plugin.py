@@ -53,10 +53,6 @@ def special_conditions_LDM_enabled():
     return toolkit.asbool(value)
 
 
-def special_conditions_label():
-    return config.get('tibtheme.special_conditions_label', 'Special Conditions TIB LDM')
-
-
 def data_privacy_enabled():
     value = config.get('tibtheme.data_privacy_enabled', False)
     return toolkit.asbool(value)
@@ -170,7 +166,6 @@ class TibThemePlugin(plugins.SingletonPlugin, DefaultTranslation):
             'tibtheme.show_cookies_alert':  [ignore_missing, boolean_validator],
             'tibtheme.legal_notices_TIB_terms_use_enabled': [ignore_missing, boolean_validator],
             'tibtheme.special_conditions_LDM_enabled': [ignore_missing, boolean_validator],
-            'tibtheme.special_conditions_label': [ignore_missing, text_type],
             'tibtheme.data_privacy_enabled': [ignore_missing, boolean_validator],
             'tibtheme.imprint_enabled': [ignore_missing, boolean_validator],
             'tibtheme.accessibility_statement_enabled':[ignore_missing, boolean_validator],
@@ -200,7 +195,6 @@ class TibThemePlugin(plugins.SingletonPlugin, DefaultTranslation):
             'tibtheme_legal_notices_enabled': legal_notices_enabled,
             'tibtheme_legal_notices_TIB_terms_use_enabled': legal_notices_TIB_terms_use_enabled,
             'tibtheme_special_conditions_LDM_enabled': special_conditions_LDM_enabled,
-            'tibtheme_special_conditions_label': special_conditions_label,
             'tibtheme_data_privacy_enabled': data_privacy_enabled,
             'tibtheme_imprint_enabled': imprint_enabled,
             'tibtheme_accessibility_statement_enabled': accessibility_statement_enabled,
