@@ -1,15 +1,21 @@
 import ckan.lib.helpers as h
 import ckan.plugins as plugins
 import ckan.plugins.toolkit as toolkit
-from ckan.common import config
+from ckan.common import config, request
 from ckan.lib.plugins import DefaultTranslation
 from flask import Blueprint
-from six import text_type
 
 # HELPERS
 legal_config = {
     'en': {'terms_of_use_link': 'https://www.tib.eu/en/service/terms-of-use/'},
     'de': {'terms_of_use_link': 'https://www.tib.eu/de/service/benutzungsordnung'}
+}
+
+DATASET_TYPE_TITLES = {
+    'dataset': 'Dataset',
+    'vdataset': 'Imported Dataset',
+    'github': 'GitHub',
+    'service': 'Service',
 }
 
 
@@ -246,15 +252,14 @@ def show_object_icon_in_package_item():
 
 
 def is_dataset_menu_item_selected():
-    current_url = h.current_url()
-    return '/dataset/' in current_url or '/vdataset/' in current_url or '/service/' in current_url
+    """True if the current request is under a dataset-type URL space."""
+    segments = [s for s in request.path.split('/') if s]
+    # Defensive: drop a leading locale segment (e.g. /de/dataset/...) in
+    # case the i18n middleware hasn't already stripped it.
+    if segments and segments[0] == h.lang():
+        segments = segments[1:]
+    return bool(segments) and segments[0] in DATASET_TYPE_TITLES
 
 
 def get_dataset_type_title(dataset_type):
-    aux_list = {
-        'dataset': 'Dataset',
-        'vdataset': 'Imported Dataset',
-        'github': 'GitHub',
-        'service': 'Service'
-    }
-    return aux_list[dataset_type]
+    return DATASET_TYPE_TITLES[dataset_type]
