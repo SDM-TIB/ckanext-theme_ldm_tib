@@ -61,22 +61,26 @@
     {% if h.tibtheme_legal_notices_enabled() %}
         {% asset 'ckanext-theme_ldm_tib/new_user-js' %}
 
-        {% set sc_url = h.url_for('TIBtheme.special_conditions_LDM') %}
-        {% set dp_url = h.url_for('TIBtheme.data_privacy') %}
-        {% set dp_pdf_url = h.url_for_static('assets/LeibnizDataManager_InformationsblattDatenschutz.pdf') %}
+        {%- set sc_link -%}
+        <a href="{{ h.url_for('TIBtheme.special_conditions_LDM') }}" target="_blank" rel="noopener" class="consent-link">{{ _('Special Conditions TIB LDM') }}</a>
+        {%- endset -%}
+        {%- set dp_link -%}
+        <a href="{{ h.url_for('TIBtheme.data_privacy') }}" target="_blank" rel="noopener" class="consent-link">{{ _('Data Privacy Statement') }}</a>
+        {%- endset -%}
+        {%- set dp_pdf_link -%}
+        <a href="{{ h.url_for_static('assets/LeibnizDataManager_InformationsblattDatenschutz.pdf') }}" target="_blank" rel="noopener" class="consent-link">{{ _('Data Protection Information Sheet') }}</a>
+        {%- endset -%}
 
-        {% set sc_label = _(
-            'I accept the <a href="%(url)s" target="_blank" style="color:red">Special Conditions TIB LDM</a>'
-        ) % {'url': sc_url} %}
-
-        {% set dataprotection_label = _(
-            'I agree to the processing of my personal data provided here by Technische'
-            ' Informationsbibliothek (TIB). In accordance with the'
-            ' <a href="%(dp_url)s" target="_blank" style="color:red">data protection declaration</a>'
-            ' as well as the'
-            ' <a href="%(dp_pdf_url)s" target="_blank" style="color:red">info sheet data protection</a>,'
-            ' the data is processed exclusively by TIB in order to provide services of our portals.'
-        ) % {'dp_url': dp_url, 'dp_pdf_url': dp_pdf_url} %}
+        {%- set sc_label -%}
+            {%- trans sc_link=sc_link -%}
+                I accept the {{ sc_link }}
+            {%- endtrans -%}
+        {%- endset -%}
+        {%- set dataprotection_label -%}
+            {%- trans dp_link=dp_link, dp_pdf_link=dp_pdf_link -%}
+                I agree to the processing of my personal data provided here by Technische Informationsbibliothek (TIB). In accordance with the {{ dp_link }} as well as the {{ dp_pdf_link }}, the data is processed exclusively by TIB in order to provide services of our portals.
+            {%- endtrans -%}
+        {%- endset -%}
 
         {{ form.checkbox('specialconditions', id='field-specialconditions', label=sc_label,
             checked=false, error=errors.specialconditions, is_required=True, value=True) }}

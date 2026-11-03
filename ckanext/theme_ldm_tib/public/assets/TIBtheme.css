@@ -1,6 +1,9 @@
 select.form-control:not([multiple]) {
   appearance: menulist-button !important;
 }
+a.consent-link {
+  color: red;
+}
 /* =====================================================
  The "account masthead" bar across the top of the site
  ===================================================== */
