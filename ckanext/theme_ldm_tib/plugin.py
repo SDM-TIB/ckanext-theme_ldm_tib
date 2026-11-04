@@ -3,6 +3,7 @@ import ckan.plugins as plugins
 import ckan.plugins.toolkit as toolkit
 from ckan.common import config, request
 from ckan.lib.plugins import DefaultTranslation
+from ckanext.theme_ldm_tib import actions
 from flask import Blueprint
 
 # HELPERS
@@ -151,6 +152,11 @@ class TibThemePlugin(plugins.SingletonPlugin, DefaultTranslation):
     plugins.implements(plugins.ITemplateHelpers)
     plugins.implements(plugins.IBlueprint)
     plugins.implements(plugins.ITranslation)
+    plugins.implements(plugins.IActions)
+
+    # IActions
+    def get_actions(self):
+        return {'user_create': actions.user_create}
 
     # ITranslation
     def i18n_domain(self):

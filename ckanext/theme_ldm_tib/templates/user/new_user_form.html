@@ -1,16 +1,5 @@
 {% import "macros/form.html" as form %}
 
-{% if h.tibtheme_legal_notices_enabled() %}
-    {% if not data.dataprotection and data.name %}
-        {% do errors.update({'dataprotection': [_('Data processing by TIB must be approved.')]}) %}
-        {% do error_summary.update({_('Data Protection'): _('Data processing by TIB must be approved.')}) %}
-    {% endif %}
-    {% if not data.specialconditions and data.name %}
-        {% do errors.update({'specialconditions': [_('The Special Conditions have to be accepted.')]}) %}
-        {% do error_summary.update({_('Special Conditions'): _('The Special Conditions have to be accepted.')}) %}
-    {% endif %}
-{% endif %}
-
 <form id="user-register-form" action="" method="post" enctype="multipart/form-data">
     <div id="alert-error-tib" class="error-explanation alert alert-error" style="display:none;">
         <p>{{ _('The form contains invalid entries:') }}</p>
