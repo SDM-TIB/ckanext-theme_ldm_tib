@@ -94,12 +94,14 @@ def default_instance_name():
 
 
 def get_dataset_authors_string(dataset_dict):
-    author_str = ""
-    if 'author' in dataset_dict:
-        author_str = dataset_dict['author']
-    for author in dataset_dict.get('extra_authors', []):
-        author_str += ", " + author['extra_author']
-    return author_str
+    authors = []
+    if dataset_dict.get('author'):
+        authors.append(dataset_dict['author'])
+    for extra in dataset_dict.get('extra_authors') or []:
+        name = extra.get('extra_author') if isinstance(extra, dict) else None
+        if name:
+            authors.append(name)
+    return ', '.join(authors)
 # *********************
 
 # DEMO PAGE
