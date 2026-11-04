@@ -82,7 +82,7 @@ Example:
                         {% block resources_outer %}
                             <ul class="dataset-resources list-unstyled">
                                 <li>
-                                    <a href="{{ h.url_for(package.type ~ '.read', id=package.name) }}" class="label label-default label-{{ package.type }}-box">{{ _(h.tibtheme_get_dataset_type_title(package.type)) }}</a>
+                                    <a href="{{ h.url_for(package.type ~ '.read', id=package.name) }}" class="label label-default label-{{ package.type }}-box">{{ h.tibtheme_get_dataset_type_title(package.type) }}</a>
                                 </li>
                                 {% if package.resources and not hide_resources %}
                                     {% block resources_inner %}
@@ -95,7 +95,7 @@ Example:
                                 {% endif %}
 
                                 {% if h.tibtheme_show_object_icon_in_package_item() %}
-                                    <img src="{{h.url_for('home')}}images/{{ package.type }}_object.png" class="object-type" title="{{ h.tibtheme_get_dataset_type_title(package.type) }}"/>
+                                    <img src="{{h.url_for('home')}}images/{{ package.type }}_object.png" class="object-type" alt="" title="{{ h.tibtheme_get_dataset_type_title(package.type) }}"/>
                                 {% endif %}
                             </ul>
                         {% endblock %}

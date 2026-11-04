@@ -12,11 +12,17 @@ legal_config = {
     'de': {'terms_of_use_link': 'https://www.tib.eu/de/service/benutzungsordnung'}
 }
 
+
+def N_(message):
+    """Mark a string for extraction without translating it (translated at call time)."""
+    return message
+
+
 DATASET_TYPE_TITLES = {
-    'dataset': 'Dataset',
-    'vdataset': 'Imported Dataset',
-    'github': 'GitHub',
-    'service': 'Service',
+    'dataset': N_('Dataset'),
+    'vdataset': N_('Imported Dataset'),
+    'github': N_('GitHub'),
+    'service': N_('Service'),
 }
 
 
@@ -263,4 +269,7 @@ def is_dataset_menu_item_selected():
 
 
 def get_dataset_type_title(dataset_type):
-    return DATASET_TYPE_TITLES[dataset_type]
+    title = DATASET_TYPE_TITLES.get(dataset_type)
+    if title is None:
+        return dataset_type
+    return toolkit._(title)
