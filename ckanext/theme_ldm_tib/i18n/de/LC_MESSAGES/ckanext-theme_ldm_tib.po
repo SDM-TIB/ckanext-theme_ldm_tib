@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme_ldm_tib 1.1.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-11-04 08:53+0100\n"
+"POT-Creation-Date: 2026-11-04 13:48+0100\n"
 "PO-Revision-Date: 2026-09-05 12:37+0200\n"
 "Last-Translator: Philipp D. Rohde\n"
 "Language: de\n"
@@ -2562,7 +2562,7 @@ msgstr "Keine Datensätze gefunden"
 
 #: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:21
 msgid "{number} imported dataset found for \"{query}\""
-msgid_plural "{number} datasets found for \"{query}\""
+msgid_plural "{number} imported datasets found for \"{query}\""
 msgstr[0] "{number} importierter Datensatz gefunden für \"{query}\""
 msgstr[1] "{number} importierte Datensätze gefunden für \"{query}\""
 
@@ -2582,12 +2582,14 @@ msgstr "Keine importierten Datensätze gefunden"
 
 #: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:27
 msgid "{number} service found for \"{query}\""
-msgid_plural "{number} service found for \"{query}\""
+msgid_plural "{number} services found for \"{query}\""
 msgstr[0] "{number} Service gefunden für \"{query}\""
 msgstr[1] "{number} Services gefunden für \"{query}\""
 
 #: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:28
-msgid "No service found for \"{query}\""
+#, fuzzy
+#| msgid "No service found for \"{query}\""
+msgid "No services found for \"{query}\""
 msgstr "Keine Services gefunden bei der Suche \"{query}\""
 
 #: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:29
@@ -2597,7 +2599,9 @@ msgstr[0] "{number} Service gefunden"
 msgstr[1] "{number} Services gefunden"
 
 #: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:30
-msgid "No service found"
+#, fuzzy
+#| msgid "No service found"
+msgid "No services found"
 msgstr "Keine Services gefunden"
 
 #: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:33

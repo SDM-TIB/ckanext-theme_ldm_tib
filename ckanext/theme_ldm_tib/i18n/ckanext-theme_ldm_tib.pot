@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme_ldm_tib 1.1.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-11-04 08:53+0100\n"
+"POT-Creation-Date: 2026-11-04 13:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1604,7 +1604,7 @@ msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:21
 msgid "{number} imported dataset found for \"{query}\""
-msgid_plural "{number} datasets found for \"{query}\""
+msgid_plural "{number} imported datasets found for \"{query}\""
 msgstr[0] ""
 msgstr[1] ""
 
@@ -1624,12 +1624,12 @@ msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:27
 msgid "{number} service found for \"{query}\""
-msgid_plural "{number} service found for \"{query}\""
+msgid_plural "{number} services found for \"{query}\""
 msgstr[0] ""
 msgstr[1] ""
 
 #: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:28
-msgid "No service found for \"{query}\""
+msgid "No services found for \"{query}\""
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:29
@@ -1639,7 +1639,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:30
-msgid "No service found"
+msgid "No services found"
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/snippets/search_result_text.html:33
