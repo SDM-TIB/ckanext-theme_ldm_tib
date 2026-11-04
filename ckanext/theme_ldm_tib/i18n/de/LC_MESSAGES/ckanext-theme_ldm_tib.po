@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme_ldm_tib 1.1.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-11-03 08:06+0100\n"
+"POT-Creation-Date: 2026-11-04 08:53+0100\n"
 "PO-Revision-Date: 2026-09-05 12:37+0200\n"
 "Last-Translator: Philipp D. Rohde\n"
 "Language: de\n"
@@ -18,6 +18,27 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.10.3\n"
+
+#: ckanext/theme_ldm_tib/actions.py:25
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:8
+msgid "The Special Conditions have to be accepted."
+msgstr "Die Sonderbedingungen müssen akzeptiert werden."
+
+#: ckanext/theme_ldm_tib/actions.py:26
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:11
+msgid "Data processing by TIB must be approved."
+msgstr "Die Datenverarbeitung durch die TIB muss genehmigt werden."
+
+#: ckanext/theme_ldm_tib/actions.py:29
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:70
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:8
+msgid "Special Conditions"
+msgstr "Sonderbedingungen"
+
+#: ckanext/theme_ldm_tib/actions.py:30
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:11
+msgid "Data Protection"
+msgstr "Datenschutz"
 
 #: ckanext/theme_ldm_tib/templates/footer.html:24
 #: ckanext/theme_ldm_tib/templates/footer.html:50
@@ -350,7 +371,7 @@ msgstr "Telefon"
 #: ckanext/theme_ldm_tib/templates/home/imprint.html:37
 #: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:33
 #: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:10
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:35
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:24
 msgid "Email"
 msgstr "E-Mail"
 
@@ -657,7 +678,7 @@ msgstr ""
 #: ckanext/theme_ldm_tib/templates/home/data_privacy.html:13
 #: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:21
 #: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:22
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:68
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:57
 msgid "Data Privacy Statement"
 msgstr "Datenschutzerklärung"
 
@@ -793,12 +814,6 @@ msgstr ""
 #: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:8
 msgid "Terms of Use of the TIB"
 msgstr "Nutzungsbedingungen der TIB"
-
-#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:70
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:10
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:19
-msgid "Special Conditions"
-msgstr "Sonderbedingungen"
 
 #: ckanext/theme_ldm_tib/templates/home/data_privacy.html:72
 #, python-format
@@ -1374,10 +1389,10 @@ msgid ""
 " and the ORKG."
 msgstr ""
 "Diese Funktion ermöglicht es Benutzern, SPARQL-Abfragen über einen "
-"Verbund von ORKGs auszuführen, d.h., mit einer einzigen Abfrage "
-"Antworten aus mehreren KGs abzurufen. DeTrusty zerlegt die Abfrage und "
-"ruft die Antworten aus den entsprechenden KGs ab. Der Verbund umfasst "
-"unter anderem das LDM KG und das ORKG."
+"Verbund von ORKGs auszuführen, d.h., mit einer einzigen Abfrage Antworten"
+" aus mehreren KGs abzurufen. DeTrusty zerlegt die Abfrage und ruft die "
+"Antworten aus den entsprechenden KGs ab. Der Verbund umfasst unter "
+"anderem das LDM KG und das ORKG."
 
 #: ckanext/theme_ldm_tib/templates/home/demo.html:113
 msgid "Enhancing Links between ORKG KGs"
@@ -2631,7 +2646,7 @@ msgstr "Rechtliche Hinweise"
 
 #: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:14
 #: ckanext/theme_ldm_tib/templates/snippets/tib_legal_notices.html:15
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:65
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:54
 msgid "Special Conditions TIB LDM"
 msgstr "Sonderbedingungen TIB LDM"
 
@@ -2640,12 +2655,12 @@ msgid "Change details"
 msgstr "Änderungsdetails"
 
 #: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:8
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:29
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:18
 msgid "Username"
 msgstr "Benutzername"
 
 #: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:9
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:32
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:21
 msgid "Full Name"
 msgstr "Vollständiger Name"
 
@@ -2658,12 +2673,12 @@ msgid "Subscribe to notification emails"
 msgstr "Abonniere E-Mail-Benachrichtigungen"
 
 #: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:24
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:54
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:43
 msgid "Profile picture"
 msgstr "Profilbild"
 
 #: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:24
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:55
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:44
 msgid "Profile picture URL"
 msgstr "Profilbild-URL"
 
@@ -2680,7 +2695,7 @@ msgid "Old Password"
 msgstr "Altes Passwort"
 
 #: ckanext/theme_ldm_tib/templates/user/edit_user_form.html:38
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:39
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:28
 msgid "Password"
 msgstr "Passwort"
 
@@ -2709,44 +2724,27 @@ msgid "Update Profile"
 msgstr "Profil aktualisieren"
 
 #: ckanext/theme_ldm_tib/templates/user/new_user_form.html:5
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:6
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:22
-msgid "Data processing by TIB must be approved."
-msgstr "Die Datenverarbeitung durch die TIB muss genehmigt werden."
-
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:6
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:22
-msgid "Data Protection"
-msgstr "Datenschutz"
-
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:9
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:10
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:19
-msgid "The Special Conditions have to be accepted."
-msgstr "Die Sonderbedingungen müssen akzeptiert werden."
-
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:16
 msgid "The form contains invalid entries:"
 msgstr "Das Formular enthält unzulässige Einträge:"
 
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:29
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:18
 msgid "username"
 msgstr "Benutzername"
 
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:43
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:32
 msgid "Confirm"
 msgstr "Bestätigen"
 
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:71
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:60
 msgid "Data Protection Information Sheet"
 msgstr "Infoblatt Datenschutz"
 
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:75
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:64
 #, python-format
 msgid "I accept the %(sc_link)s"
 msgstr "Ich akzeptiere die %(sc_link)s"
 
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:80
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:69
 #, python-format
 msgid ""
 "I agree to the processing of my personal data provided here by Technische"
@@ -2754,12 +2752,13 @@ msgid ""
 " as the %(dp_pdf_link)s, the data is processed exclusively by TIB in "
 "order to provide services of our portals."
 msgstr ""
-"Mit der Verarbeitung meiner hier angegebenen personenbezogenen Daten durch "
-"die Technische Informationsbibliothek (TIB) bin ich einverstanden. Die Daten "
-"werden ausschließlich gemäß der %(dp_link)s sowie dem %(dp_pdf_link)s "
-"verarbeitet, um die Dienstleistungen der Portale der TIB zu erbringen."
+"Mit der Verarbeitung meiner hier angegebenen personenbezogenen Daten "
+"durch die Technische Informationsbibliothek (TIB) bin ich einverstanden. "
+"Die Daten werden ausschließlich gemäß der %(dp_link)s sowie dem "
+"%(dp_pdf_link)s verarbeitet, um die Dienstleistungen der Portale der TIB "
+"zu erbringen."
 
-#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:96
+#: ckanext/theme_ldm_tib/templates/user/new_user_form.html:85
 msgid "Create Account"
 msgstr "Erstelle Benutzerkonto"
 
