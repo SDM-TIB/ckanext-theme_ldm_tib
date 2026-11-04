@@ -4,7 +4,7 @@
 {% block subtitle %}{{ _('Register') }}{% endblock %}
 
 {% block breadcrumb_content %}
-    <li class="active">{% link_for _('Register'), 'Register' %}</li>
+    <li class="active">{% link_for _('Register'), named_route='TIBtheme.ldm_register' %}</li>
 {% endblock %}
 
 {% block primary %}
