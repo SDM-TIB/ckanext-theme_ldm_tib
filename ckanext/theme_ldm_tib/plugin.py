@@ -1,3 +1,5 @@
+import logging
+
 import ckan.lib.helpers as h
 import ckan.plugins as plugins
 import ckan.plugins.toolkit as toolkit
@@ -5,6 +7,10 @@ from ckan.common import config, request
 from ckan.lib.plugins import DefaultTranslation
 from ckanext.theme_ldm_tib import actions
 from flask import Blueprint
+
+log = logging.getLogger(__name__)
+
+_warned = set()
 
 # HELPERS
 legal_config = {
@@ -24,6 +30,27 @@ DATASET_TYPE_TITLES = {
     'github': N_('GitHub'),
     'service': N_('Service'),
 }
+
+
+def tibimport_available():
+    """True if the tibimport plugin is loaded; logs a single warning otherwise."""
+    if plugins.plugin_loaded('tibimport'):
+        return True
+    if 'tibimport' not in _warned:
+        _warned.add('tibimport')
+        log.warning('tibimport plugin is not loaded: imported-dataset ribbons '
+                    'and the auto-update admin option are disabled.')
+    return False
+
+
+def show_vdatasets_virtual_ribbon():
+    return tibimport_available() and toolkit.asbool(
+        config.get('tibimport.show_vdatasets_virtual_ribbon', False))
+
+
+def show_vdatasets_virtual_source_ribbon():
+    return tibimport_available() and toolkit.asbool(
+        config.get('tibimport.show_vdatasets_virtual_source_ribbon', False))
 
 
 def get_legal_notice_link(lang='en', term=''):
@@ -221,6 +248,9 @@ class TibThemePlugin(plugins.SingletonPlugin, DefaultTranslation):
             'tibtheme_is_TIBservice_instance': is_TIBservice_instance,
             'tibtheme_default_instance_name': default_instance_name,
             'tibtheme_get_dataset_authors_string': get_dataset_authors_string,
+            'tibtheme_tibimport_available': tibimport_available,
+            'tibtheme_show_vdatasets_virtual_ribbon': show_vdatasets_virtual_ribbon,
+            'tibtheme_show_vdatasets_virtual_source_ribbon': show_vdatasets_virtual_source_ribbon,
         }
 
      # IBlueprint

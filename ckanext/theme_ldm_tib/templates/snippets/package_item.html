@@ -19,8 +19,8 @@ Example:
 {% set title = package.title or package.name %}
 {% set notes = h.markdown_extract(package.notes, extract_length=truncate) %}
 
-{% set show_virtual_ribbon = h.tibimport_show_vdatasets_virtual_ribbon() %}
-{% set show_source_ribbon = h.tibimport_show_vdatasets_virtual_source_ribbon() %}
+{% set show_virtual_ribbon = h.tibtheme_show_vdatasets_virtual_ribbon() %}
+{% set show_source_ribbon = h.tibtheme_show_vdatasets_virtual_source_ribbon() %}
 
 {% block package_item %}
     <li class="{{ item_class or "dataset-item" }} {{ package.type }}">
