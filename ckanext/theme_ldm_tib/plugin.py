@@ -32,6 +32,10 @@ DATASET_TYPE_TITLES = {
 }
 
 
+CKAN_DEFAULT_LOGOS = ('', '/base/images/ckan-logo.png')
+TIB_DEFAULT_LOGO = '/images/TIB_logo.png'
+
+
 def tibimport_available():
     """True if the tibimport plugin is loaded; logs a single warning otherwise."""
     if plugins.plugin_loaded('tibimport'):
@@ -75,7 +79,12 @@ def styled_footer_enabled():
 
 
 def get_site_logo_filename():
-    return h.url_for_static_or_external(config.get('ckan.site_logo') or '/images/TIB_logo.png')
+    logo = (config.get('ckan.site_logo') or '').strip()
+    if logo in CKAN_DEFAULT_LOGOS:
+        return h.url_for_static_or_external(TIB_DEFAULT_LOGO)
+    if logo.startswith('http'):
+        return logo
+    return h.url_for_static_or_external(logo)
 
 
 def legal_notices_enabled():

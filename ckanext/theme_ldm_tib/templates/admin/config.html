@@ -4,6 +4,9 @@
     {{ form.input('ckan.site_title', id='field-ckan-site-title', label=_('Site Title'), value=data['ckan.site_title'], error=error, classes=['control-medium']) }}
 
     {% set field_url = 'ckan.site_logo' %}
+    {% if data[field_url] in ['/base/images/ckan-logo.png', '/images/TIB_logo.png'] %}
+        {% do data.update({field_url: ''}) %}
+    {% endif %}
     {% set is_upload = data[field_url] and not data[field_url].startswith('http') %}
     {% set is_url = data[field_url] and data[field_url].startswith('http') %}
 
