@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme_ldm_tib 1.1.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-11-04 14:10+0100\n"
+"POT-Creation-Date: 2026-11-10 09:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,19 +33,19 @@ msgstr ""
 msgid "Data Protection"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/plugin.py:22
+#: ckanext/theme_ldm_tib/plugin.py:28
 msgid "Dataset"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/plugin.py:23
+#: ckanext/theme_ldm_tib/plugin.py:29
 msgid "Imported Dataset"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/plugin.py:24
+#: ckanext/theme_ldm_tib/plugin.py:30
 msgid "GitHub"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/plugin.py:25
+#: ckanext/theme_ldm_tib/plugin.py:31
 msgid "Service"
 msgstr ""
 
@@ -79,7 +79,7 @@ msgstr ""
 msgid "Search Datasets"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/header.html:43 ckanext/theme_ldm_tib/templates/home/snippets/search.html:10
+#: ckanext/theme_ldm_tib/templates/header.html:43 ckanext/theme_ldm_tib/templates/header.html:44 ckanext/theme_ldm_tib/templates/home/snippets/search.html:10
 msgid "Search"
 msgstr ""
 
@@ -164,7 +164,7 @@ msgstr ""
 msgid "Show Accessibility Link"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/admin/config.html:33
+#: ckanext/theme_ldm_tib/templates/admin/config.html:34
 msgid "Automatic update of imported Datasets"
 msgstr ""
 
@@ -172,21 +172,21 @@ msgstr ""
 msgid "Update imported Datasets"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/admin/config.html:45
+#: ckanext/theme_ldm_tib/templates/admin/config.html:46
 msgid "CKAN config options"
-msgstr ""
-
-#: ckanext/theme_ldm_tib/templates/admin/config.html:54
-#, python-format
-msgid "%(ss)sSite Title:%(se)s This is the title of this CKAN instance. It appears in various places throughout CKAN."
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/admin/config.html:55
 #, python-format
-msgid "%(ss)sSite Tag Logo:%(se)s This is the logo that appears in the header of all the CKAN instance templates."
+msgid "%(ss)sSite Title:%(se)s This is the title of this CKAN instance. It appears in various places throughout CKAN."
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/admin/config.html:56
+#, python-format
+msgid "%(ss)sSite Tag Logo:%(se)s This is the logo that appears in the header of all the CKAN instance templates."
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/admin/config.html:57
 #, python-format
 msgid "%(ss)sLegal Notices Panel:%(se)s This is the list of links placed in the footer of the page."
 msgstr ""
@@ -232,75 +232,75 @@ msgid ""
 "after 23 September 2019."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:33
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:34
 msgid "Information integrated into the website, in particular:"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:35
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:36
 msgid "PDF documents"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:36
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:37
 msgid "Videos"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:37
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:38
 msgid "Texts"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:38
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:39
 msgid "Graphics"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:39
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:40
 msgid "Photos"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:42
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:44
 msgid "The listed contents are not barrier-free for the following reasons:"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:43
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:45
 msgid "To 1 & 2:"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:44
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:46
 msgid "These contents are excluded from the application of accessibility according to § 9 section 2 NBGG."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:45
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:47
 msgid "To 3:"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:46
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:48
 msgid ""
 "The website is being adapted and optimized to comply with the EU Directive 2016/2102 on the implementation of a barrier-free Internet for public sector "
 "bodies. The identified deficits and deficiencies are currently undergoing a continuous improvement process that will be successively processed."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:48
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:50
 msgid "Establishment of this Accessibility Statement"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:49
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:51
 msgid "This statement was established on 18 August 2020. The assessment is based on self-assessment."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:51
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:53
 msgid "Feedback and contact details"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:52
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:54
 msgid "You can report cases of non-compliance with accessibility requirements to us:"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:58 ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:68
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:60 ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:70
 #: ckanext/theme_ldm_tib/templates/home/data_privacy.html:31 ckanext/theme_ldm_tib/templates/home/data_privacy.html:40
 #: ckanext/theme_ldm_tib/templates/home/imprint.html:28 ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:32
 msgid "Phone"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:59 ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:69
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:61 ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:71
 #: ckanext/theme_ldm_tib/templates/home/data_privacy.html:32 ckanext/theme_ldm_tib/templates/home/data_privacy.html:41
 #: ckanext/theme_ldm_tib/templates/home/imprint.html:29 ckanext/theme_ldm_tib/templates/home/imprint.html:36 ckanext/theme_ldm_tib/templates/home/imprint.html:37
 #: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:33 ckanext/theme_ldm_tib/templates/user/edit_user_form.html:10
@@ -308,28 +308,28 @@ msgstr ""
 msgid "Email"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:62
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:64
 msgid "Arbitration procedure"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:63
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:65
 msgid ""
 "If you are not satisfied with the answers of our above-mentioned contact point, you can contact the arbitration office, which is located at the State "
 "Representative for People with Disabilities in Lower Saxony, for the initiation of an arbitration procedure in accordance with the Niedersächsisches "
 "Behindertengleichstellungsgesetz (Disability Equality Act of Lower Saxony) (NBGG)."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:64
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:66
 msgid ""
 "The arbitration office has the task according to § 9 d NBGG of settling disputes between people with disabilities and public institutions of the state of "
 "Lower Saxony on the topic of accessibility in IT."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:65
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:67
 msgid "The arbitration procedure is free of charge. No legal counsels are required."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:66
+#: ckanext/theme_ldm_tib/templates/home/accessibility_statement.html:68
 msgid "You can contact the arbitration office directly at:"
 msgstr ""
 
@@ -492,7 +492,7 @@ msgid "All available APIs can be found in this %(github_link)s repository."
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/home/api.html:89 ckanext/theme_ldm_tib/templates/home/demo.html:41 ckanext/theme_ldm_tib/templates/home/ldm_register.html:41
-#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:32
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:31
 #, python-format
 msgid "Please, contact us at %(contact_link)s if you have comments or questions."
 msgstr ""
@@ -690,41 +690,41 @@ msgid ""
 " for the purpose of processing or contacting the data subject."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:108
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:107
 msgid "Cookies"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:109
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:108
 msgid ""
 "The TIB websites use cookies. Cookies are text files that are placed and stored on a computer system via an Internet browser and serve to render the offer of"
 " the TIB more user-friendly, effective and secure."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:110
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:109
 msgid ""
 "Most of the cookies used are so-called “session cookies”, which are automatically deleted at the end of the visit. Other cookies remain stored on the user’s "
 "terminal device until he or she deletes them. These cookies enable the TIB to recognise the user’s browser on his or her next visit."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:111
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:110
 msgid ""
 "Users can prevent and permanently object to the setting of cookies by TIB websites at any time by choosing the corresponding settings of the Internet browser"
 " used. Furthermore, cookies already set can be deleted at any time with the Internet browser or by other software programs. This is possible in all common "
 "Internet browsers. If the data subject deactivates the setting of cookies in the Internet browser used, the TIB web pages may not function properly."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:118
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:117
 msgid "Use of web analysis tools"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:122
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:121
 #, python-format
 msgid ""
 "For the creation of the web statistics we use the open source software %(matomo_link)s (formerly PIWIK) in anonymized form. This means that no personal data "
 "is processed. The use of cookies in the web analysis software Matomo is deactivated."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:123
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:122
 msgid ""
 "When saving the user IP address, the last two octets are not processed. The collection of the user ID is deactivated. For the analysis, the following data is"
 " collected in addition to the access to the site and the anonymized IP address: Date and time of the request, page title of the requested page, URL of the "
@@ -732,92 +732,92 @@ msgid ""
 "external domains, geolocation of the client (country, region, city), main language of the used browser, user agent of the used browser."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:126
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:125
 msgid "The information generated with Matomo about the use of this website is processed and stored exclusively with the TIB."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:128
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:127
 msgid ""
 "You may choose not to have a unique web analytics cookie identification number assigned to your computer to avoid the aggregation and analysis of data "
 "collected on this website."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:129
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:128
 msgid "To make that choice, please click below to receive an opt-out cookie."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:133
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:132
 msgid "You are currently opted out. Uncheck this box to opt back in."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:134
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:133
 msgid "You are currently opted in. Check this box to opt out."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:140
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:139
 msgid ""
 "In this case, an opt-out cookie is placed in the browser of the data subject, which prevents Matomo from storing usage data. When the cookies are deleted, "
 "the Matomo opt-out cookie is also deleted. Such objection (opt-out) must be redeclared when visiting the TIB website again"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:147
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:146
 msgid "Collection of general data and information (logfiles)"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:148
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:147
 msgid ""
 "Whenever a data subject calls the TIB web pages, these pages automatically collect information in so-called server log files, which your browser "
 "automatically transmits to the TIB. This is:"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:150
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:149
 msgid "Browser type and browser version"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:151
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:150
 msgid "Operating system used"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:152
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:151
 msgid "Referrer URL"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:153
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:152
 msgid "Hostname of the accessing computer"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:154
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:153
 msgid "IP address"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:155
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:154
 msgid "Internet service provider of the accessing system"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:156
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:155
 msgid "Time of the server request"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:158
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:157
 msgid "As a general rule, this data is not attributable to a particular person. This data will not be merged with other data sources."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:160
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:159
 msgid "Routine deletion and blocking of personal data"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:161
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:160
 msgid ""
 "The TIB processes and stores the data subject’s personal data only for the period necessary to achieve the purpose of such storage and in accordance with the"
 " General Data Protection Regulation and the country and institution-specific data protection regulations applicable to the TIB. Thereafter, the personal data"
 " will routinely be blocked or deleted in accordance with the statutory provisions."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:163
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:162
 msgid "Rights of the data subject"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:164
+#: ckanext/theme_ldm_tib/templates/home/data_privacy.html:163
 msgid ""
 "You shall at any time be entitled to obtain information about the data stored in this library, its origin and recipient and about the purpose of such data "
 "processing, as well as to rectification or erasure or restriction of processing or – to the extent that such processing is based on your consent – a right of"
@@ -867,12 +867,16 @@ msgstr ""
 msgid "A video showing the LDM features."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/demo.html:31 ckanext/theme_ldm_tib/templates/home/demo.html:35
+#: ckanext/theme_ldm_tib/templates/home/demo.html:31
 msgid "Demo Video"
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/home/demo.html:34
 msgid "A Jupyter Notebook explaining the use of the LDM’s API (CKAN), for developers who want to write code that interacts with LDM instances and their data."
+msgstr ""
+
+#: ckanext/theme_ldm_tib/templates/home/demo.html:35
+msgid "Jupyter Notebook"
 msgstr ""
 
 #: ckanext/theme_ldm_tib/templates/home/demo.html:44
@@ -887,72 +891,72 @@ msgstr ""
 msgid "Extend your dataset with information from Wikidata"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/demo.html:64
+#: ckanext/theme_ldm_tib/templates/home/demo.html:63
 msgid ""
 "With this feature the user is able to extend CSV datasets with existing information in the Wikidata KG. The tool applies entity linking to all concepts in "
 "the same column and enable the user to use the extracted entities to extend the dataset."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/demo.html:65 ckanext/theme_ldm_tib/templates/home/demo.html:94 ckanext/theme_ldm_tib/templates/home/demo.html:123
-#: ckanext/theme_ldm_tib/templates/home/demo.html:154 ckanext/theme_ldm_tib/templates/home/demo.html:183
+#: ckanext/theme_ldm_tib/templates/home/demo.html:64 ckanext/theme_ldm_tib/templates/home/demo.html:91 ckanext/theme_ldm_tib/templates/home/demo.html:118
+#: ckanext/theme_ldm_tib/templates/home/demo.html:147 ckanext/theme_ldm_tib/templates/home/demo.html:174
 msgid "Here below is a demo video of how the tool works:"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/demo.html:69 ckanext/theme_ldm_tib/templates/home/demo.html:98 ckanext/theme_ldm_tib/templates/home/demo.html:127
-#: ckanext/theme_ldm_tib/templates/home/demo.html:158 ckanext/theme_ldm_tib/templates/home/demo.html:187
+#: ckanext/theme_ldm_tib/templates/home/demo.html:68 ckanext/theme_ldm_tib/templates/home/demo.html:95 ckanext/theme_ldm_tib/templates/home/demo.html:122
+#: ckanext/theme_ldm_tib/templates/home/demo.html:151 ckanext/theme_ldm_tib/templates/home/demo.html:178
 msgid "Your browser does not support the video tag."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/demo.html:84
+#: ckanext/theme_ldm_tib/templates/home/demo.html:82
 msgid "Federated Search"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/demo.html:85
+#: ckanext/theme_ldm_tib/templates/home/demo.html:83
 msgid "Retrieve answers from multiple ORKGs in a single query"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/demo.html:93
+#: ckanext/theme_ldm_tib/templates/home/demo.html:90
 msgid ""
 "This feature enables users to execute SPARQL queries over a federation of ORKGs, i.e., retrieving answers from multiple KGs with a single query. DeTrusty "
 "decomposes the query and retrieves the answers from the appropriate KGs. The federation includes but is not limited to the LDM KG and the ORKG."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/demo.html:113
+#: ckanext/theme_ldm_tib/templates/home/demo.html:109
 msgid "Enhancing Links between ORKG KGs"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/demo.html:114
+#: ckanext/theme_ldm_tib/templates/home/demo.html:110
 msgid "Describe a dataset and its relations with scientific articles"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/demo.html:122
+#: ckanext/theme_ldm_tib/templates/home/demo.html:117
 msgid "By adding the DOI of the paper that defines the dataset to the LDM, a link to the corresponding paper in the ORKG will added to the dataset."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/demo.html:144
+#: ckanext/theme_ldm_tib/templates/home/demo.html:138
 msgid "Live Code"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/demo.html:145
+#: ckanext/theme_ldm_tib/templates/home/demo.html:139
 msgid "Creating, sharing, and executing live code interactively"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/demo.html:153
+#: ckanext/theme_ldm_tib/templates/home/demo.html:146
 msgid ""
 "This feature enables users to create, share, and execute live code interactively. We use JupyterHub, which allows multiple users to use the Jupyter Notebook "
 "and manages a separate Jupyter environment for each user. The feature facilitates exploratory data analysis and visualization of code outputs. Furthermore, "
 "it is ideal for teaching and data science."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/demo.html:173
+#: ckanext/theme_ldm_tib/templates/home/demo.html:165
 msgid "Datasets Comparison"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/demo.html:174
+#: ckanext/theme_ldm_tib/templates/home/demo.html:166
 msgid "Compare data across multiple datasets"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/demo.html:182
+#: ckanext/theme_ldm_tib/templates/home/demo.html:173
 msgid ""
 "This feature enables users to compare the data of multiple CSV datasets. The feature allows the users to analyze the combined data in a table. Moreover, the "
 "feature is capable of producing different plots putting selected attributes into perspective."
@@ -1191,62 +1195,62 @@ msgid ""
 "access by third parties."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:53
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:52
 msgid "Accounts may be terminated for cause by TIB. A cause can be"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:55
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:54
 msgid "a breach of the Terms of Use or these Special Conditions or"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:56
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:55
 msgid "a legal obligation or official order for TIB to block the access or"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:57
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:56
 msgid "any other conduct,"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:59
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:58
 msgid "which raises the suspicion that the user violates or will violate the Terms of Use, these Special Conditions or other legal obligations also in the future."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:61
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:59
 msgid ""
 "TIB will terminate accounts at the request of the user in text form at any time and without undue delay. All personal data in the user profile will be "
 "deleted without undue delay. Content created by users remains published as long as the TIB does not delete this content or the user does not request its "
 "deletion, whereupon the TIB will anonymize this content."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:64
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:62
 msgid ""
 "Anyone can view and use LDM content (the metadata of the LDM datasets). Registered Users can add datasets, and create and modify the metadata of their "
 "datasets."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:65
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:63
 msgid "The source code is made available under the GNU Affero General Public v3.0 License."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:66
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:64
 msgid ""
 "Registered Users confirm that the datasets they publish and the metadata they provide, do not infringe any third-party rights (e.g. copyright, rights of "
 "performers, personality and publicity rights, data protection). If others are involved in the production, Registered Users confirm that all participants are "
 "aware of the content of this agreement and have given their consent."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:67
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:65
 msgid ""
 "Registered Users ensure that the datasets they publish and the metadata they provide, do not violate applicable law or offend common decency, in particular, "
 "they do not constitute a criminal offense and do not constitute an administrative offense (e.g. infringement of copyright, trademark law, competition law) or"
 " none have offensive, discriminatory, racist, pornographic or extremist content. In the event of a violation, Section 5 applies."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:68
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:66
 msgid "If a user becomes aware of a violation of the law within the meaning of 3.3 or 3.4 he / she is obliged to inform the TIB immediately."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:69
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:67
 msgid ""
 "Registered Users will indemnify the TIB from all claims of other users or third parties that they assert against the TIB due to infringement of their rights "
 "through content published by the respective Registered User, if the respective user can be held responsible. The respective Registered User assumes the costs"
@@ -1255,31 +1259,31 @@ msgid ""
 "delay."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:71
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:69
 msgid "Functionality of the LDM"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:72
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:70
 msgid ""
 "Anyone can use the LDM service to explore LDM datasets without registration. The metadata describing the LDM datasets can be reused freely for any purpose "
 "users see fit, in accordance with the CC BY-SA License (5.2 of these Special Conditions LDM). The LDM datasets can be reused following the regulations "
 "imposed by the license of the dataset, which is specified by the registered user who created the dataset in LDM."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:73
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:71
 msgid ""
 "LDM provides functionality that requires registration. Adding and editing, including deleting, existing datasets and their metadata is reserved for "
 "Registered Users. Metadata about the LDM datasets is created and edited in accordance with the CC0 License (5.1 of these Special Conditions LDM). Registered "
 "Users obtain LDM user profiles, can link their profile to ORCiD; the profiles include provenance information."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:74
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:72
 msgid ""
 "LDM provides programmatic access to the content (API). Anyone can use the LDM API to access existing content. Creating and editing, including deleting, "
 "existing content via the LDM API is reserved for Registered Users."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:75
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:73
 msgid ""
 "LDM enables DOI-based publication of LDM datasets. In doing so, metadata including creator names and, if known, ORCiD IDs are shared with DataCite. If a "
 "Registered User publishes an LDM dataset in this form, she or he agrees to the sharing of metadata with DataCite. The sharing of such data is based on user "
@@ -1287,77 +1291,77 @@ msgid ""
 "activate DOI-based publication of the LDM datasets."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:77
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:75
 msgid "Rights and obligations of the TIB"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:78
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:76
 msgid "LDM dataset metadata created by Registered Users is licensed to TIB under the licence CC0 1.0 Universal (CC0 1.0 Public Domain Dedication)."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:79
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:77
 msgid ""
 "The TIB assumes no liability that the service and its content are always uninterrupted, unchanged and available in full, as well as being up-to-date and free"
 " from errors of an editorial or technical nature. No liability is accepted for damage caused by trusting the content of the platform or its use."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:80
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:78
 msgid ""
 "The TIB reserves the right to change the functionality, the appearance and these Special Conditions of the LDM at any time. Registered Users will be informed"
 " of the changes two weeks in advance by email. By continuing to use the platform after the deadline, users agree to the changes."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:81
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:79
 msgid ""
 "The TIB is entitled to terminate its service at any time. In this case, the TIB reserves the right to delete the content. However, this does not result in an"
 " obligation to delete the content."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:82
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:80
 msgid ""
 "The TIB provides scientific information in all areas of engineering as well as chemistry, information technology, mathematics and physics to the public. If "
 "content by Registered Users does not satisfy the quality criteria TIB generally applies to scientific information, TIB may exclude the content from its "
 "services without prior notice."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:83
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:81
 msgid "In principle, the TIB is only liable for damage caused by intent or gross negligence. In case of injuries to life, body or health statutory provisions apply."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:84
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:82
 msgid "Liability for damage from unauthorized use of password-protected logins by third parties is not accepted."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:85
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:83
 msgid ""
 "Insofar as liability is limited or excluded, this also applies in favor of executive employees (m / f), representatives (m / f) and vicarious agents (m / f) "
 "of the TIB."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:86
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:84
 msgid ""
 "If there are concrete indications of a violation of these Special Conditions of the LDM, the TIB is entitled to delete content, restrict the use of the "
 "services or block the Registered User concerned. When choosing a measure, the legitimate interests of the Registered User are taken into account, in "
 "particular whether there are indications that the Registered User was not responsible for the violation."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:87
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:85
 msgid "Content that contains a legal violation according to 3.3 or 3.4 may be blocked or deleted by the TIB."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:89
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:87
 msgid "Miscellaneous"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:90
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:88
 msgid "The usage relationship and these Special Conditions of the LDM are subject to German law."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:91
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:89
 msgid "The place of jurisdiction is Hannover, Lower Saxony, Germany."
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:92
+#: ckanext/theme_ldm_tib/templates/home/special_conditions_LDM.html:90
 msgid "In the event of a dispute, the TIB endeavors to reach an amicable settlement."
 msgstr ""
 
@@ -1495,15 +1499,15 @@ msgstr ""
 msgid "Other available instances of the LDM:"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:26
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:25
 msgid "TIB webpage"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:27
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:26
 msgid "GitHub repository"
 msgstr ""
 
-#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:28
+#: ckanext/theme_ldm_tib/templates/home/snippets/about_text_default.html:27
 #, python-format
 msgid "More info about the LDM project can be found on the %(tib_link)s and the last updated code in the %(github_link)s."
 msgstr ""
