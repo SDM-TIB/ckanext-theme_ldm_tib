@@ -8,6 +8,11 @@
 {% endblock %}
 
 {% block primary %}
+{% macro api_link(url) %}
+    {%- set gh -%}<a href="{{ url }}" title="GitHub" target="_blank" rel="noopener" class="external-link-new-window">GitHub</a>{%- endset -%}
+    {% trans gh=gh %}This API is available on {{ gh }}.{% endtrans %}
+{% endmacro %}
+
 <article class="module" role="main">
     <div class="module-content">
         {% if not h.tibtheme_styled_header_enabled() and h.tibtheme_is_TIBservice_instance() %}
@@ -29,7 +34,7 @@
                     <li>{{ _("Interactive charts with selectable series and filtering to currently visible rows (Plotly)") }}</li>
                     <li>{{ _("Available as a Docker container or a local Python application") }}</li>
                 </ul>
-                {{ _("This API is available on") }}&nbsp;<a href="https://github.com/SDM-TIB/FAIR_RDM_APIs/tree/main/data_comparison" title="GitHub" target="_blank" class="external-link-new-window">GitHub</a>.
+                {{ api_link('https://github.com/SDM-TIB/FAIR_RDM_APIs/tree/main/data_comparison') }}
             </li>
             <li>
                 <b>{{ _("Service for Jupyter Notebook Execution") }}:</b> {{ _("A containerised, multi-user JupyterHub instance with a unified REST API for notebook management. Designed for integration into external applications that need to spawn temporary Jupyter environments and serve notebooks to end users.") }}
@@ -41,7 +46,7 @@
                     <li>{{ _("Admin dashboard for configuring limits and monitoring active sessions") }}</li>
                     <li>{{ _("Unified REST API on a single port for all operations") }}</li>
                 </ul>
-                {{ _("This API is available on") }}&nbsp;<a href="https://github.com/SDM-TIB/jupyterhub-standalone/tree/d37bb1f3746b3b51ed7653bf5d6e4eb770f2c13a" title="GitHub" target="_blank" class="external-link-new-window">GitHub</a>.
+                {{ api_link('https://github.com/SDM-TIB/jupyterhub-standalone') }}
             </li>
             <li>
                 <b>{{ _("Service for Knowledge Graph Creation") }}:</b> {{ _("This API transforms heterogeneous data sources into RDF knowledge graphs using SDM-RDFizer executed with RML mappings. RML (RDF Mapping Language) is a declarative language for defining how data elements from sources such as CSV, JSON, or XML correspond to RDF subjects, predicates, and objects. The API allows users to submit datasets and RML mapping rules, automatically execute the transformation process, and output the resulting knowledge graph to a specified folder.") }}
@@ -50,7 +55,7 @@
                     <li>{{ _("Automated RDF triple generation based on RML mapping rules") }}</li>
                     <li>{{ _("Knowledge graph output to a configurable folder") }}</li>
                 </ul>
-                {{ _("This API is available on") }}&nbsp;<a href="https://github.com/SDM-TIB/FAIR_RDM_APIs/tree/main/knowledge_graph_managment/knowledge_graph_creation/api" title="GitHub" target="_blank" class="external-link-new-window">GitHub</a>.
+                {{ api_link('https://github.com/SDM-TIB/FAIR_RDM_APIs/tree/main/knowledge_graph_managment/knowledge_graph_creation/api') }}
             </li>
             <li>
                 <b>{{ _("Service for Knowledge Graph Integration") }}:</b> {{ _("This API maps dataset metadata properties to those defined in a mapping template. The purpose of this service is to map dataset metadata to the structure required by the dataset template of the Leibniz Data Manager (LDM), facilitating easier import of datasets into the platform.") }}
@@ -59,7 +64,7 @@
                     <li>{{ _("Support for nested metadata structures via iterator configuration") }}</li>
                     <li>{{ _("Generates a structured output file compatible with the LDM dataset template") }}</li>
                 </ul>
-                {{ _("This API is available on") }}&nbsp;<a href="https://github.com/SDM-TIB/FAIR_RDM_APIs/tree/main/knowledge_graph_managment/knowledge_graph_integration/api" title="GitHub" target="_blank" class="external-link-new-window">GitHub</a>.
+                {{ api_link('https://github.com/SDM-TIB/FAIR_RDM_APIs/tree/main/knowledge_graph_managment/knowledge_graph_integration/api') }}
             </li>
             <li>
                 <b>{{ _("Service for Knowledge Graph Exploration") }}:</b> {{ _("This API returns metadata about datasets associated with a scientific publication or an author's ORCID. It supports both single-entry lookups and batch processing of multiple DOIs in a single request.") }}
@@ -69,7 +74,7 @@
                     <li>{{ _("Retrieve datasets citing an author's work, identified by ORCID") }}</li>
                     <li>{{ _("Supports both GET and POST requests") }}</li>
                 </ul>
-                {{ _("This API is available on") }}&nbsp;<a href="https://github.com/SDM-TIB/FAIR_RDM_APIs/tree/main/knowledge_graph_managment/knowledge_graph_exploration/api" title="GitHub" target="_blank" class="external-link-new-window">GitHub</a>.
+                {{ api_link('https://github.com/SDM-TIB/FAIR_RDM_APIs/tree/main/knowledge_graph_managment/knowledge_graph_exploration/api') }}
             </li>
         </ul>
 

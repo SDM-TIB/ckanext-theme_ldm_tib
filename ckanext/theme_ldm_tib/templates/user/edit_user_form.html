@@ -8,7 +8,7 @@
         {{ form.input('name', label=_('Username'), id='field-username', value=data.name, error=errors.name, classes=['control-medium'], attrs={'readonly': '', 'class': 'form-control'}) }}
         {{ form.input('fullname', label=_('Full Name'), id='field-fullname', value=data.fullname, error=errors.fullname, placeholder=_('e.g.') + ' Joe Bloggs', classes=['control-medium']) }}
         {{ form.input('email', label=_('Email'), id='field-email', type='email', value=data.email, error=errors.email, placeholder=_('e.g.') + ' joe@example.com', classes=['control-medium'], is_required=true) }}
-        {{ form.markdown('about', label=_('About'), id='field-about', value=data.about, error=errors.about, placeholder=_('A little information about yourself')) }}
+        {{ form.markdown('about', label=_('About me'), id='field-about', value=data.about, error=errors.about, placeholder=_('A little information about yourself')) }}
 
         {% if show_email_notifications %}
             {% call form.checkbox('activity_streams_email_notifications', label=_('Subscribe to notification emails'), id='field-activity-streams-email-notifications', value=True, checked=g.userobj.activity_streams_email_notifications) %}
