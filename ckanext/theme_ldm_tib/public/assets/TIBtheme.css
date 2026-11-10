@@ -347,6 +347,10 @@ img.object-type {
   position: relative; /* required  for demo*/
   padding-left: 3%;
 }
+.parent99 video {
+  width: 100%;
+  margin-bottom: 10px;
+}
 .ribbon99 {
   margin: 0;
   background: #fab143;
@@ -509,4 +513,9 @@ label.ur_form_disabled {
 .notes.embedded-content img {
   padding: 5px;
   box-sizing: border-box;
+}
+.demo-img {
+  border: 1px solid;
+  width: 120px;
+  margin: 10px;
 }

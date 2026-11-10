@@ -32,7 +32,7 @@
 {% block header_logo %}
     {% set url = h.url_for('home') %}
     <a href="{{ url }}" style="text-decoration: none;">
-        <img class="site-logo" src="{{h.tibtheme_get_site_logo_filename()}}" style="" alt="TIB" title="TIB">
+        <img class="site-logo" src="{{h.tibtheme_get_site_logo_filename()}}" alt="{{ g.site_title or 'TIB' }}" title="TIB">
     </a>
 {% endblock %}
 
@@ -41,7 +41,7 @@
         <div class="field">
             <label for="field-sitewide-search">{% block header_site_search_label %}{{ _('Search Datasets') }}{% endblock %}</label>
             <input id="field-sitewide-search" type="text" name="q" placeholder="{{ _('Search') }}" />
-            <button class="btn-search" type="submit" style="top:16px"><i class="fa fa-search"></i></button>
+            <button class="btn-search" type="submit" aria-label="{{ _('Search') }}"><i class="fa fa-search" aria-hidden="true"></i></button>
         </div>
     </form>
 {% endblock %}
