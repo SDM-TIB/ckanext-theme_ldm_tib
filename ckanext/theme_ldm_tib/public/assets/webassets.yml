@@ -26,15 +26,3 @@ cookies_alert-js:
       - vendor/jquery.ui.core
   contents:
     - cookies_alert.js
-
-matomo_dummy_opt-out-js:
-  output: ckanext-theme_ldm_tib/%(version)s_matomo_dummy_opt-out.js
-  extra:
-    preload:
-      - base/main
-      - vendor/vendor
-      - vendor/bootstrap
-      - vendor/jquery
-      - vendor/jquery.ui.core
-  contents:
-    - matomo_dummy_opt-out.js

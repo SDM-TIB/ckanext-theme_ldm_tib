@@ -58,7 +58,7 @@
                         {{ _('Datasets') }}
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                        <a class="dropdown-item tib_dropdown_item" href="{{ h.url_for('dataset.search') }}">{{_('All')}} {{ menu_item}}</a>
+                        <a class="dropdown-item tib_dropdown_item" href="{{ h.url_for('dataset.search') }}">{{_('All')}}</a>
                         <a class="dropdown-item tib_dropdown_item" href="{{ h.url_for('dataset.search', dataset_type='dataset') }}">{{_('Local')}}</a>
                         <a class="dropdown-item tib_dropdown_item" href="{{ h.url_for('vdataset.search') }}">{{_('Imported')}}</a>
                         <a class="dropdown-item tib_dropdown_item" href="{{ h.url_for('service.search') }}">{{_('Services')}}</a>

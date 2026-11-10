@@ -72,10 +72,10 @@
         {%- endset -%}
 
         {{ form.checkbox('specialconditions', id='field-specialconditions', label=sc_label,
-            checked=false, error=errors.specialconditions, is_required=True, value=True) }}
+            checked=data.specialconditions, error=errors.specialconditions, is_required=True, value=True) }}
 
         {{ form.checkbox('dataprotection', id='field-dataprotection', label=dataprotection_label,
-            checked=false, error=errors.dataprotection, is_required=True, value=True) }}
+            checked=data.dataprotection, error=errors.dataprotection, is_required=True, value=True) }}
     {% endif %}
 
     {{ form.required_message() }}
