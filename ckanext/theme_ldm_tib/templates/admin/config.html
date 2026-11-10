@@ -10,7 +10,7 @@
     {% set is_upload = data[field_url] and not data[field_url].startswith('http') %}
     {% set is_url = data[field_url] and data[field_url].startswith('http') %}
 
-    {{ form.image_upload(data, errors, is_upload_enabled=h.uploads_enabled(), is_url=is_url, is_upload=is_upload, upload_label = _('Site logo'), url_label=_('Site logo'),  field_url=field_url, field_upload='logo_upload', field_clear='clear_logo_upload' )}}
+    {{ form.image_upload(data, errors, is_upload_enabled=h.uploads_enabled(), is_url=is_url, is_upload=is_upload, upload_label = _('Site Logo'), url_label=_('Site Logo'),  field_url=field_url, field_upload='logo_upload', field_clear='clear_logo_upload' )}}
 
     <div class="panel panel-default" style="padding: 6px">
         <header class="panel-heading" style="margin-bottom: 30px">{{_('Legal Notices Panel')}}</header>
@@ -44,7 +44,7 @@
                 {%- set strong_start = '<strong>' -%}
                 {%- set strong_end = '</strong>' -%}
                 <p>{% trans ss=strong_start|safe, se=strong_end|safe %}{{ ss }}Site Title:{{ se }} This is the title of this CKAN instance. It appears in various places throughout CKAN.{% endtrans %}</p>
-                <p>{% trans ss=strong_start|safe, se=strong_end|safe %}{{ ss }}Site Tag Logo:{{ se }} This is the logo that appears in the header of all the CKAN instance templates.{% endtrans %}</p>
+                <p>{% trans ss=strong_start|safe, se=strong_end|safe %}{{ ss }}Site Logo:{{ se }} This is the logo that appears in the header of all the CKAN instance templates.{% endtrans %}</p>
                 <p>{% trans ss=strong_start|safe, se=strong_end|safe %}{{ ss }}Legal Notices Panel:{{ se }} This is the list of links placed in the footer of the page.{% endtrans %}</p>
             {% endblock %}
         </div>
