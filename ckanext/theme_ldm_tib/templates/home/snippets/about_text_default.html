@@ -17,11 +17,10 @@
 {%- if instance_name -%}
     <p><b>{% trans instance_name=instance_name %}This is an instance of the tool installed for: {{ instance_name }}.{% endtrans %}</b></p>
 {%- endif -%}
-<p>{{ _("Other available instances of the LDM:") }}
-    <ul>
-        <li><a href="https://service.tib.eu/ldmservice" target="_blank">Leibniz Data Manager (TIB)</a></li>
-    </ul>
-</p>
+<p>{{ _("Other available instances of the LDM:") }}</p>
+<ul>
+    <li><a href="https://service.tib.eu/ldmservice" target="_blank">Leibniz Data Manager (TIB)</a></li>
+</ul>
 <p>
     {% set tib_link %}<a href="https://projects.tib.eu/datamanager/" title="TIB webpage" target="_blank" class="external-link-new-window">{{ _("TIB webpage") }}</a>{% endset %}
     {% set github_link %}<a href="https://github.com/SDM-TIB/LDM_Docker" title="GitHub" target="_blank" class="external-link-new-window">{{ _("GitHub repository") }}</a>{% endset %}

@@ -29,10 +29,10 @@ Example:
 
                 {% if package.type=="vdataset" %}
                     {% if show_source_ribbon %}
-                        <h1 class="ribbon {{ package.name[0:3]}}">{{ package.repository_name }}</h1>
+                        <div class="ribbon {{ package.name[0:3]}}">{{ package.repository_name }}</div>
                     {% endif %}
                     {% if show_virtual_ribbon %}
-                        <h4 class="ribbon99">&nbsp;&nbsp;&nbsp;&nbsp;{{_('Imported')}}&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+                        <div class="ribbon99">&nbsp;&nbsp;&nbsp;&nbsp;{{_('Imported')}}&nbsp;&nbsp;&nbsp;&nbsp;</div>
                     {% endif %}
                 {% endif %}
 
